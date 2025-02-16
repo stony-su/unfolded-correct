@@ -7,12 +7,10 @@ public class Checkpoint : MonoBehaviour
 
     void Start()
     {
-        // Get the SpriteRenderer component
         spriteRenderer = GetComponent<SpriteRenderer>();
         if (spriteRenderer != null)
         {
-            // Set initial color to light purple
-            spriteRenderer.color = new Color(0.8f, 0.7f, 1f); 
+            spriteRenderer.color = new Color32(21, 120, 140, 255);
         }
         else
         {
@@ -28,10 +26,9 @@ public class Checkpoint : MonoBehaviour
             respawnManager.respawnPoint = transform.position;
             isActivated = true;
 
-            // Change color to light green
             if (spriteRenderer != null)
             {
-                spriteRenderer.color = new Color(0.6f, 1f, 0.6f);
+                spriteRenderer.color = new Color32(255, 105, 115, 255);
             }
         }
     }

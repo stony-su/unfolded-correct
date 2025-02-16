@@ -60,8 +60,8 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.6f;
-    public float wallJumpForce = 8f;
-    private float wallJumpPushForce = 75f;
+    public float wallJumpForce = 10f;
+    private float wallJumpPushForce = 60f;
     [SerializeField] private Transform wallCheckright;
     [SerializeField] private Transform wallCheckleft;
     [SerializeField] private LayerMask wallLayer;
@@ -196,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
     {
         float currentAcceleration = acceleration;
         float currentMoveSpeed = moveSpeed;
-        wallJumpPushForce = 75f;
+        wallJumpPushForce = 60f;
         if (isWallJumping)
         {
             currentAcceleration = 0;
@@ -253,7 +253,7 @@ public class PlayerMovement : MonoBehaviour
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0;
         
-        rb.linearVelocity = direction * (moveInput.y > 0 ? dashSpeed * 0.5f : 
+        rb.linearVelocity = direction * (moveInput.y > 0 ? dashSpeed * 0.75f : 
             (moveInput.x != 0 || moveInput.y != 0) ? dashSpeed * 2.5f: dashSpeed * 5f);
 
         if (dashTrail != null) dashTrail.Play();

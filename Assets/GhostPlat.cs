@@ -1,46 +1,45 @@
 using System.Collections;
 using UnityEngine;
 
-public class GhostPlatform : MonoBehaviour
+public class PlayerOneWayPlatform : MonoBehaviour
 {
-    private PlatformEffector2D platformEffector;
-    public float resetTime = 0.2f; // Time before re-enabling collision after player drops down
+    private GameObject currentOneWayPlatform;
 
-    void Start()
-    {
-        // Get the PlatformEffector2D component from the current GameObject
-        platformEffector = GetComponent<PlatformEffector2D>();
-    }
+    [SerializeField] private BoxCollider2D playerCollider;
 
-    void Update()
+    private void Update()
     {
-        HandlePlatformInput();
-    }
-
-    private void HandlePlatformInput()
-    {
-        // Check if the player is pressing the down arrow key
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetKey(KeyCode.LeftShift))
+            if (currentOneWayPlatform != null)
             {
-                DropThroughPlatform();
+                StartCoroutine(DisableCollision());
             }
         }
     }
 
-    private void DropThroughPlatform()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        // Set the effector's rotational offset to allow falling through
-        platformEffector.rotationalOffset = 180f;
-        StartCoroutine(ResetPlatformCollision());
+        if (collision.gameObject.CompareTag("OneWayPlatform"))
+        {
+            currentOneWayPlatform = collision.gameObject;
+        }
     }
 
-    private IEnumerator ResetPlatformCollision()
+    private void OnCollisionExit2D(Collision2D collision)
     {
-        yield return new WaitForSeconds(resetTime);
-        
-        // Reset the effector's rotational offset back to the original state
-        platformEffector.rotationalOffset = 0f;
+        if (collision.gameObject.CompareTag("OneWayPlatform"))
+        {
+            currentOneWayPlatform = null;
+        }
+    }
+
+    private IEnumerator DisableCollision()
+    {
+        BoxCollider2D platformCollider = currentOneWayPlatform.GetComponent<BoxCollider2D>();
+
+        Physics2D.IgnoreCollision(playerCollider, platformCollider);
+        yield return new WaitForSeconds(0.5f);
+        Physics2D.IgnoreCollision(playerCollider, platformCollider, false);
     }
 }
