@@ -41,6 +41,12 @@ public class DirectionalMovingSquare : MonoBehaviour
         }
     }
 
+    public void ResetMovement()
+    {
+        isMoving = false;
+        rb.linearVelocity = Vector2.zero;
+    }
+
     private void CheckForPlayer()
     {
         Vector2 size = polygonCollider.bounds.size;

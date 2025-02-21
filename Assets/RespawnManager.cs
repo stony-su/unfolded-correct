@@ -1,20 +1,28 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class RespawnManager : MonoBehaviour
 {
-    public Vector3 respawnPoint; // This is updated by the checkpoint
-    public float fallThreshold = -10f; // Adjust as needed
+    public static RespawnManager Instance;
+
+    public Vector3 respawnPoint;
+    public float fallThreshold = -10f;
+
+    private List<RespawnableItem> respawnableItems = new List<RespawnableItem>();
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
-        // Set initial spawn point to the player's starting position
         respawnPoint = transform.position;
         Respawn();
     }
 
     void Update()
     {
-        // If the player falls below a certain threshold, respawn them
         if (transform.position.y < fallThreshold)
         {
             Respawn();
@@ -23,15 +31,34 @@ public class RespawnManager : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Example: if the player hits a red block (spike), respawn them
         if (other.CompareTag("RedBlock"))
         {
             Respawn();
         }
     }
 
-    void Respawn()
+    public void RegisterItem(RespawnableItem item)
     {
+        respawnableItems.Add(item);
+    }
+
+    public void UnregisterItem(RespawnableItem item)
+    {
+        respawnableItems.Remove(item);
+    }
+
+    public void Respawn()
+    {
+        // Reset player position
         transform.position = respawnPoint;
+        
+        // Reset all registered items
+        foreach (var item in respawnableItems)
+        {
+            if (item != null)
+            {
+                item.ResetItem();
+            }
+        }
     }
 }

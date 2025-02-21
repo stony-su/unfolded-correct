@@ -1,55 +1,51 @@
 using UnityEngine;
+using System.Collections.Generic;
 
-public class SquishDeath : MonoBehaviour
+public class SquishWall : MonoBehaviour
 {
-    // Tag for the player object
-    private const string PlayerTag = "Player";
-
-    // Tag for the ground/walls
-    private const string WallsTag = "Walls";
-
-    // Minimum distance to consider the player squished
-    public float squishDistanceThreshold = 0.1f;
-
-    private void Update()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        CheckForSquish();
-    }
-
-    private void CheckForSquish()
-    {
-        // Get all colliders near the moving wall
-        Collider[] nearbyColliders = Physics.OverlapSphere(transform.position, squishDistanceThreshold);
-
-        bool isPlayerNear = false;
-        bool isWallNear = false;
-
-        foreach (Collider collider in nearbyColliders)
+        if (collision.gameObject.CompareTag("Player"))
         {
-            // Check if the collider is the player
-            if (collider.CompareTag(PlayerTag))
-            {
-                isPlayerNear = true;
-            }
-
-            // Check if the collider is a wall
-            if (collider.CompareTag(WallsTag))
-            {
-                isWallNear = true;
-            }
-        }
-
-        // If the player is near and a wall is near, the player is squished
-        if (isPlayerNear && isWallNear)
-        {
-            //RespawnManager.Instance.Respawn();
+            CheckForSquish(collision.collider, collision.gameObject);
         }
     }
 
-    // Optional: Visualize the squish detection area in the editor
-    private void OnDrawGizmosSelected()
+    private void OnCollisionStay2D(Collision2D collision)
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, squishDistanceThreshold);
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            CheckForSquish(collision.collider, collision.gameObject);
+        }
+    }
+
+    void CheckForSquish(Collider2D playerCollider, GameObject player)
+    {
+        // Check if player is touching any ground objects
+        bool isTouchingGround = false;
+        List<Collider2D> contacts = new List<Collider2D>();
+        ContactFilter2D filter = new ContactFilter2D();
+        filter.NoFilter();
+
+        if (playerCollider.Overlap(filter, contacts) > 0)
+        {
+            foreach (Collider2D col in contacts)
+            {
+                if (col != null && col.CompareTag("Walls"))
+                {
+                    isTouchingGround = true;
+                    break;
+                }
+            }
+        }
+
+        if (isTouchingGround)
+        {
+            RespawnManager respawnManager = player.GetComponent<RespawnManager>();
+            if (respawnManager != null)
+            {
+                respawnManager.Respawn();
+            }
+        }
     }
 }

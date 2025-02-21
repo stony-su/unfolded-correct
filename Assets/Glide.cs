@@ -119,4 +119,21 @@ public class SquirrelGlideController : MonoBehaviour
             staminaBarForeground.fillAmount = fillAmount;
         }
     }
+
+    public bool UseStamina(float amount)
+    {
+        if (currentStamina >= amount)
+        {
+            currentStamina -= amount;
+            currentStamina = Mathf.Clamp(currentStamina, minStamina, maxStamina);
+            UpdateStaminaBar();
+            return true;
+        }
+        return false;
+    }
+
+    public float GetCurrentStamina()
+    {
+        return currentStamina;
+    }
 }

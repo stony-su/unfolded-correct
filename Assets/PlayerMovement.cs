@@ -27,11 +27,9 @@ public class PlayerMovement : MonoBehaviour
     private bool isDashing = false;
     [SerializeField] private float dashSpeed = 30f;
     [SerializeField] private float dashDuration = 0.15f;
-    [SerializeField] private float dashCooldown = 1f;
     [SerializeField] private bool airDashAllowed = true;
     [SerializeField] private ParticleSystem dashTrail;
     private Vector2 dashDirection;
-    [SerializeField] private int dashEffectCount = 3;
     [SerializeField] private GameObject dashEffectPrefab;
     [SerializeField] private float characterDirection = 1f;
     [SerializeField] private Transform characterSprite;
@@ -66,9 +64,14 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform wallCheckleft;
     [SerializeField] private LayerMask wallLayer;
 
+    [Header("Stamina Settings")]
+    [SerializeField] private float dashStaminaCost = 30f;
+    private SquirrelGlideController glideController;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        glideController = GetComponent<SquirrelGlideController>();
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         originalGravity = rb.gravityScale;
 
@@ -101,6 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.X) && CanDash())
         {
+            glideController.UseStamina(dashStaminaCost);
             Vector2 input = GetArrowKeyDirection();
             dashDirection = input == Vector2.zero ? new Vector2(characterDirection, 0) : input;
             dashDirection = dashDirection.normalized;
@@ -124,7 +128,6 @@ public class PlayerMovement : MonoBehaviour
                 });
 
             dashStartPos = transform.position;
-            dashEffectCount = 3;
         }
 
         WallSlide();
@@ -223,7 +226,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, waterPushSpeed);
             }
         }
-        else if (!isGrounded)
+        else if (!isGrounded && !isDashing)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x,
                 Mathf.Max(rb.linearVelocity.y - gravity * Time.fixedDeltaTime, fallSpeedCap));
@@ -232,17 +235,6 @@ public class PlayerMovement : MonoBehaviour
         float targetSpeed = moveInput.x * currentMoveSpeed;
         float accelerationRate = Mathf.Abs(targetSpeed) > 0.01f ? currentAcceleration : deceleration;
         rb.linearVelocity = new Vector2(Mathf.Lerp(rb.linearVelocity.x, targetSpeed, accelerationRate), rb.linearVelocity.y);
-
-        if (isDashing && dashEffectCount > 0)
-        {
-            float distance = Vector2.Distance(dashStartPos, transform.position);
-            if (distance >= 1.6f) 
-            {
-                SpawnDashEffect();
-                dashStartPos = transform.position;
-                dashEffectCount--;
-            }
-        }
     }
 
     #region Dash
@@ -252,18 +244,53 @@ public class PlayerMovement : MonoBehaviour
         canDash = false;
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0;
-        
-        rb.linearVelocity = direction * (moveInput.y > 0 ? dashSpeed * 0.75f : 
-            (moveInput.x != 0 || moveInput.y != 0) ? dashSpeed * 2.5f: dashSpeed * 5f);
+
+        // Calculate the dash speed based on input
+        float speedFactor;
+        float currentDashSpeed;
+        float timeBetweenEffects;
+
+        if (moveInput.y > 0 || moveInput.y < 0)
+        {
+            speedFactor = 0.25f;
+            currentDashSpeed = dashSpeed * speedFactor;
+            timeBetweenEffects = 1.2f / currentDashSpeed;
+        }
+        else if (moveInput.x != 0 || moveInput.y != 0)
+        {
+            speedFactor = 2.5f;
+            currentDashSpeed = dashSpeed * speedFactor;
+            timeBetweenEffects = 3.2f / currentDashSpeed;
+        }
+        else
+        {
+            speedFactor = 5f;
+            currentDashSpeed = dashSpeed * speedFactor;
+            timeBetweenEffects = 3.2f / currentDashSpeed;
+        }
+
+        rb.linearVelocity = direction * currentDashSpeed;
 
         if (dashTrail != null) dashTrail.Play();
 
-        yield return new WaitForSeconds(dashDuration);
+        // Calculate time between each dash effect based on speed and desired distance (1.6 units)
+        int effectsSpawned = 0;
+
+        // Spawn three dash effects at calculated intervals
+        while (effectsSpawned < 3)
+        {
+            yield return new WaitForSeconds(timeBetweenEffects);
+            SpawnDashEffect();
+            effectsSpawned++;
+        }
+
+        // Wait for the remaining dash duration after spawning effects
+        yield return new WaitForSeconds(dashDuration - (timeBetweenEffects * 3));
+
         rb.gravityScale = originalGravity;
         isDashing = false;
 
         if (dashTrail != null && dashTrail.isPlaying) dashTrail.Stop();
-        yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
 
@@ -315,7 +342,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool CanDash()
     {
-        return canDash && !isDashing && (isGrounded || airDashAllowed) && !isInWater;
+        return canDash && !isDashing && (isGrounded || airDashAllowed) && !isInWater 
+               && glideController.GetCurrentStamina() >= dashStaminaCost;
     }
 
     public void ActivateDashPowerup()
