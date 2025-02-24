@@ -1,4 +1,5 @@
 using UnityEngine;
+using Bundos.MovingPlatforms; 
 
 public class RespawnableItem : MonoBehaviour
 {
@@ -6,47 +7,37 @@ public class RespawnableItem : MonoBehaviour
     private bool originalActiveState;
     private Rigidbody2D rb;
     private DirectionalMovingSquare movingSquare; // Declare the variable
+    private PlatformController platformController;
 
     void Start()
     {
-        // Save initial position and active state
         originalPosition = transform.position;
         originalActiveState = gameObject.activeSelf;
 
-        // Get Rigidbody2D if it exists
         rb = GetComponent<Rigidbody2D>();
-
-        // Get the DirectionalMovingSquare component if it exists
         movingSquare = GetComponent<DirectionalMovingSquare>();
+        platformController = GetComponent<PlatformController>(); // Get component
 
-        // Register this item with the RespawnManager
         RespawnManager.Instance.RegisterItem(this);
     }
 
     public void ResetItem()
     {
-        // Reset position and active state
         transform.position = originalPosition;
         gameObject.SetActive(originalActiveState);
 
-        // Reset velocity if Rigidbody2D exists
         if (rb != null)
-        {
             rb.linearVelocity = Vector2.zero;
-        }
 
-        // Reset movement if DirectionalMovingSquare component exists
         if (movingSquare != null)
-        {
             movingSquare.ResetMovement();
-        }
 
-        // Re-enable colliders if needed
+        if (platformController != null) // Reset platform
+            platformController.ResetPlatform();
+
         Collider2D collider = GetComponent<Collider2D>();
         if (collider != null)
-        {
             collider.enabled = true;
-        }
     }
 
     void OnDestroy()

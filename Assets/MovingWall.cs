@@ -20,7 +20,7 @@ public class DirectionalMovingSquare : MonoBehaviour
     private PolygonCollider2D polygonCollider;
     private Rigidbody2D rb;
     private Vector2 moveDirection;
-    private bool isMoving;
+    public bool isMoving;
 
     private void Awake()
     {
