@@ -1,0 +1,4055 @@
+fileFormatVersion: 2
+guid: dd8699e5c0253c24e8968f6ef5852b58
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -324392271855918756
+    second: Electricuitioner 157x107_0
+  - first:
+      213: -2112535139543696036
+    second: Electricuitioner 157x107_1
+  - first:
+      213: -803023839796572223
+    second: Electricuitioner 157x107_2
+  - first:
+      213: 8462157807850307182
+    second: Electricuitioner 157x107_3
+  - first:
+      213: 6438696119269499891
+    second: Electricuitioner 157x107_4
+  - first:
+      213: 7801351512647297193
+    second: Electricuitioner 157x107_5
+  - first:
+      213: 8786935192894434715
+    second: Electricuitioner 157x107_6
+  - first:
+      213: 8946377433074992423
+    second: Electricuitioner 157x107_7
+  - first:
+      213: -7012126787820063160
+    second: Electricuitioner 157x107_8
+  - first:
+      213: 5673589257933968773
+    second: Electricuitioner 157x107_9
+  - first:
+      213: -1732037263138985382
+    second: Electricuitioner 157x107_10
+  - first:
+      213: -4792821437300005282
+    second: Electricuitioner 157x107_11
+  - first:
+      213: -879020535542740319
+    second: Electricuitioner 157x107_12
+  - first:
+      213: 1234490286327421611
+    second: Electricuitioner 157x107_13
+  - first:
+      213: -1456018594191409927
+    second: Electricuitioner 157x107_14
+  - first:
+      213: 2928485190325133508
+    second: Electricuitioner 157x107_15
+  - first:
+      213: -2160907889339411240
+    second: Electricuitioner 157x107_16
+  - first:
+      213: -6036244646514346291
+    second: Electricuitioner 157x107_17
+  - first:
+      213: -9013330005472634199
+    second: Electricuitioner 157x107_18
+  - first:
+      213: 1539446741787445980
+    second: Electricuitioner 157x107_19
+  - first:
+      213: 9072611908447412882
+    second: Electricuitioner 157x107_20
+  - first:
+      213: -8492844680696723348
+    second: Electricuitioner 157x107_21
+  - first:
+      213: -6734770391249221385
+    second: Electricuitioner 157x107_22
+  - first:
+      213: -7891484580416878415
+    second: Electricuitioner 157x107_23
+  - first:
+      213: 4374265993499990383
+    second: Electricuitioner 157x107_24
+  - first:
+      213: -7867355871750850756
+    second: Electricuitioner 157x107_25
+  - first:
+      213: -5487218444449546159
+    second: Electricuitioner 157x107_26
+  - first:
+      213: -5766027876991403742
+    second: Electricuitioner 157x107_27
+  - first:
+      213: 1634459052321809557
+    second: Electricuitioner 157x107_28
+  - first:
+      213: -7484908379788571661
+    second: Electricuitioner 157x107_29
+  - first:
+      213: -5711084575869152948
+    second: Electricuitioner 157x107_30
+  - first:
+      213: -5185406942481532574
+    second: Electricuitioner 157x107_31
+  - first:
+      213: -7997054546767464991
+    second: Electricuitioner 157x107_32
+  - first:
+      213: 5168803420783527582
+    second: Electricuitioner 157x107_33
+  - first:
+      213: -8810887867445338742
+    second: Electricuitioner 157x107_34
+  - first:
+      213: -8347688704041012571
+    second: Electricuitioner 157x107_35
+  - first:
+      213: -7748232512309064880
+    second: Electricuitioner 157x107_36
+  - first:
+      213: -5384856759050640712
+    second: Electricuitioner 157x107_37
+  - first:
+      213: 3345978415476150691
+    second: Electricuitioner 157x107_38
+  - first:
+      213: 3352165851347719446
+    second: Electricuitioner 157x107_39
+  - first:
+      213: 5637650462634265762
+    second: Electricuitioner 157x107_40
+  - first:
+      213: -8949461760076583803
+    second: Electricuitioner 157x107_41
+  - first:
+      213: -5658782745079332381
+    second: Electricuitioner 157x107_42
+  - first:
+      213: 1722590729444606942
+    second: Electricuitioner 157x107_43
+  - first:
+      213: -7743241111183995669
+    second: Electricuitioner 157x107_44
+  - first:
+      213: 663286812851116319
+    second: Electricuitioner 157x107_45
+  - first:
+      213: -4502007074021948599
+    second: Electricuitioner 157x107_46
+  - first:
+      213: 6919522074539236238
+    second: Electricuitioner 157x107_47
+  - first:
+      213: -695242785251770986
+    second: Electricuitioner 157x107_48
+  - first:
+      213: -4237357158073781608
+    second: Electricuitioner 157x107_49
+  - first:
+      213: -5658346675308253714
+    second: Electricuitioner 157x107_50
+  - first:
+      213: 7993927551666358526
+    second: Electricuitioner 157x107_51
+  - first:
+      213: -3670395365889886847
+    second: Electricuitioner 157x107_52
+  - first:
+      213: 8700560281026618896
+    second: Electricuitioner 157x107_53
+  - first:
+      213: -5352261302779703038
+    second: Electricuitioner 157x107_54
+  - first:
+      213: 8432152965815289502
+    second: Electricuitioner 157x107_55
+  - first:
+      213: 4920128393777879703
+    second: Electricuitioner 157x107_56
+  - first:
+      213: -1299156512435672358
+    second: Electricuitioner 157x107_57
+  - first:
+      213: 258289400038841548
+    second: Electricuitioner 157x107_58
+  - first:
+      213: 8355807726054238560
+    second: Electricuitioner 157x107_59
+  - first:
+      213: 3280337494750471117
+    second: Electricuitioner 157x107_60
+  - first:
+      213: -6862511962120897400
+    second: Electricuitioner 157x107_61
+  - first:
+      213: -8720328445706539599
+    second: Electricuitioner 157x107_62
+  - first:
+      213: -2360593215843467384
+    second: Electricuitioner 157x107_63
+  - first:
+      213: -1655453891468842847
+    second: Electricuitioner 157x107_64
+  - first:
+      213: -4764886836183576220
+    second: Electricuitioner 157x107_65
+  - first:
+      213: -1698474377061886251
+    second: Electricuitioner 157x107_66
+  - first:
+      213: -8221555702994495749
+    second: Electricuitioner 157x107_67
+  - first:
+      213: 1812141445957937321
+    second: Electricuitioner 157x107_68
+  - first:
+      213: -2876130969840038874
+    second: Electricuitioner 157x107_69
+  - first:
+      213: -3859486268296425015
+    second: Electricuitioner 157x107_70
+  - first:
+      213: 1108401996478018258
+    second: Electricuitioner 157x107_71
+  - first:
+      213: -5304239819277028186
+    second: Electricuitioner 157x107_72
+  - first:
+      213: -4086140186150939802
+    second: Electricuitioner 157x107_73
+  - first:
+      213: 5212192546529171478
+    second: Electricuitioner 157x107_74
+  - first:
+      213: 8405598859670303677
+    second: Electricuitioner 157x107_75
+  - first:
+      213: -1332237833296979723
+    second: Electricuitioner 157x107_76
+  - first:
+      213: 8191718822825166033
+    second: Electricuitioner 157x107_77
+  - first:
+      213: 753451139830340004
+    second: Electricuitioner 157x107_78
+  - first:
+      213: -1015107479336228405
+    second: Electricuitioner 157x107_79
+  - first:
+      213: -2864734312756773628
+    second: Electricuitioner 157x107_80
+  - first:
+      213: -6137697959273002007
+    second: Electricuitioner 157x107_81
+  - first:
+      213: 8561522680466830489
+    second: Electricuitioner 157x107_82
+  - first:
+      213: 4426907114205008302
+    second: Electricuitioner 157x107_83
+  - first:
+      213: 8884044699739006227
+    second: Electricuitioner 157x107_84
+  - first:
+      213: -7842107141352921119
+    second: Electricuitioner 157x107_85
+  - first:
+      213: -655198103473836089
+    second: Electricuitioner 157x107_86
+  - first:
+      213: 5064338224682132534
+    second: Electricuitioner 157x107_87
+  - first:
+      213: -4692893242896811202
+    second: Electricuitioner 157x107_88
+  - first:
+      213: 6854661936400520980
+    second: Electricuitioner 157x107_89
+  - first:
+      213: -3849602820754954345
+    second: Electricuitioner 157x107_90
+  - first:
+      213: -573781434582925807
+    second: Electricuitioner 157x107_91
+  - first:
+      213: -6789913236575198788
+    second: Electricuitioner 157x107_92
+  - first:
+      213: -1041345186035340893
+    second: Electricuitioner 157x107_93
+  - first:
+      213: 6177995014824636699
+    second: Electricuitioner 157x107_94
+  - first:
+      213: -1585914485860896511
+    second: Electricuitioner 157x107_95
+  - first:
+      213: -4529625803386683284
+    second: Electricuitioner 157x107_96
+  - first:
+      213: -6402743158115176069
+    second: Electricuitioner 157x107_97
+  - first:
+      213: 8924480951994298478
+    second: Electricuitioner 157x107_98
+  - first:
+      213: -4622643380688794444
+    second: Electricuitioner 157x107_99
+  - first:
+      213: 601279477847854923
+    second: Electricuitioner 157x107_100
+  - first:
+      213: -2123759836045464354
+    second: Electricuitioner 157x107_101
+  - first:
+      213: -4476422771884133271
+    second: Electricuitioner 157x107_102
+  - first:
+      213: 6849168228402960130
+    second: Electricuitioner 157x107_103
+  - first:
+      213: 8577094460817844654
+    second: Electricuitioner 157x107_104
+  - first:
+      213: -7710491497718326911
+    second: Electricuitioner 157x107_105
+  - first:
+      213: -6520108418691021233
+    second: Electricuitioner 157x107_106
+  - first:
+      213: 902087962608814287
+    second: Electricuitioner 157x107_107
+  - first:
+      213: -8725051092779344286
+    second: Electricuitioner 157x107_108
+  - first:
+      213: -4357197614451171173
+    second: Electricuitioner 157x107_109
+  - first:
+      213: -435019299692250160
+    second: Electricuitioner 157x107_110
+  - first:
+      213: -3938627803427842185
+    second: Electricuitioner 157x107_111
+  - first:
+      213: 7687006402683817153
+    second: Electricuitioner 157x107_112
+  - first:
+      213: -9220061408654615551
+    second: Electricuitioner 157x107_113
+  - first:
+      213: -1563257667836500395
+    second: Electricuitioner 157x107_114
+  - first:
+      213: -8727438901332807795
+    second: Electricuitioner 157x107_115
+  - first:
+      213: -3057524815205546587
+    second: Electricuitioner 157x107_116
+  - first:
+      213: 1664422523116227911
+    second: Electricuitioner 157x107_117
+  - first:
+      213: 8154919610984442993
+    second: Electricuitioner 157x107_118
+  - first:
+      213: -4656028930430909821
+    second: Electricuitioner 157x107_119
+  - first:
+      213: -3258736809478567775
+    second: Electricuitioner 157x107_120
+  - first:
+      213: 4026586355482522395
+    second: Electricuitioner 157x107_121
+  - first:
+      213: -1240448642764565558
+    second: Electricuitioner 157x107_122
+  - first:
+      213: -9156273163655064414
+    second: Electricuitioner 157x107_123
+  - first:
+      213: 4757679547488186897
+    second: Electricuitioner 157x107_124
+  - first:
+      213: -1511924065605586690
+    second: Electricuitioner 157x107_125
+  - first:
+      213: -5542318885333574949
+    second: Electricuitioner 157x107_126
+  - first:
+      213: -1692043131246449685
+    second: Electricuitioner 157x107_127
+  - first:
+      213: 2689226518222966091
+    second: Electricuitioner 157x107_128
+  - first:
+      213: 3372832811688366262
+    second: Electricuitioner 157x107_129
+  - first:
+      213: 8487598289705878572
+    second: Electricuitioner 157x107_130
+  - first:
+      213: -3917021357755945213
+    second: Electricuitioner 157x107_131
+  - first:
+      213: 2259261676741696634
+    second: Electricuitioner 157x107_132
+  - first:
+      213: 397260531803050599
+    second: Electricuitioner 157x107_133
+  - first:
+      213: -6408043232270244782
+    second: Electricuitioner 157x107_134
+  - first:
+      213: 2675289371629934944
+    second: Electricuitioner 157x107_135
+  - first:
+      213: 4331258044989312042
+    second: Electricuitioner 157x107_136
+  - first:
+      213: 1930031967026815549
+    second: Electricuitioner 157x107_137
+  - first:
+      213: -4962839449196705643
+    second: Electricuitioner 157x107_138
+  - first:
+      213: -5261696370018530551
+    second: Electricuitioner 157x107_139
+  - first:
+      213: 2098538164603136150
+    second: Electricuitioner 157x107_140
+  - first:
+      213: -3846493874036684759
+    second: Electricuitioner 157x107_141
+  - first:
+      213: 7932419736637968899
+    second: Electricuitioner 157x107_142
+  - first:
+      213: 4825451188006126008
+    second: Electricuitioner 157x107_143
+  - first:
+      213: 7226294089087545353
+    second: Electricuitioner 157x107_144
+  - first:
+      213: -3238338875763750737
+    second: Electricuitioner 157x107_145
+  - first:
+      213: -5069496034383773423
+    second: Electricuitioner 157x107_146
+  - first:
+      213: 3195249049204127438
+    second: Electricuitioner 157x107_147
+  - first:
+      213: -5815356964026862764
+    second: Electricuitioner 157x107_148
+  - first:
+      213: 7104409377334248460
+    second: Electricuitioner 157x107_149
+  - first:
+      213: 1395571068857656421
+    second: Electricuitioner 157x107_150
+  - first:
+      213: 5462254049287208416
+    second: Electricuitioner 157x107_151
+  - first:
+      213: 3207307262000042603
+    second: Electricuitioner 157x107_152
+  - first:
+      213: 4122005327129798775
+    second: Electricuitioner 157x107_153
+  - first:
+      213: -1250373085796063931
+    second: Electricuitioner 157x107_154
+  - first:
+      213: 2183765642222504931
+    second: Electricuitioner 157x107_155
+  - first:
+      213: -1791723964436083476
+    second: Electricuitioner 157x107_156
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_0
+      rect:
+        serializedVersion: 2
+        x: 12147
+        y: 13
+        width: 27
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51652c82f68f7bf0800000000000000
+      internalID: -324392271855918756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_1
+      rect:
+        serializedVersion: 2
+        x: 12313
+        y: 59
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5db7f7bb74cea2e0800000000000000
+      internalID: -2112535139543696036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_2
+      rect:
+        serializedVersion: 2
+        x: 12314
+        y: 69
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf41c282161bd4f0800000000000000
+      internalID: -803023839796572223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_3
+      rect:
+        serializedVersion: 2
+        x: 12470
+        y: 62
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e373a11bf9f6570800000000000000
+      internalID: 8462157807850307182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_4
+      rect:
+        serializedVersion: 2
+        x: 12620
+        y: 60
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3aebdb108da5950800000000000000
+      internalID: 6438696119269499891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_5
+      rect:
+        serializedVersion: 2
+        x: 12770
+        y: 14
+        width: 29
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a86c4f0ed7f34c60800000000000000
+      internalID: 7801351512647297193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_6
+      rect:
+        serializedVersion: 2
+        x: 12930
+        y: 14
+        width: 27
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de9d4b00771f970800000000000000
+      internalID: 8786935192894434715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_7
+      rect:
+        serializedVersion: 2
+        x: 13093
+        y: 14
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725810d10eae72c70800000000000000
+      internalID: 8946377433074992423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_8
+      rect:
+        serializedVersion: 2
+        x: 13248
+        y: 14
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846fbfb96dbefae90800000000000000
+      internalID: -7012126787820063160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_9
+      rect:
+        serializedVersion: 2
+        x: 13407
+        y: 14
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58550a0ce53acbe40800000000000000
+      internalID: 5673589257933968773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_10
+      rect:
+        serializedVersion: 2
+        x: 5714
+        y: 21
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a6cd0394196f7e0800000000000000
+      internalID: -1732037263138985382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_11
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 24
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e562bd5db4a7c7db0800000000000000
+      internalID: -4792821437300005282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_12
+      rect:
+        serializedVersion: 2
+        x: 6185
+        y: 24
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa83bcea771dc3f0800000000000000
+      internalID: -879020535542740319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_13
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 24
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa5733ff5ac12110800000000000000
+      internalID: 1234490286327421611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_14
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 24
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc7bda8dce2bcbe0800000000000000
+      internalID: -1456018594191409927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_15
+      rect:
+        serializedVersion: 2
+        x: 7598
+        y: 26
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0625bc3c114a820800000000000000
+      internalID: 2928485190325133508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_16
+      rect:
+        serializedVersion: 2
+        x: 7755
+        y: 27
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d59f39b9e202e0800000000000000
+      internalID: -2160907889339411240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_17
+      rect:
+        serializedVersion: 2
+        x: 11829
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6b823b973fa3ca0800000000000000
+      internalID: -6036244646514346291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_18
+      rect:
+        serializedVersion: 2
+        x: 11831
+        y: 14
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa1f6c5d183ae280800000000000000
+      internalID: -9013330005472634199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_19
+      rect:
+        serializedVersion: 2
+        x: 11985
+        y: 13
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda8fd2c7a63d5510800000000000000
+      internalID: 1539446741787445980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_20
+      rect:
+        serializedVersion: 2
+        x: 12302
+        y: 50
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292acf3467468ed70800000000000000
+      internalID: 9072611908447412882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_21
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68818a82ca532a80800000000000000
+      internalID: -8492844680696723348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_22
+      rect:
+        serializedVersion: 2
+        x: 14478
+        y: 5
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f885c1f20a4982a0800000000000000
+      internalID: -6734770391249221385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_23
+      rect:
+        serializedVersion: 2
+        x: 14660
+        y: 37
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b887c1c590db7290800000000000000
+      internalID: -7891484580416878415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_24
+      rect:
+        serializedVersion: 2
+        x: 14815
+        y: 30
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6953a7ceb384bc30800000000000000
+      internalID: 4374265993499990383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_25
+      rect:
+        serializedVersion: 2
+        x: 14946
+        y: 5
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37f4b6848981d290800000000000000
+      internalID: -7867355871750850756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_26
+      rect:
+        serializedVersion: 2
+        x: 15138
+        y: 4
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1500d95b5eb79d3b0800000000000000
+      internalID: -5487218444449546159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_27
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 13
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2297de21234faffa0800000000000000
+      internalID: -5766027876991403742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_28
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594209d29d3cea610800000000000000
+      internalID: 1634459052321809557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb8b5e3c73402890800000000000000
+      internalID: -7484908379788571661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 14
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c415b1d36d62eb0b0800000000000000
+      internalID: -5711084575869152948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_31
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 14
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2693b89fbdbb908b0800000000000000
+      internalID: -5185406942481532574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_32
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5b08a8241c40190800000000000000
+      internalID: -7997054546767464991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_33
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9640a163574bb740800000000000000
+      internalID: 5168803420783527582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_34
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d1f19aa2079b580800000000000000
+      internalID: -8810887867445338742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_35
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 13
+        width: 20
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a238140a5d072c80800000000000000
+      internalID: -8347688704041012571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_36
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 13
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b8faaf49fb87490800000000000000
+      internalID: -7748232512309064880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_37
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 12
+        width: 20
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2ec6ece452545b0800000000000000
+      internalID: -5384856759050640712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_38
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 12
+        width: 20
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1949024ad4f6e20800000000000000
+      internalID: 3345978415476150691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_39
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 13
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61596cdc419458e20800000000000000
+      internalID: 3352165851347719446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_40
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acc129e935fc3e40800000000000000
+      internalID: 5637650462634265762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_41
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c61bb02ff1dc380800000000000000
+      internalID: -8949461760076583803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_42
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 14
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1cf6a2317f771b0800000000000000
+      internalID: -5658782745079332381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_43
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 14
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed34de9442fd7e710800000000000000
+      internalID: 1722590729444606942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_44
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec4dad1c3b7a8490800000000000000
+      internalID: -7743241111183995669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_45
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 14
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19113097d7743900800000000000000
+      internalID: 663286812851116319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_46
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 14
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94340a83b68a581c0800000000000000
+      internalID: -4502007074021948599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_47
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 14
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b92646aa4170060800000000000000
+      internalID: 6919522074539236238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_48
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d3a60de500a56f0800000000000000
+      internalID: -695242785251770986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_49
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 14
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892bd8e7d12e135c0800000000000000
+      internalID: -4237357158073781608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_50
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed2d329da38971b0800000000000000
+      internalID: -5658346675308253714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_51
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8084d21c220fe60800000000000000
+      internalID: 7993927551666358526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_52
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 13
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185b4ee7cd2201dc0800000000000000
+      internalID: -3670395365889886847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_53
+      rect:
+        serializedVersion: 2
+        x: 5086
+        y: 13
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016e6716a799eb870800000000000000
+      internalID: 8700560281026618896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_54
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 14
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2011fbed3b2f8b5b0800000000000000
+      internalID: -5352261302779703038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_55
+      rect:
+        serializedVersion: 2
+        x: 5399
+        y: 16
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e964d2b6276050570800000000000000
+      internalID: 8432152965815289502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_56
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 17
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a9178c4bec74440800000000000000
+      internalID: 4920128393777879703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_57
+      rect:
+        serializedVersion: 2
+        x: 5559
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adae2a0090878fde0800000000000000
+      internalID: -1299156512435672358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_58
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 22
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc509247d0a59300800000000000000
+      internalID: 258289400038841548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_59
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0696dea1bdac5f370800000000000000
+      internalID: 8355807726054238560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_60
+      rect:
+        serializedVersion: 2
+        x: 6813
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc32ffd4299168d20800000000000000
+      internalID: 3280337494750471117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_61
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c3ae6cab573c0a0800000000000000
+      internalID: -6862511962120897400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_62
+      rect:
+        serializedVersion: 2
+        x: 7126
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd6dec1b7b2bf680800000000000000
+      internalID: -8720328445706539599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_63
+      rect:
+        serializedVersion: 2
+        x: 7283
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ff3762afc7d3fd0800000000000000
+      internalID: -2360593215843467384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_64
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 25
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a826f8e475a609e0800000000000000
+      internalID: -1655453891468842847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_65
+      rect:
+        serializedVersion: 2
+        x: 11052
+        y: 13
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461d75efaa8bfddb0800000000000000
+      internalID: -4764886836183576220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_66
+      rect:
+        serializedVersion: 2
+        x: 11209
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d69f1f8d8ecd68e0800000000000000
+      internalID: -1698474377061886251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_67
+      rect:
+        serializedVersion: 2
+        x: 11366
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf61de5d5aa27ed80800000000000000
+      internalID: -8221555702994495749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_68
+      rect:
+        serializedVersion: 2
+        x: 11521
+        y: 14
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a8e5114b05062910800000000000000
+      internalID: 1812141445957937321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_69
+      rect:
+        serializedVersion: 2
+        x: 11675
+        y: 14
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c4f2f0f1ee518d0800000000000000
+      internalID: -2876130969840038874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_70
+      rect:
+        serializedVersion: 2
+        x: 11683
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c191baffa9507ac0800000000000000
+      internalID: -3859486268296425015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_71
+      rect:
+        serializedVersion: 2
+        x: 12303
+        y: 13
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2f7644eb5d16f00800000000000000
+      internalID: 1108401996478018258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_72
+      rect:
+        serializedVersion: 2
+        x: 12458
+        y: 46
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4b288ccfd8366b0800000000000000
+      internalID: -5304239819277028186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_73
+      rect:
+        serializedVersion: 2
+        x: 12458
+        y: 14
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6635606662d1b47c0800000000000000
+      internalID: -4086140186150939802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_74
+      rect:
+        serializedVersion: 2
+        x: 12614
+        y: 14
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6185fc4718d655840800000000000000
+      internalID: 5212192546529171478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_75
+      rect:
+        serializedVersion: 2
+        x: 12625
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3b31bc0afa6a470800000000000000
+      internalID: 8405598859670303677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_76
+      rect:
+        serializedVersion: 2
+        x: 13564
+        y: 13
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f85ff5cfb0f28de0800000000000000
+      internalID: -1332237833296979723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_77
+      rect:
+        serializedVersion: 2
+        x: 13721
+        y: 13
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d400662ed4dea170800000000000000
+      internalID: 8191718822825166033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_78
+      rect:
+        serializedVersion: 2
+        x: 13878
+        y: 14
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a95339d1dbc47a00800000000000000
+      internalID: 753451139830340004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_79
+      rect:
+        serializedVersion: 2
+        x: 14033
+        y: 14
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc96255302d99e1f0800000000000000
+      internalID: -1015107479336228405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_80
+      rect:
+        serializedVersion: 2
+        x: 14190
+        y: 14
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d7240125b6e38d0800000000000000
+      internalID: -2864734312756773628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_81
+      rect:
+        serializedVersion: 2
+        x: 14195
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb84e6993482daa0800000000000000
+      internalID: -6137697959273002007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_82
+      rect:
+        serializedVersion: 2
+        x: 14347
+        y: 14
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 994fca95483a0d670800000000000000
+      internalID: 8561522680466830489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_83
+      rect:
+        serializedVersion: 2
+        x: 15258
+        y: 4
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1d6dbc0988f6d30800000000000000
+      internalID: 4426907114205008302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_84
+      rect:
+        serializedVersion: 2
+        x: 15453
+        y: 4
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315a2a0b5977a4b70800000000000000
+      internalID: 8884044699739006227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_85
+      rect:
+        serializedVersion: 2
+        x: 15598
+        y: 2
+        width: 341
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7ea1daa1d3b2390800000000000000
+      internalID: -7842107141352921119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_86
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 12
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfaee8dbc448e6f0800000000000000
+      internalID: -655198103473836089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_87
+      rect:
+        serializedVersion: 2
+        x: 7867
+        y: 0
+        width: 117
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6346c9888c4284640800000000000000
+      internalID: 5064338224682132534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_88
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bfd48a57e7fdeb0800000000000000
+      internalID: -4692893242896811202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_89
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 0
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4175b8ea6b6a02f50800000000000000
+      internalID: 6854661936400520980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_90
+      rect:
+        serializedVersion: 2
+        x: 8217
+        y: 8
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7972f8e61a6739ac0800000000000000
+      internalID: -3849602820754954345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_91
+      rect:
+        serializedVersion: 2
+        x: 8336
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e78f443d48908f0800000000000000
+      internalID: -573781434582925807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_92
+      rect:
+        serializedVersion: 2
+        x: 8493
+        y: 0
+        width: 102
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb16636c2e165c1a0800000000000000
+      internalID: -6789913236575198788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_93
+      rect:
+        serializedVersion: 2
+        x: 8567
+        y: 32
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9ecc112166c81f0800000000000000
+      internalID: -1041345186035340893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_94
+      rect:
+        serializedVersion: 2
+        x: 8697
+        y: 7
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11b1cacbb5acb550800000000000000
+      internalID: 6177995014824636699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_95
+      rect:
+        serializedVersion: 2
+        x: 8708
+        y: 0
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1017d1a7d23bdf9e0800000000000000
+      internalID: -1585914485860896511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_96
+      rect:
+        serializedVersion: 2
+        x: 8789
+        y: 0
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6081bfa4598321c0800000000000000
+      internalID: -4529625803386683284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_97
+      rect:
+        serializedVersion: 2
+        x: 8845
+        y: 8
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b717b785503e427a0800000000000000
+      internalID: -6402743158115176069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_98
+      rect:
+        serializedVersion: 2
+        x: 8985
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e603c5454202adb70800000000000000
+      internalID: 8924480951994298478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_99
+      rect:
+        serializedVersion: 2
+        x: 8986
+        y: 0
+        width: 97
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bccbba465219dfb0800000000000000
+      internalID: -4622643380688794444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_100
+      rect:
+        serializedVersion: 2
+        x: 9104
+        y: 0
+        width: 135
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f8ad7df7c285800800000000000000
+      internalID: 601279477847854923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_101
+      rect:
+        serializedVersion: 2
+        x: 9278
+        y: 0
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edca4486ea3e682e0800000000000000
+      internalID: -2123759836045464354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_102
+      rect:
+        serializedVersion: 2
+        x: 9435
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9647061c43d80e1c0800000000000000
+      internalID: -4476422771884133271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_103
+      rect:
+        serializedVersion: 2
+        x: 9591
+        y: 0
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20799dc17322d0f50800000000000000
+      internalID: 6849168228402960130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_104
+      rect:
+        serializedVersion: 2
+        x: 9749
+        y: 0
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9a40ef7f5f70770800000000000000
+      internalID: 8577094460817844654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_105
+      rect:
+        serializedVersion: 2
+        x: 9943
+        y: 2
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18954d2b5d4def490800000000000000
+      internalID: -7710491497718326911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_106
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 9
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4643ee20fbe385a0800000000000000
+      internalID: -6520108418691021233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_107
+      rect:
+        serializedVersion: 2
+        x: 10256
+        y: 9
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc84477f83cd48c00800000000000000
+      internalID: 902087962608814287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_108
+      rect:
+        serializedVersion: 2
+        x: 10424
+        y: 9
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ed0c722446ae680800000000000000
+      internalID: -8725051092779344286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_109
+      rect:
+        serializedVersion: 2
+        x: 10581
+        y: 10
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b906576eadf1883c0800000000000000
+      internalID: -4357197614451171173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_110
+      rect:
+        serializedVersion: 2
+        x: 10738
+        y: 13
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db7763704086f9f0800000000000000
+      internalID: -435019299692250160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_111
+      rect:
+        serializedVersion: 2
+        x: 10895
+        y: 12
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777d43a61ee2759c0800000000000000
+      internalID: -3938627803427842185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_112
+      rect:
+        serializedVersion: 2
+        x: 14660
+        y: 28
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc4f12889bbdaa60800000000000000
+      internalID: 7687006402683817153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_113
+      rect:
+        serializedVersion: 2
+        x: 14679
+        y: 31
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c9ad1bff2cb0080800000000000000
+      internalID: -9220061408654615551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_114
+      rect:
+        serializedVersion: 2
+        x: 14707
+        y: 35
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55623300f613e4ae0800000000000000
+      internalID: -1563257667836500395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_115
+      rect:
+        serializedVersion: 2
+        x: 14838
+        y: 38
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fe1272f88e1e680800000000000000
+      internalID: -8727438901332807795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_116
+      rect:
+        serializedVersion: 2
+        x: 14848
+        y: 30
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a54bb9416d7195d0800000000000000
+      internalID: -3057524815205546587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_117
+      rect:
+        serializedVersion: 2
+        x: 15102
+        y: 12
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d808e5777391710800000000000000
+      internalID: 1664422523116227911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_118
+      rect:
+        serializedVersion: 2
+        x: 15436
+        y: 13
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c2898fd281c2170800000000000000
+      internalID: 8154919610984442993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_119
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38249b14b56726fb0800000000000000
+      internalID: -4656028930430909821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_120
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a84a862324a6c2d0800000000000000
+      internalID: -3258736809478567775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_121
+      rect:
+        serializedVersion: 2
+        x: 7708
+        y: 0
+        width: 48
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1378ffd4fe41e730800000000000000
+      internalID: 4026586355482522395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_122
+      rect:
+        serializedVersion: 2
+        x: 7741
+        y: 24
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac317e5188a09cee0800000000000000
+      internalID: -1240448642764565558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_123
+      rect:
+        serializedVersion: 2
+        x: 7764
+        y: 0
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4d5e5d1126ee080800000000000000
+      internalID: -9156273163655064414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_124
+      rect:
+        serializedVersion: 2
+        x: 7791
+        y: 0
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112bc27575ca60240800000000000000
+      internalID: 4757679547488186897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_125
+      rect:
+        serializedVersion: 2
+        x: 8014
+        y: 1
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0f636a211940be0800000000000000
+      internalID: -1511924065605586690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_126
+      rect:
+        serializedVersion: 2
+        x: 8037
+        y: 8
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdad0c7965ab513b0800000000000000
+      internalID: -5542318885333574949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_127
+      rect:
+        serializedVersion: 2
+        x: 8167
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb6a69acb7a488e0800000000000000
+      internalID: -1692043131246449685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_128
+      rect:
+        serializedVersion: 2
+        x: 8179
+        y: 0
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8d3b254d025520800000000000000
+      internalID: 2689226518222966091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_129
+      rect:
+        serializedVersion: 2
+        x: 8237
+        y: 0
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0977b7295bece20800000000000000
+      internalID: 3372832811688366262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_130
+      rect:
+        serializedVersion: 2
+        x: 8260
+        y: 20
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24c12edca10ac570800000000000000
+      internalID: 8487598289705878572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_131
+      rect:
+        serializedVersion: 2
+        x: 8289
+        y: 4
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fa65114d1f3a9c0800000000000000
+      internalID: -3917021357755945213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_132
+      rect:
+        serializedVersion: 2
+        x: 8468
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c97d066828a5f10800000000000000
+      internalID: 2259261676741696634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_133
+      rect:
+        serializedVersion: 2
+        x: 8585
+        y: 19
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7625761595a538500800000000000000
+      internalID: 397260531803050599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_134
+      rect:
+        serializedVersion: 2
+        x: 8598
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254af2ba1ae0217a0800000000000000
+      internalID: -6408043232270244782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_135
+      rect:
+        serializedVersion: 2
+        x: 8629
+        y: 0
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069516b5289802520800000000000000
+      internalID: 2675289371629934944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_136
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c04227e38bb1c30800000000000000
+      internalID: 4331258044989312042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_137
+      rect:
+        serializedVersion: 2
+        x: 8846
+        y: 30
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3228c729d9d8ca10800000000000000
+      internalID: 1930031967026815549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_138
+      rect:
+        serializedVersion: 2
+        x: 8876
+        y: 0
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598c551b0d3702bb0800000000000000
+      internalID: -4962839449196705643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_139
+      rect:
+        serializedVersion: 2
+        x: 8896
+        y: 0
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b45157703baf6b0800000000000000
+      internalID: -5261696370018530551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_140
+      rect:
+        serializedVersion: 2
+        x: 8899
+        y: 10
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69825c897518f1d10800000000000000
+      internalID: 2098538164603136150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_141
+      rect:
+        serializedVersion: 2
+        x: 8948
+        y: 4
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 928c35f73328e9ac0800000000000000
+      internalID: -3846493874036684759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_142
+      rect:
+        serializedVersion: 2
+        x: 8966
+        y: 13
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3029a9309bd951e60800000000000000
+      internalID: 7932419736637968899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_143
+      rect:
+        serializedVersion: 2
+        x: 9062
+        y: 24
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b187160a4277f240800000000000000
+      internalID: 4825451188006126008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_144
+      rect:
+        serializedVersion: 2
+        x: 9343
+        y: 0
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900719eff24f84460800000000000000
+      internalID: 7226294089087545353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_145
+      rect:
+        serializedVersion: 2
+        x: 9697
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa883cf23fb1f03d0800000000000000
+      internalID: -3238338875763750737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_146
+      rect:
+        serializedVersion: 2
+        x: 9807
+        y: 0
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111cd40573885a9b0800000000000000
+      internalID: -5069496034383773423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_147
+      rect:
+        serializedVersion: 2
+        x: 14633
+        y: 16
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec677b2c41ec75c20800000000000000
+      internalID: 3195249049204127438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_148
+      rect:
+        serializedVersion: 2
+        x: 14667
+        y: 20
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453b51df6a3bb4fa0800000000000000
+      internalID: -5815356964026862764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_149
+      rect:
+        serializedVersion: 2
+        x: 14670
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0446fa10bee79260800000000000000
+      internalID: 7104409377334248460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_150
+      rect:
+        serializedVersion: 2
+        x: 14685
+        y: 13
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564a21a3e701e5310800000000000000
+      internalID: 1395571068857656421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_151
+      rect:
+        serializedVersion: 2
+        x: 14696
+        y: 29
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edf3b81e13ddcb40800000000000000
+      internalID: 5462254049287208416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_152
+      rect:
+        serializedVersion: 2
+        x: 14789
+        y: 17
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b621b0536f4a28c20800000000000000
+      internalID: 3207307262000042603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_153
+      rect:
+        serializedVersion: 2
+        x: 14823
+        y: 13
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778e6d5710e443930800000000000000
+      internalID: 4122005327129798775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_154
+      rect:
+        serializedVersion: 2
+        x: 14828
+        y: 6
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 545aa60ad48c5aee0800000000000000
+      internalID: -1250373085796063931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_155
+      rect:
+        serializedVersion: 2
+        x: 14836
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb0061184b4e4e10800000000000000
+      internalID: 2183765642222504931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107_156
+      rect:
+        serializedVersion: 2
+        x: 14838
+        y: 12
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec8b3c1c848227e0800000000000000
+      internalID: -1791723964436083476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

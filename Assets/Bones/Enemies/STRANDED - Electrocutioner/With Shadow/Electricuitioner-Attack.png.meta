@@ -1,0 +1,2305 @@
+fileFormatVersion: 2
+guid: 6212ab42cb15d0848bdaeb32943b21fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4936150021167162913
+    second: Electricuitioner-Attack_0
+  - first:
+      213: -8377558089189559338
+    second: Electricuitioner-Attack_1
+  - first:
+      213: 1277687736038742171
+    second: Electricuitioner-Attack_2
+  - first:
+      213: 5826948494477370840
+    second: Electricuitioner-Attack_3
+  - first:
+      213: 1381835260567617974
+    second: Electricuitioner-Attack_4
+  - first:
+      213: 2471228133569860597
+    second: Electricuitioner-Attack_5
+  - first:
+      213: -3671758268573523192
+    second: Electricuitioner-Attack_6
+  - first:
+      213: -1654236604900690533
+    second: Electricuitioner-Attack_7
+  - first:
+      213: -4116621755747020434
+    second: Electricuitioner-Attack_8
+  - first:
+      213: 2279584134049527077
+    second: Electricuitioner-Attack_9
+  - first:
+      213: -7784775659409859687
+    second: Electricuitioner-Attack_10
+  - first:
+      213: -7221686736063524780
+    second: Electricuitioner-Attack_11
+  - first:
+      213: -3514472819844923578
+    second: Electricuitioner-Attack_12
+  - first:
+      213: 502069770434074796
+    second: Electricuitioner-Attack_13
+  - first:
+      213: -7983725472949725621
+    second: Electricuitioner-Attack_14
+  - first:
+      213: 2343622296293726614
+    second: Electricuitioner-Attack_15
+  - first:
+      213: -3185344677720115572
+    second: Electricuitioner-Attack_16
+  - first:
+      213: -6354986611004292965
+    second: Electricuitioner-Attack_17
+  - first:
+      213: -5327105413545490939
+    second: Electricuitioner-Attack_18
+  - first:
+      213: 7979157975954494532
+    second: Electricuitioner-Attack_19
+  - first:
+      213: 6358483293630685665
+    second: Electricuitioner-Attack_20
+  - first:
+      213: 6004904213098982735
+    second: Electricuitioner-Attack_21
+  - first:
+      213: -781803572885114741
+    second: Electricuitioner-Attack_22
+  - first:
+      213: -1818518627653649152
+    second: Electricuitioner-Attack_23
+  - first:
+      213: -1898896593431846835
+    second: Electricuitioner-Attack_24
+  - first:
+      213: 2572396744493563518
+    second: Electricuitioner-Attack_25
+  - first:
+      213: -8597297941662283333
+    second: Electricuitioner-Attack_26
+  - first:
+      213: -4213364188663472457
+    second: Electricuitioner-Attack_27
+  - first:
+      213: -9077505498178152443
+    second: Electricuitioner-Attack_28
+  - first:
+      213: 8007420653371469838
+    second: Electricuitioner-Attack_29
+  - first:
+      213: -4180354325061841158
+    second: Electricuitioner-Attack_30
+  - first:
+      213: 8143341434147423877
+    second: Electricuitioner-Attack_31
+  - first:
+      213: -5955815979213493462
+    second: Electricuitioner-Attack_32
+  - first:
+      213: 5124710622829786044
+    second: Electricuitioner-Attack_33
+  - first:
+      213: 7863490293772978868
+    second: Electricuitioner-Attack_34
+  - first:
+      213: -8918507594463351828
+    second: Electricuitioner-Attack_35
+  - first:
+      213: -2005545942740132302
+    second: Electricuitioner-Attack_36
+  - first:
+      213: -5444660083339555352
+    second: Electricuitioner-Attack_37
+  - first:
+      213: 2579646052960521253
+    second: Electricuitioner-Attack_38
+  - first:
+      213: -2804910096956407242
+    second: Electricuitioner-Attack_39
+  - first:
+      213: -6937528725318709184
+    second: Electricuitioner-Attack_40
+  - first:
+      213: 6415807354679050820
+    second: Electricuitioner-Attack_41
+  - first:
+      213: 3497214008835528478
+    second: Electricuitioner-Attack_42
+  - first:
+      213: -7627238281418966401
+    second: Electricuitioner-Attack_43
+  - first:
+      213: 7386188229194933589
+    second: Electricuitioner-Attack_44
+  - first:
+      213: 2301469828908515281
+    second: Electricuitioner-Attack_45
+  - first:
+      213: -8080045946621578783
+    second: Electricuitioner-Attack_46
+  - first:
+      213: -6196159362319333805
+    second: Electricuitioner-Attack_47
+  - first:
+      213: -3189103989687933159
+    second: Electricuitioner-Attack_48
+  - first:
+      213: -3434639121095107384
+    second: Electricuitioner-Attack_49
+  - first:
+      213: 7955496946289489323
+    second: Electricuitioner-Attack_50
+  - first:
+      213: 8470370971605048796
+    second: Electricuitioner-Attack_51
+  - first:
+      213: -6330974492922294017
+    second: Electricuitioner-Attack_52
+  - first:
+      213: -4139809343601392239
+    second: Electricuitioner-Attack_53
+  - first:
+      213: -8692795014147383666
+    second: Electricuitioner-Attack_54
+  - first:
+      213: 6198437356873634862
+    second: Electricuitioner-Attack_55
+  - first:
+      213: -2712032043486288210
+    second: Electricuitioner-Attack_56
+  - first:
+      213: 8742881732957540932
+    second: Electricuitioner-Attack_57
+  - first:
+      213: -5193252658408331568
+    second: Electricuitioner-Attack_58
+  - first:
+      213: -4720554280172892730
+    second: Electricuitioner-Attack_59
+  - first:
+      213: -1260410621781619154
+    second: Electricuitioner-Attack_60
+  - first:
+      213: -3490919006987571745
+    second: Electricuitioner-Attack_61
+  - first:
+      213: -6635927283204452237
+    second: Electricuitioner-Attack_62
+  - first:
+      213: -4722933955969510837
+    second: Electricuitioner-Attack_63
+  - first:
+      213: 5896815976057362471
+    second: Electricuitioner-Attack_64
+  - first:
+      213: -2581235867112076626
+    second: Electricuitioner-Attack_65
+  - first:
+      213: -5248510935247481494
+    second: Electricuitioner-Attack_66
+  - first:
+      213: 8513823750127296123
+    second: Electricuitioner-Attack_67
+  - first:
+      213: -1315114145652203155
+    second: Electricuitioner-Attack_68
+  - first:
+      213: 8426240560220853418
+    second: Electricuitioner-Attack_69
+  - first:
+      213: 6606848201647506026
+    second: Electricuitioner-Attack_70
+  - first:
+      213: 6577940663450317946
+    second: Electricuitioner-Attack_71
+  - first:
+      213: 2126867480630049392
+    second: Electricuitioner-Attack_72
+  - first:
+      213: -6619246230249527054
+    second: Electricuitioner-Attack_73
+  - first:
+      213: -1462288900556823912
+    second: Electricuitioner-Attack_74
+  - first:
+      213: -6657170876774318099
+    second: Electricuitioner-Attack_75
+  - first:
+      213: 6627005810730162996
+    second: Electricuitioner-Attack_76
+  - first:
+      213: -895849311144809049
+    second: Electricuitioner-Attack_77
+  - first:
+      213: 507187893614820394
+    second: Electricuitioner-Attack_78
+  - first:
+      213: -1888586547992385748
+    second: Electricuitioner-Attack_79
+  - first:
+      213: 404570100663636516
+    second: Electricuitioner-Attack_80
+  - first:
+      213: -9147459409887537369
+    second: Electricuitioner-Attack_81
+  - first:
+      213: -5684376189884391472
+    second: Electricuitioner-Attack_82
+  - first:
+      213: 7353639860980363238
+    second: Electricuitioner-Attack_83
+  - first:
+      213: -294213727799863693
+    second: Electricuitioner-Attack_84
+  - first:
+      213: -8410403627326482754
+    second: Electricuitioner-Attack_85
+  - first:
+      213: -2804230567082179384
+    second: Electricuitioner-Attack_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_0
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd95b4665b54f7bb0800000000000000
+      internalID: -4936150021167162913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_1
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 8
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3f7a8dd4fecbb80800000000000000
+      internalID: -8377558089189559338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_2
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 8
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b985678f9324bb110800000000000000
+      internalID: 1277687736038742171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_3
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 16
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d522d188ca7dd050800000000000000
+      internalID: 5826948494477370840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_4
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 17
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b10e3429d34d2310800000000000000
+      internalID: 1381835260567617974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_5
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f31264f4e09b4220800000000000000
+      internalID: 2471228133569860597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 21
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803629cfe4b4b0dc0800000000000000
+      internalID: -3671758268573523192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 22
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9532768298fa09e0800000000000000
+      internalID: -1654236604900690533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 24
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61dd0ee252ded6c0800000000000000
+      internalID: -4116621755747020434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 24
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52573a131b5b2af10800000000000000
+      internalID: 2279584134049527077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 24
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b94c488cbe6f390800000000000000
+      internalID: -7784775659409859687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45098c9fc2a67cb90800000000000000
+      internalID: -7221686736063524780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_12
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 24
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64fb06047951a3fc0800000000000000
+      internalID: -3514472819844923578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_13
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca85f2fcbc5b7f600800000000000000
+      internalID: 502069770434074796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_14
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4618906bfb143190800000000000000
+      internalID: -7983725472949725621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_15
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699d54abf08368020800000000000000
+      internalID: 2343622296293726614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_16
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c86bf4d64e16bc3d0800000000000000
+      internalID: -3185344677720115572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_17
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 25
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90c9b2f85d8ec7a0800000000000000
+      internalID: -6354986611004292965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_18
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 26
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5068f80c9d15216b0800000000000000
+      internalID: -5327105413545490939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_19
+      rect:
+        serializedVersion: 2
+        x: 2888
+        y: 27
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4441e7b57e9abbe60800000000000000
+      internalID: 7979157975954494532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_20
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 24
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ec1beddedd3850800000000000000
+      internalID: 6358483293630685665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_21
+      rect:
+        serializedVersion: 2
+        x: 2924
+        y: 0
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4de2040194b55350800000000000000
+      internalID: 6004904213098982735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 117
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b803d0aeac97625f0800000000000000
+      internalID: -781803572885114741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_23
+      rect:
+        serializedVersion: 2
+        x: 3147
+        y: 1
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00df54d61f253c6e0800000000000000
+      internalID: -1818518627653649152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_24
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40ab4beb93c5a5e0800000000000000
+      internalID: -1898896593431846835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_25
+      rect:
+        serializedVersion: 2
+        x: 3186
+        y: 0
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ef8e0c53df2b320800000000000000
+      internalID: 2572396744493563518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_26
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 0
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9c50f821340b880800000000000000
+      internalID: -8597297941662283333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_27
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 8
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9c51089f1785c0800000000000000
+      internalID: -4213364188663472457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_28
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 20
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5089f6618d8360280800000000000000
+      internalID: -9077505498178152443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_29
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00355bb8a2102f60800000000000000
+      internalID: 8007420653371469838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_30
+      rect:
+        serializedVersion: 2
+        x: 3626
+        y: 0
+        width: 102
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afecb6bc3e56cf5c0800000000000000
+      internalID: -4180354325061841158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_31
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 32
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586c31b93e5f20170800000000000000
+      internalID: 8143341434147423877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_32
+      rect:
+        serializedVersion: 2
+        x: 3718
+        y: 19
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b62631ce0b85da0800000000000000
+      internalID: -5955815979213493462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_33
+      rect:
+        serializedVersion: 2
+        x: 3762
+        y: 0
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb3b07ad821ae1740800000000000000
+      internalID: 5124710622829786044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_34
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 7
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba021772cab02d60800000000000000
+      internalID: 7863490293772978868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_35
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 0
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb636958981b3480800000000000000
+      internalID: -8918507594463351828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_36
+      rect:
+        serializedVersion: 2
+        x: 3922
+        y: 0
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e9f36479eda24e0800000000000000
+      internalID: -2005545942740132302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_37
+      rect:
+        serializedVersion: 2
+        x: 3978
+        y: 8
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed0cc1508ea074b0800000000000000
+      internalID: -5444660083339555352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_38
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 30
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c43f8ea6ebcc320800000000000000
+      internalID: 2579646052960521253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_39
+      rect:
+        serializedVersion: 2
+        x: 4029
+        y: 0
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 632c10cb025f219d0800000000000000
+      internalID: -2804910096956407242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_40
+      rect:
+        serializedVersion: 2
+        x: 4099
+        y: 13
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0405f448162f8bf90800000000000000
+      internalID: -6937528725318709184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_41
+      rect:
+        serializedVersion: 2
+        x: 4118
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442cbf2fbc6890950800000000000000
+      internalID: 6415807354679050820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_42
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 0
+        width: 97
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17592cac99988030800000000000000
+      internalID: 3497214008835528478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_43
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 24
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7af2c2a13b962690800000000000000
+      internalID: -7627238281418966401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_44
+      rect:
+        serializedVersion: 2
+        x: 4237
+        y: 0
+        width: 135
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555e55d8f03018660800000000000000
+      internalID: 7386188229194933589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_45
+      rect:
+        serializedVersion: 2
+        x: 4411
+        y: 0
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dffe5d9d9670ff10800000000000000
+      internalID: 2301469828908515281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_46
+      rect:
+        serializedVersion: 2
+        x: 4476
+        y: 0
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e139ce7509eddf80800000000000000
+      internalID: -8080045946621578783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_47
+      rect:
+        serializedVersion: 2
+        x: 4568
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356ce3d73e1d20aa0800000000000000
+      internalID: -6196159362319333805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_48
+      rect:
+        serializedVersion: 2
+        x: 4724
+        y: 0
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917aed661d60eb3d0800000000000000
+      internalID: -3189103989687933159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_49
+      rect:
+        serializedVersion: 2
+        x: 4882
+        y: 0
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc5777bae5b550d0800000000000000
+      internalID: -3434639121095107384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_50
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 0
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba53a47925a976e60800000000000000
+      internalID: 7955496946289489323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_51
+      rect:
+        serializedVersion: 2
+        x: 5076
+        y: 2
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd9c4e458dcc8570800000000000000
+      internalID: 8470370971605048796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_52
+      rect:
+        serializedVersion: 2
+        x: 5233
+        y: 8
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0de4bdd3cd328a0800000000000000
+      internalID: -6330974492922294017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_53
+      rect:
+        serializedVersion: 2
+        x: 5389
+        y: 8
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195cbcce5517c86c0800000000000000
+      internalID: -4139809343601392239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_54
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 8
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e5574bdfcfc5780800000000000000
+      internalID: -8692795014147383666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_55
+      rect:
+        serializedVersion: 2
+        x: 5714
+        y: 8
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24d6f27fe5450650800000000000000
+      internalID: 6198437356873634862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_56
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 8
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6e584b93dec5ad0800000000000000
+      internalID: -2712032043486288210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_57
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 8
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4429f264d94f45970800000000000000
+      internalID: 8742881732957540932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_58
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6e7b2e83cdde7b0800000000000000
+      internalID: -5193252658408331568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_59
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd485b84e83d7eb0800000000000000
+      internalID: -4720554280172892730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_60
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ec399a73f128ee0800000000000000
+      internalID: -1260410621781619154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_61
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdda8d8a8a3cd8fc0800000000000000
+      internalID: -3490919006987571745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_62
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37096496b4378e3a0800000000000000
+      internalID: -6635927283204452237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_63
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b429ec81794c47eb0800000000000000
+      internalID: -4722933955969510837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_64
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7285fb633e2b5d150800000000000000
+      internalID: 5896815976057362471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_65
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa8943a7ab9d2cd0800000000000000
+      internalID: -2581235867112076626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_66
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6512d8bc1b8927b0800000000000000
+      internalID: -5248510935247481494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_67
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e1f92b79d272670800000000000000
+      internalID: 8513823750127296123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_68
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d612f4df6a6cfbde0800000000000000
+      internalID: -1315114145652203155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_69
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d3f7352500f470800000000000000
+      internalID: 8426240560220853418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_70
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62c0205f6d30bb50800000000000000
+      internalID: 6606848201647506026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_71
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74bd869e2a894b50800000000000000
+      internalID: 6577940663450317946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_72
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ab84b74b6248d10800000000000000
+      internalID: 2126867480630049392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_73
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f82225bf96b324a0800000000000000
+      internalID: -6619246230249527054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_74
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89260531ef7e4bbe0800000000000000
+      internalID: -1462288900556823912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_75
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 8
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def7ac8db5afc93a0800000000000000
+      internalID: -6657170876774318099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_76
+      rect:
+        serializedVersion: 2
+        x: 3370
+        y: 0
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b55096caad7fb50800000000000000
+      internalID: 6627005810730162996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_77
+      rect:
+        serializedVersion: 2
+        x: 3422
+        y: 4
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad6fe44ccd4193f0800000000000000
+      internalID: -895849311144809049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_78
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c3a49b3b4e90700800000000000000
+      internalID: 507187893614820394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_79
+      rect:
+        serializedVersion: 2
+        x: 3886
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27255f6a846ac5e0800000000000000
+      internalID: -1888586547992385748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_80
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 10
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422dcc0fc525d9500800000000000000
+      internalID: 404570100663636516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_81
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 4
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727595cc122bd0180800000000000000
+      internalID: -9147459409887537369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_82
+      rect:
+        serializedVersion: 2
+        x: 4830
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df9040f8f90d11b0800000000000000
+      internalID: -5684376189884391472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_83
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 0
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef23e70e706d0660800000000000000
+      internalID: 7353639860980363238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_84
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37612726c2ebaebf0800000000000000
+      internalID: -294213727799863693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_85
+      rect:
+        serializedVersion: 2
+        x: 3601
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb65c8f067e384b80800000000000000
+      internalID: -8410403627326482754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner-Attack_86
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 0
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c446cc182f5519d0800000000000000
+      internalID: -2804230567082179384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

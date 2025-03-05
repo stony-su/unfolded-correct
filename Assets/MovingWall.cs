@@ -22,6 +22,10 @@ public class DirectionalMovingSquare : MonoBehaviour
     private Vector2 moveDirection;
     public bool isMoving;
 
+    [Header("Detection Control")]
+    public bool canDetectPlayer = true;
+    
+
     private void Awake()
     {
         polygonCollider = GetComponent<PolygonCollider2D>();
@@ -43,12 +47,14 @@ public class DirectionalMovingSquare : MonoBehaviour
 
     public void ResetMovement()
     {
-        isMoving = false;
+        isMoving = false;   
         rb.linearVelocity = Vector2.zero;
     }
 
     private void CheckForPlayer()
     {
+        if (!canDetectPlayer) return;
+
         Vector2 size = polygonCollider.bounds.size;
         float width = size.x;
         float height = size.y;
@@ -90,7 +96,7 @@ public class DirectionalMovingSquare : MonoBehaviour
         {
             moveDirection = Vector2.right;
             isMoving = true;
-        }
+        }   
     }
 
     private bool CheckDetectionBox(Vector2 center, Vector2 size)

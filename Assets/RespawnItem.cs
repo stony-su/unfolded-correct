@@ -29,8 +29,12 @@ public class RespawnableItem : MonoBehaviour
         if (rb != null)
             rb.linearVelocity = Vector2.zero;
 
-        if (movingSquare != null)
+         if (movingSquare != null)
+        {
             movingSquare.ResetMovement();
+            movingSquare.canDetectPlayer = true; // Add this line
+        }
+
 
         if (platformController != null) // Reset platform
             platformController.ResetPlatform();

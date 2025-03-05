@@ -1,0 +1,4455 @@
+fileFormatVersion: 2
+guid: a425a11939c8c8841802d63e770392b9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5840955906104489051
+    second: Electricuitioner 157x107 with shadow_0
+  - first:
+      213: 2559674881966355485
+    second: Electricuitioner 157x107 with shadow_1
+  - first:
+      213: -2226850640542334667
+    second: Electricuitioner 157x107 with shadow_2
+  - first:
+      213: 924550014461742749
+    second: Electricuitioner 157x107 with shadow_3
+  - first:
+      213: -5434492477671749008
+    second: Electricuitioner 157x107 with shadow_4
+  - first:
+      213: -1901407710686239566
+    second: Electricuitioner 157x107 with shadow_5
+  - first:
+      213: -2368987011539304114
+    second: Electricuitioner 157x107 with shadow_6
+  - first:
+      213: -1969909975586190523
+    second: Electricuitioner 157x107 with shadow_7
+  - first:
+      213: -8888167660884563462
+    second: Electricuitioner 157x107 with shadow_8
+  - first:
+      213: -8791756661345566631
+    second: Electricuitioner 157x107 with shadow_9
+  - first:
+      213: 8813738274227508630
+    second: Electricuitioner 157x107 with shadow_10
+  - first:
+      213: 3470715111393585922
+    second: Electricuitioner 157x107 with shadow_11
+  - first:
+      213: -8885579636999949343
+    second: Electricuitioner 157x107 with shadow_12
+  - first:
+      213: 6213618180261465125
+    second: Electricuitioner 157x107 with shadow_13
+  - first:
+      213: 130751418355088704
+    second: Electricuitioner 157x107 with shadow_14
+  - first:
+      213: 7308861591485174609
+    second: Electricuitioner 157x107 with shadow_15
+  - first:
+      213: 3586300712569935501
+    second: Electricuitioner 157x107 with shadow_16
+  - first:
+      213: 5722019653246174006
+    second: Electricuitioner 157x107 with shadow_17
+  - first:
+      213: -3458615880142811047
+    second: Electricuitioner 157x107 with shadow_18
+  - first:
+      213: -421555179535677281
+    second: Electricuitioner 157x107 with shadow_19
+  - first:
+      213: 4610976708269254627
+    second: Electricuitioner 157x107 with shadow_20
+  - first:
+      213: 5856583455883907974
+    second: Electricuitioner 157x107 with shadow_21
+  - first:
+      213: -1794419587068287688
+    second: Electricuitioner 157x107 with shadow_22
+  - first:
+      213: 3589395123011817342
+    second: Electricuitioner 157x107 with shadow_23
+  - first:
+      213: 8017331336416157503
+    second: Electricuitioner 157x107 with shadow_24
+  - first:
+      213: -1564486543514090326
+    second: Electricuitioner 157x107 with shadow_25
+  - first:
+      213: 4106446458026349478
+    second: Electricuitioner 157x107 with shadow_26
+  - first:
+      213: -4161992824291388592
+    second: Electricuitioner 157x107 with shadow_27
+  - first:
+      213: -8457323049656847096
+    second: Electricuitioner 157x107 with shadow_28
+  - first:
+      213: 5909184487312001746
+    second: Electricuitioner 157x107 with shadow_29
+  - first:
+      213: 8754337519193074399
+    second: Electricuitioner 157x107 with shadow_30
+  - first:
+      213: 7168283321711360469
+    second: Electricuitioner 157x107 with shadow_31
+  - first:
+      213: 1331407232349413563
+    second: Electricuitioner 157x107 with shadow_32
+  - first:
+      213: -7849471929416566248
+    second: Electricuitioner 157x107 with shadow_33
+  - first:
+      213: -8278873555409730815
+    second: Electricuitioner 157x107 with shadow_34
+  - first:
+      213: 9209070959838789116
+    second: Electricuitioner 157x107 with shadow_35
+  - first:
+      213: -2591070484162703941
+    second: Electricuitioner 157x107 with shadow_36
+  - first:
+      213: -4829557529356337781
+    second: Electricuitioner 157x107 with shadow_37
+  - first:
+      213: 616603566044214731
+    second: Electricuitioner 157x107 with shadow_38
+  - first:
+      213: -8640481337173669594
+    second: Electricuitioner 157x107 with shadow_39
+  - first:
+      213: 1910652804270220633
+    second: Electricuitioner 157x107 with shadow_40
+  - first:
+      213: -815564418867182053
+    second: Electricuitioner 157x107 with shadow_41
+  - first:
+      213: 2780481334421146113
+    second: Electricuitioner 157x107 with shadow_42
+  - first:
+      213: -8542288094039057836
+    second: Electricuitioner 157x107 with shadow_43
+  - first:
+      213: 3426098223970477049
+    second: Electricuitioner 157x107 with shadow_44
+  - first:
+      213: 8968923876757631068
+    second: Electricuitioner 157x107 with shadow_45
+  - first:
+      213: -1361694476860901876
+    second: Electricuitioner 157x107 with shadow_46
+  - first:
+      213: -5991772072256093751
+    second: Electricuitioner 157x107 with shadow_47
+  - first:
+      213: -6033788834298201957
+    second: Electricuitioner 157x107 with shadow_48
+  - first:
+      213: 8088377032691395312
+    second: Electricuitioner 157x107 with shadow_49
+  - first:
+      213: -3565569506902965297
+    second: Electricuitioner 157x107 with shadow_50
+  - first:
+      213: -6432506638864162430
+    second: Electricuitioner 157x107 with shadow_51
+  - first:
+      213: -2246101008782603670
+    second: Electricuitioner 157x107 with shadow_52
+  - first:
+      213: -8958656000586149534
+    second: Electricuitioner 157x107 with shadow_53
+  - first:
+      213: -838305606803585754
+    second: Electricuitioner 157x107 with shadow_54
+  - first:
+      213: -656716754031298988
+    second: Electricuitioner 157x107 with shadow_55
+  - first:
+      213: 6021446437043761360
+    second: Electricuitioner 157x107 with shadow_56
+  - first:
+      213: 5145921427685561486
+    second: Electricuitioner 157x107 with shadow_57
+  - first:
+      213: 571737010513023678
+    second: Electricuitioner 157x107 with shadow_58
+  - first:
+      213: -5959895320673539942
+    second: Electricuitioner 157x107 with shadow_59
+  - first:
+      213: -813423042424445428
+    second: Electricuitioner 157x107 with shadow_60
+  - first:
+      213: 3453081791517416414
+    second: Electricuitioner 157x107 with shadow_61
+  - first:
+      213: 1643814256038085454
+    second: Electricuitioner 157x107 with shadow_62
+  - first:
+      213: -2664727943840630065
+    second: Electricuitioner 157x107 with shadow_63
+  - first:
+      213: 7097658463570073952
+    second: Electricuitioner 157x107 with shadow_64
+  - first:
+      213: -5211881245657605236
+    second: Electricuitioner 157x107 with shadow_65
+  - first:
+      213: -6797731788395460534
+    second: Electricuitioner 157x107 with shadow_66
+  - first:
+      213: -7711977103989925663
+    second: Electricuitioner 157x107 with shadow_67
+  - first:
+      213: -7932574466871039837
+    second: Electricuitioner 157x107 with shadow_68
+  - first:
+      213: -8150951511515214933
+    second: Electricuitioner 157x107 with shadow_69
+  - first:
+      213: -8101768567333656619
+    second: Electricuitioner 157x107 with shadow_70
+  - first:
+      213: 4559312892614181998
+    second: Electricuitioner 157x107 with shadow_71
+  - first:
+      213: 561320797011425888
+    second: Electricuitioner 157x107 with shadow_72
+  - first:
+      213: 9131970510517303296
+    second: Electricuitioner 157x107 with shadow_73
+  - first:
+      213: 439962067840333182
+    second: Electricuitioner 157x107 with shadow_74
+  - first:
+      213: 1786557512914754650
+    second: Electricuitioner 157x107 with shadow_75
+  - first:
+      213: -4865103217705524749
+    second: Electricuitioner 157x107 with shadow_76
+  - first:
+      213: -4528388071463100392
+    second: Electricuitioner 157x107 with shadow_77
+  - first:
+      213: 5749872904017302942
+    second: Electricuitioner 157x107 with shadow_78
+  - first:
+      213: -4790737393077300248
+    second: Electricuitioner 157x107 with shadow_79
+  - first:
+      213: -2205785123182233913
+    second: Electricuitioner 157x107 with shadow_80
+  - first:
+      213: 1692405847890258013
+    second: Electricuitioner 157x107 with shadow_81
+  - first:
+      213: 6514451976696377231
+    second: Electricuitioner 157x107 with shadow_82
+  - first:
+      213: -7760077124579333168
+    second: Electricuitioner 157x107 with shadow_83
+  - first:
+      213: 2984619774608366164
+    second: Electricuitioner 157x107 with shadow_84
+  - first:
+      213: 8019855916818414989
+    second: Electricuitioner 157x107 with shadow_85
+  - first:
+      213: 2864650681619765922
+    second: Electricuitioner 157x107 with shadow_86
+  - first:
+      213: -3752376151055442342
+    second: Electricuitioner 157x107 with shadow_87
+  - first:
+      213: 6239913760679447253
+    second: Electricuitioner 157x107 with shadow_88
+  - first:
+      213: -379877637636029759
+    second: Electricuitioner 157x107 with shadow_89
+  - first:
+      213: 2173054733555717240
+    second: Electricuitioner 157x107 with shadow_90
+  - first:
+      213: -1662960249935470118
+    second: Electricuitioner 157x107 with shadow_91
+  - first:
+      213: 2672696515748121800
+    second: Electricuitioner 157x107 with shadow_92
+  - first:
+      213: 1383274205890181861
+    second: Electricuitioner 157x107 with shadow_93
+  - first:
+      213: -6293527390080698451
+    second: Electricuitioner 157x107 with shadow_94
+  - first:
+      213: 1800504489211071866
+    second: Electricuitioner 157x107 with shadow_95
+  - first:
+      213: -7298454837347282336
+    second: Electricuitioner 157x107 with shadow_96
+  - first:
+      213: -539630419914959352
+    second: Electricuitioner 157x107 with shadow_97
+  - first:
+      213: -5341211918760941021
+    second: Electricuitioner 157x107 with shadow_98
+  - first:
+      213: 5815725665653678741
+    second: Electricuitioner 157x107 with shadow_99
+  - first:
+      213: -78971941626998523
+    second: Electricuitioner 157x107 with shadow_100
+  - first:
+      213: 1317792505169585068
+    second: Electricuitioner 157x107 with shadow_101
+  - first:
+      213: 3570661597020930530
+    second: Electricuitioner 157x107 with shadow_102
+  - first:
+      213: -4932769933526645443
+    second: Electricuitioner 157x107 with shadow_103
+  - first:
+      213: -2307416656565539062
+    second: Electricuitioner 157x107 with shadow_104
+  - first:
+      213: -7736730374652632402
+    second: Electricuitioner 157x107 with shadow_105
+  - first:
+      213: -8056573397975580774
+    second: Electricuitioner 157x107 with shadow_106
+  - first:
+      213: 337781278529388445
+    second: Electricuitioner 157x107 with shadow_107
+  - first:
+      213: -8746049646684387587
+    second: Electricuitioner 157x107 with shadow_108
+  - first:
+      213: 6553465963918070478
+    second: Electricuitioner 157x107 with shadow_109
+  - first:
+      213: 8396300149125062289
+    second: Electricuitioner 157x107 with shadow_110
+  - first:
+      213: 5919983965769641662
+    second: Electricuitioner 157x107 with shadow_111
+  - first:
+      213: 3809867567762376514
+    second: Electricuitioner 157x107 with shadow_112
+  - first:
+      213: -2316971773831989143
+    second: Electricuitioner 157x107 with shadow_113
+  - first:
+      213: -3224037099567098798
+    second: Electricuitioner 157x107 with shadow_114
+  - first:
+      213: 3796144709048718506
+    second: Electricuitioner 157x107 with shadow_115
+  - first:
+      213: 3036456156155147662
+    second: Electricuitioner 157x107 with shadow_116
+  - first:
+      213: -6470624963784650575
+    second: Electricuitioner 157x107 with shadow_117
+  - first:
+      213: 1560570581933631213
+    second: Electricuitioner 157x107 with shadow_118
+  - first:
+      213: -7292514352995558693
+    second: Electricuitioner 157x107 with shadow_119
+  - first:
+      213: 7672085690894974017
+    second: Electricuitioner 157x107 with shadow_120
+  - first:
+      213: 2239672515865528087
+    second: Electricuitioner 157x107 with shadow_121
+  - first:
+      213: 9123501549919937923
+    second: Electricuitioner 157x107 with shadow_122
+  - first:
+      213: -2009463831514581413
+    second: Electricuitioner 157x107 with shadow_123
+  - first:
+      213: -6510836346021431769
+    second: Electricuitioner 157x107 with shadow_124
+  - first:
+      213: 725148003440282567
+    second: Electricuitioner 157x107 with shadow_125
+  - first:
+      213: 4008645168769832626
+    second: Electricuitioner 157x107 with shadow_126
+  - first:
+      213: 1873489941142563474
+    second: Electricuitioner 157x107 with shadow_127
+  - first:
+      213: 1245755804104029276
+    second: Electricuitioner 157x107 with shadow_128
+  - first:
+      213: -3336260920154935823
+    second: Electricuitioner 157x107 with shadow_129
+  - first:
+      213: 3548333018529891700
+    second: Electricuitioner 157x107 with shadow_130
+  - first:
+      213: -5439973792044636073
+    second: Electricuitioner 157x107 with shadow_131
+  - first:
+      213: 5231393135280628579
+    second: Electricuitioner 157x107 with shadow_132
+  - first:
+      213: -7522261202573261339
+    second: Electricuitioner 157x107 with shadow_133
+  - first:
+      213: 3545306843530267649
+    second: Electricuitioner 157x107 with shadow_134
+  - first:
+      213: -295253986544426569
+    second: Electricuitioner 157x107 with shadow_135
+  - first:
+      213: 9124737347632246415
+    second: Electricuitioner 157x107 with shadow_136
+  - first:
+      213: -8158077583325928187
+    second: Electricuitioner 157x107 with shadow_137
+  - first:
+      213: 6078756126133562505
+    second: Electricuitioner 157x107 with shadow_138
+  - first:
+      213: 182831434351336927
+    second: Electricuitioner 157x107 with shadow_139
+  - first:
+      213: -3061921220449473803
+    second: Electricuitioner 157x107 with shadow_140
+  - first:
+      213: 6666476978449714643
+    second: Electricuitioner 157x107 with shadow_141
+  - first:
+      213: -2785860918908981800
+    second: Electricuitioner 157x107 with shadow_142
+  - first:
+      213: 4870227841872257742
+    second: Electricuitioner 157x107 with shadow_143
+  - first:
+      213: -5369374104190258589
+    second: Electricuitioner 157x107 with shadow_144
+  - first:
+      213: -8021172085192389132
+    second: Electricuitioner 157x107 with shadow_145
+  - first:
+      213: 2142076744615795073
+    second: Electricuitioner 157x107 with shadow_146
+  - first:
+      213: 918383499902413155
+    second: Electricuitioner 157x107 with shadow_147
+  - first:
+      213: 6382437690994031471
+    second: Electricuitioner 157x107 with shadow_148
+  - first:
+      213: 7631849863927016285
+    second: Electricuitioner 157x107 with shadow_149
+  - first:
+      213: -9045108748039351710
+    second: Electricuitioner 157x107 with shadow_150
+  - first:
+      213: 4622378455348013460
+    second: Electricuitioner 157x107 with shadow_151
+  - first:
+      213: -3191037058497735001
+    second: Electricuitioner 157x107 with shadow_152
+  - first:
+      213: -8304035615130170218
+    second: Electricuitioner 157x107 with shadow_153
+  - first:
+      213: 1090428013833741729
+    second: Electricuitioner 157x107 with shadow_154
+  - first:
+      213: 8721771189813856765
+    second: Electricuitioner 157x107 with shadow_155
+  - first:
+      213: 5772401232297354774
+    second: Electricuitioner 157x107 with shadow_156
+  - first:
+      213: 3124958538498796185
+    second: Electricuitioner 157x107 with shadow_157
+  - first:
+      213: 234515777464264796
+    second: Electricuitioner 157x107 with shadow_158
+  - first:
+      213: 9043456833078608811
+    second: Electricuitioner 157x107 with shadow_159
+  - first:
+      213: -5819586819771880441
+    second: Electricuitioner 157x107 with shadow_160
+  - first:
+      213: 4451681685928878863
+    second: Electricuitioner 157x107 with shadow_161
+  - first:
+      213: 8566929238785669289
+    second: Electricuitioner 157x107 with shadow_162
+  - first:
+      213: -3819889290423957152
+    second: Electricuitioner 157x107 with shadow_163
+  - first:
+      213: 1952860115309453814
+    second: Electricuitioner 157x107 with shadow_164
+  - first:
+      213: -6675040895218477014
+    second: Electricuitioner 157x107 with shadow_165
+  - first:
+      213: 6565926067424034118
+    second: Electricuitioner 157x107 with shadow_166
+  - first:
+      213: 9104768505310999612
+    second: Electricuitioner 157x107 with shadow_167
+  - first:
+      213: -8039556338766798790
+    second: Electricuitioner 157x107 with shadow_168
+  - first:
+      213: 1008526302270765301
+    second: Electricuitioner 157x107 with shadow_169
+  - first:
+      213: 3084309042697224589
+    second: Electricuitioner 157x107 with shadow_170
+  - first:
+      213: -4915214810728326639
+    second: Electricuitioner 157x107 with shadow_171
+  - first:
+      213: 1007675431106034207
+    second: Electricuitioner 157x107 with shadow_172
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_0
+      rect:
+        serializedVersion: 2
+        x: 12147
+        y: 8
+        width: 27
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab0ce3dc81c0fea0800000000000000
+      internalID: -5840955906104489051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_1
+      rect:
+        serializedVersion: 2
+        x: 12313
+        y: 59
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1438105ebac58320800000000000000
+      internalID: 2559674881966355485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_2
+      rect:
+        serializedVersion: 2
+        x: 12314
+        y: 69
+        width: 7
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5318f9a0423a811e0800000000000000
+      internalID: -2226850640542334667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_3
+      rect:
+        serializedVersion: 2
+        x: 12470
+        y: 62
+        width: 15
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9e0315f659a4dc00800000000000000
+      internalID: 924550014461742749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_4
+      rect:
+        serializedVersion: 2
+        x: 12620
+        y: 60
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ac7dd72edc494b0800000000000000
+      internalID: -5434492477671749008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_5
+      rect:
+        serializedVersion: 2
+        x: 12770
+        y: 8
+        width: 32
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4ab5fd2c7dc95e0800000000000000
+      internalID: -1901407710686239566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_6
+      rect:
+        serializedVersion: 2
+        x: 12930
+        y: 8
+        width: 29
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e418fab4ddaaf1fd0800000000000000
+      internalID: -2368987011539304114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_7
+      rect:
+        serializedVersion: 2
+        x: 13093
+        y: 8
+        width: 23
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bcfa1705979a4e0800000000000000
+      internalID: -1969909975586190523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_8
+      rect:
+        serializedVersion: 2
+        x: 13248
+        y: 8
+        width: 25
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af96cdc9a92e6a480800000000000000
+      internalID: -8888167660884563462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_9
+      rect:
+        serializedVersion: 2
+        x: 13407
+        y: 8
+        width: 23
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950c2d0b5e76df580800000000000000
+      internalID: -8791756661345566631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_10
+      rect:
+        serializedVersion: 2
+        x: 5714
+        y: 21
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69558926340b05a70800000000000000
+      internalID: 8813738274227508630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_11
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 24
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20be13351057a2030800000000000000
+      internalID: 3470715111393585922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_12
+      rect:
+        serializedVersion: 2
+        x: 6185
+        y: 24
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e37c21e56410b480800000000000000
+      internalID: -8885579636999949343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_13
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 24
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cc46450d43b3650800000000000000
+      internalID: 6213618180261465125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_14
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 24
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04dfee4e8b580d100800000000000000
+      internalID: 130751418355088704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_15
+      rect:
+        serializedVersion: 2
+        x: 7598
+        y: 26
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15358f8b4ea4e6560800000000000000
+      internalID: 7308861591485174609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_16
+      rect:
+        serializedVersion: 2
+        x: 7755
+        y: 27
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86167e3f7915c130800000000000000
+      internalID: 3586300712569935501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_17
+      rect:
+        serializedVersion: 2
+        x: 11829
+        y: 54
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633ca8dde82b86f40800000000000000
+      internalID: 5722019653246174006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_18
+      rect:
+        serializedVersion: 2
+        x: 11831
+        y: 8
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95010997e278000d0800000000000000
+      internalID: -3458615880142811047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_19
+      rect:
+        serializedVersion: 2
+        x: 11985
+        y: 8
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98cc863cc5562af0800000000000000
+      internalID: -421555179535677281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_20
+      rect:
+        serializedVersion: 2
+        x: 12302
+        y: 50
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e72dfbd2ea7dff30800000000000000
+      internalID: 4610976708269254627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_21
+      rect:
+        serializedVersion: 2
+        x: 12463
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d365af93c64150800000000000000
+      internalID: 5856583455883907974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_22
+      rect:
+        serializedVersion: 2
+        x: 14478
+        y: 5
+        width: 80
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835aace84e0f817e0800000000000000
+      internalID: -1794419587068287688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_23
+      rect:
+        serializedVersion: 2
+        x: 14660
+        y: 37
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f83a1d8d710d130800000000000000
+      internalID: 3589395123011817342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_24
+      rect:
+        serializedVersion: 2
+        x: 14815
+        y: 30
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f51b17f58434f60800000000000000
+      internalID: 8017331336416157503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_25
+      rect:
+        serializedVersion: 2
+        x: 14946
+        y: 5
+        width: 89
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4c6f517c3d94ae0800000000000000
+      internalID: -1564486543514090326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_26
+      rect:
+        serializedVersion: 2
+        x: 15138
+        y: 4
+        width: 55
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a352d3fb470df830800000000000000
+      internalID: 4106446458026349478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_27
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0531366d391ad36c0800000000000000
+      internalID: -4161992824291388592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_28
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805fa72ce7d81aa80800000000000000
+      internalID: -8457323049656847096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_29
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da0b76abf3a10250800000000000000
+      internalID: 5909184487312001746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_30
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 8
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaa06b5797ad7970800000000000000
+      internalID: 8754337519193074399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_31
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d976ffa3bbda7360800000000000000
+      internalID: 7168283321711360469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_32
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0a29fd2db1a7210800000000000000
+      internalID: 1331407232349413563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_33
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ab9b45ed2111390800000000000000
+      internalID: -7849471929416566248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_34
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1038d6d5d588b1d80800000000000000
+      internalID: -8278873555409730815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_35
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 8
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd7e880f313dcf70800000000000000
+      internalID: 9209070959838789116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_36
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 8
+        width: 23
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd8b7b6f1baa0cd0800000000000000
+      internalID: -2591070484162703941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_37
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 8
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8df660e307f9fcb0800000000000000
+      internalID: -4829557529356337781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_38
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 8
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5fd492dad9e8800800000000000000
+      internalID: 616603566044214731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_39
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6290f59c008d61880800000000000000
+      internalID: -8640481337173669594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_40
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95561a73a90048a10800000000000000
+      internalID: 1910652804270220633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_41
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1649f96b788ea4f0800000000000000
+      internalID: -815564418867182053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_42
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 8
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ac6c2ca01469620800000000000000
+      internalID: 2780481334421146113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_43
+      rect:
+        serializedVersion: 2
+        x: 2729
+        y: 8
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45ad0c9cc32b37980800000000000000
+      internalID: -8542288094039057836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_44
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f36b55be22fb8f20800000000000000
+      internalID: 3426098223970477049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_45
+      rect:
+        serializedVersion: 2
+        x: 2886
+        y: 8
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5078ab1fb4087c70800000000000000
+      internalID: 8968923876757631068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_46
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 8
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06381e761a4a1de0800000000000000
+      internalID: -1361694476860901876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_47
+      rect:
+        serializedVersion: 2
+        x: 4299
+        y: 8
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1c11acb03f8dca0800000000000000
+      internalID: -5991772072256093751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_48
+      rect:
+        serializedVersion: 2
+        x: 4304
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98ffe9060da34ca0800000000000000
+      internalID: -6033788834298201957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_49
+      rect:
+        serializedVersion: 2
+        x: 4456
+        y: 8
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0faaff2ae00bf3070800000000000000
+      internalID: 8088377032691395312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_50
+      rect:
+        serializedVersion: 2
+        x: 4615
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc38517bc6d848ec0800000000000000
+      internalID: -3565569506902965297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_51
+      rect:
+        serializedVersion: 2
+        x: 4772
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281e827fa452bb6a0800000000000000
+      internalID: -6432506638864162430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_52
+      rect:
+        serializedVersion: 2
+        x: 4929
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6acdd9680f34d0e0800000000000000
+      internalID: -2246101008782603670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_53
+      rect:
+        serializedVersion: 2
+        x: 5086
+        y: 8
+        width: 23
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261142c15d57ca380800000000000000
+      internalID: -8958656000586149534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_54
+      rect:
+        serializedVersion: 2
+        x: 5242
+        y: 8
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625014dfd7dbd54f0800000000000000
+      internalID: -838305606803585754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_55
+      rect:
+        serializedVersion: 2
+        x: 5399
+        y: 16
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456bae5779fd2e6f0800000000000000
+      internalID: -656716754031298988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_56
+      rect:
+        serializedVersion: 2
+        x: 5556
+        y: 17
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0f80aa1a9709350800000000000000
+      internalID: 6021446437043761360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_57
+      rect:
+        serializedVersion: 2
+        x: 5559
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84d443364cf96740800000000000000
+      internalID: 5145921427685561486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_58
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 22
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2929828c73fe700800000000000000
+      internalID: 571737010513023678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_59
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98adb068c23a4da0800000000000000
+      internalID: -5959895320673539942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_60
+      rect:
+        serializedVersion: 2
+        x: 6813
+        y: 24
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c066c287d0426b4f0800000000000000
+      internalID: -813423042424445428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_61
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbd3cb189fcbef20800000000000000
+      internalID: 3453081791517416414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_62
+      rect:
+        serializedVersion: 2
+        x: 7126
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e438fd74b5000d610800000000000000
+      internalID: 1643814256038085454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_63
+      rect:
+        serializedVersion: 2
+        x: 7283
+        y: 24
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca725cad0cf40bd0800000000000000
+      internalID: -2664727943840630065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_64
+      rect:
+        serializedVersion: 2
+        x: 7440
+        y: 25
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069932284c2ff7260800000000000000
+      internalID: 7097658463570073952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_65
+      rect:
+        serializedVersion: 2
+        x: 11052
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8bde0dee9daba7b0800000000000000
+      internalID: -5211881245657605236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_66
+      rect:
+        serializedVersion: 2
+        x: 11209
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48ce4254fa99a1a0800000000000000
+      internalID: -6797731788395460534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_67
+      rect:
+        serializedVersion: 2
+        x: 11366
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e81cb80fad89f490800000000000000
+      internalID: -7711977103989925663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_68
+      rect:
+        serializedVersion: 2
+        x: 11521
+        y: 8
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a861db0d85d9e190800000000000000
+      internalID: -7932574466871039837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_69
+      rect:
+        serializedVersion: 2
+        x: 11675
+        y: 8
+        width: 28
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babc3be29c002ee80800000000000000
+      internalID: -8150951511515214933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_70
+      rect:
+        serializedVersion: 2
+        x: 11683
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7e6abb96cb09f80800000000000000
+      internalID: -8101768567333656619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_71
+      rect:
+        serializedVersion: 2
+        x: 12303
+        y: 8
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6480286beee54f30800000000000000
+      internalID: 4559312892614181998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_72
+      rect:
+        serializedVersion: 2
+        x: 12458
+        y: 46
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ab7e67a463ac700800000000000000
+      internalID: 561320797011425888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_73
+      rect:
+        serializedVersion: 2
+        x: 12458
+        y: 8
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008f9bacbc64bbe70800000000000000
+      internalID: 9131970510517303296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_74
+      rect:
+        serializedVersion: 2
+        x: 12614
+        y: 8
+        width: 31
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75f4407b2f0b1600800000000000000
+      internalID: 439962067840333182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_75
+      rect:
+        serializedVersion: 2
+        x: 12625
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cd618a7902bc810800000000000000
+      internalID: 1786557512914754650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_76
+      rect:
+        serializedVersion: 2
+        x: 13564
+        y: 8
+        width: 23
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f16d01666eab7cb0800000000000000
+      internalID: -4865103217705524749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_77
+      rect:
+        serializedVersion: 2
+        x: 13721
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810635b9a0fe721c0800000000000000
+      internalID: -4528388071463100392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_78
+      rect:
+        serializedVersion: 2
+        x: 13878
+        y: 8
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95589b21f6abcf40800000000000000
+      internalID: 5749872904017302942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_79
+      rect:
+        serializedVersion: 2
+        x: 14033
+        y: 8
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3527139b1e38db0800000000000000
+      internalID: -4790737393077300248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_80
+      rect:
+        serializedVersion: 2
+        x: 14190
+        y: 8
+        width: 25
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6b1e10e1a7361e0800000000000000
+      internalID: -2205785123182233913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_81
+      rect:
+        serializedVersion: 2
+        x: 14195
+        y: 45
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58ea43e622ac7710800000000000000
+      internalID: 1692405847890258013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_82
+      rect:
+        serializedVersion: 2
+        x: 14347
+        y: 8
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f2459ce8bf76a50800000000000000
+      internalID: 6514451976696377231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_83
+      rect:
+        serializedVersion: 2
+        x: 15258
+        y: 4
+        width: 93
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db60d748faae4490800000000000000
+      internalID: -7760077124579333168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_84
+      rect:
+        serializedVersion: 2
+        x: 15453
+        y: 4
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a532f2fdf7b6920800000000000000
+      internalID: 2984619774608366164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_85
+      rect:
+        serializedVersion: 2
+        x: 15598
+        y: 2
+        width: 341
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8db6cf17704c4f60800000000000000
+      internalID: 8019855916818414989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_86
+      rect:
+        serializedVersion: 2
+        x: 1789
+        y: 8
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aad68b0e9841c720800000000000000
+      internalID: 2864650681619765922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_87
+      rect:
+        serializedVersion: 2
+        x: 7867
+        y: 0
+        width: 117
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e51b485c1ecebc0800000000000000
+      internalID: -3752376151055442342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_88
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 34
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dace5e3180a89650800000000000000
+      internalID: 6239913760679447253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_89
+      rect:
+        serializedVersion: 2
+        x: 8053
+        y: 0
+        width: 93
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2079e1d476abaf0800000000000000
+      internalID: -379877637636029759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_90
+      rect:
+        serializedVersion: 2
+        x: 8217
+        y: 8
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874d11f44cd382e10800000000000000
+      internalID: 2173054733555717240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_91
+      rect:
+        serializedVersion: 2
+        x: 8336
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad16003a67afbe8e0800000000000000
+      internalID: -1662960249935470118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_92
+      rect:
+        serializedVersion: 2
+        x: 8493
+        y: 0
+        width: 102
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc479d0253571520800000000000000
+      internalID: 2672696515748121800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_93
+      rect:
+        serializedVersion: 2
+        x: 8567
+        y: 32
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea7b05bf80623310800000000000000
+      internalID: 1383274205890181861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_94
+      rect:
+        serializedVersion: 2
+        x: 8697
+        y: 7
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da77c0aee26e8a8a0800000000000000
+      internalID: -6293527390080698451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_95
+      rect:
+        serializedVersion: 2
+        x: 8708
+        y: 0
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d0cef1b4dacf810800000000000000
+      internalID: 1800504489211071866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_96
+      rect:
+        serializedVersion: 2
+        x: 8789
+        y: 0
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0621faa8efda6ba90800000000000000
+      internalID: -7298454837347282336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_97
+      rect:
+        serializedVersion: 2
+        x: 8845
+        y: 8
+        width: 53
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80659fefdf8d288f0800000000000000
+      internalID: -539630419914959352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_98
+      rect:
+        serializedVersion: 2
+        x: 8985
+        y: 20
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aeb201f0430e5b0800000000000000
+      internalID: -5341211918760941021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_99
+      rect:
+        serializedVersion: 2
+        x: 8986
+        y: 0
+        width: 97
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592e86c0eab95b050800000000000000
+      internalID: 5815725665653678741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_100
+      rect:
+        serializedVersion: 2
+        x: 9104
+        y: 0
+        width: 135
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5019910007f67eef0800000000000000
+      internalID: -78971941626998523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_101
+      rect:
+        serializedVersion: 2
+        x: 9278
+        y: 0
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca32e4e2d4db94210800000000000000
+      internalID: 1317792505169585068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_102
+      rect:
+        serializedVersion: 2
+        x: 9435
+        y: 0
+        width: 116
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1cf87edc98d8130800000000000000
+      internalID: 3570661597020930530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_103
+      rect:
+        serializedVersion: 2
+        x: 9591
+        y: 0
+        width: 103
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35ca6161e74b8bb0800000000000000
+      internalID: -4932769933526645443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_104
+      rect:
+        serializedVersion: 2
+        x: 9749
+        y: 0
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f679ca6c86affd0800000000000000
+      internalID: -2307416656565539062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_105
+      rect:
+        serializedVersion: 2
+        x: 9943
+        y: 2
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2ead717bc91a490800000000000000
+      internalID: -7736730374652632402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_106
+      rect:
+        serializedVersion: 2
+        x: 10100
+        y: 8
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fbdca1e2d413090800000000000000
+      internalID: -8056573397975580774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_107
+      rect:
+        serializedVersion: 2
+        x: 10256
+        y: 8
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f758e784a00b400800000000000000
+      internalID: 337781278529388445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_108
+      rect:
+        serializedVersion: 2
+        x: 10424
+        y: 8
+        width: 23
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df642755f2acf9680800000000000000
+      internalID: -8746049646684387587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_109
+      rect:
+        serializedVersion: 2
+        x: 10581
+        y: 8
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec213fa829692fa50800000000000000
+      internalID: 6553465963918070478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_110
+      rect:
+        serializedVersion: 2
+        x: 10738
+        y: 8
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e98280086a58470800000000000000
+      internalID: 8396300149125062289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_111
+      rect:
+        serializedVersion: 2
+        x: 10895
+        y: 8
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe25bb2d02082250800000000000000
+      internalID: 5919983965769641662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_112
+      rect:
+        serializedVersion: 2
+        x: 14660
+        y: 28
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24702c90e5e5fd430800000000000000
+      internalID: 3809867567762376514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_113
+      rect:
+        serializedVersion: 2
+        x: 14679
+        y: 31
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9683322927678dfd0800000000000000
+      internalID: -2316971773831989143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_114
+      rect:
+        serializedVersion: 2
+        x: 14707
+        y: 35
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2545f91f65be143d0800000000000000
+      internalID: -3224037099567098798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_115
+      rect:
+        serializedVersion: 2
+        x: 14838
+        y: 38
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4d3d2008d9ea430800000000000000
+      internalID: 3796144709048718506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_116
+      rect:
+        serializedVersion: 2
+        x: 14848
+        y: 30
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85fca349c8a32a20800000000000000
+      internalID: 3036456156155147662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_117
+      rect:
+        serializedVersion: 2
+        x: 15102
+        y: 12
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b057d6d0e8b336a0800000000000000
+      internalID: -6470624963784650575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_118
+      rect:
+        serializedVersion: 2
+        x: 15436
+        y: 13
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6241f0da248a510800000000000000
+      internalID: 1560570581933631213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_119
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda134655d8cbca90800000000000000
+      internalID: -7292514352995558693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_120
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cf6249949b87a60800000000000000
+      internalID: 7672085690894974017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_121
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717ce51794ae41f10800000000000000
+      internalID: 2239672515865528087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_122
+      rect:
+        serializedVersion: 2
+        x: 5557
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38524be32503d9e70800000000000000
+      internalID: 9123501549919937923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_123
+      rect:
+        serializedVersion: 2
+        x: 5714
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56f395ba43fc14e0800000000000000
+      internalID: -2009463831514581413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_124
+      rect:
+        serializedVersion: 2
+        x: 5871
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726b0b4d6dcd4a5a0800000000000000
+      internalID: -6510836346021431769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_125
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb44a2644e301a00800000000000000
+      internalID: 725148003440282567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_126
+      rect:
+        serializedVersion: 2
+        x: 6185
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b69c13da8191a730800000000000000
+      internalID: 4008645168769832626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_127
+      rect:
+        serializedVersion: 2
+        x: 6342
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ae110ec29fff910800000000000000
+      internalID: 1873489941142563474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_128
+      rect:
+        serializedVersion: 2
+        x: 6499
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c547084bd40d94110800000000000000
+      internalID: 1245755804104029276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_129
+      rect:
+        serializedVersion: 2
+        x: 6656
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fda5209e5833b1d0800000000000000
+      internalID: -3336260920154935823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_130
+      rect:
+        serializedVersion: 2
+        x: 6813
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475834a94163e3130800000000000000
+      internalID: 3548333018529891700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_131
+      rect:
+        serializedVersion: 2
+        x: 6970
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758aeb988a45184b0800000000000000
+      internalID: -5439973792044636073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_132
+      rect:
+        serializedVersion: 2
+        x: 7127
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a1d4e654a99840800000000000000
+      internalID: 5231393135280628579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_133
+      rect:
+        serializedVersion: 2
+        x: 7284
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e50be87a4f8b9790800000000000000
+      internalID: -7522261202573261339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_134
+      rect:
+        serializedVersion: 2
+        x: 7441
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c02645ac5733130800000000000000
+      internalID: 3545306843530267649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_135
+      rect:
+        serializedVersion: 2
+        x: 7598
+        y: 8
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b16085401c07ebf0800000000000000
+      internalID: -295253986544426569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_136
+      rect:
+        serializedVersion: 2
+        x: 7708
+        y: 0
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e2c52d54491ae70800000000000000
+      internalID: 9124737347632246415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_137
+      rect:
+        serializedVersion: 2
+        x: 7741
+        y: 24
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505e7cb49afa8ce80800000000000000
+      internalID: -8158077583325928187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_138
+      rect:
+        serializedVersion: 2
+        x: 7746
+        y: 0
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cab667d741c5450800000000000000
+      internalID: 6078756126133562505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_139
+      rect:
+        serializedVersion: 2
+        x: 7777
+        y: 0
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd594a883c898200800000000000000
+      internalID: 182831434351336927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_140
+      rect:
+        serializedVersion: 2
+        x: 7791
+        y: 0
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fae0ec6fded185d0800000000000000
+      internalID: -3061921220449473803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_141
+      rect:
+        serializedVersion: 2
+        x: 8014
+        y: 1
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd80dbcd75148c50800000000000000
+      internalID: 6666476978449714643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_142
+      rect:
+        serializedVersion: 2
+        x: 8037
+        y: 8
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd69ce1142a659d0800000000000000
+      internalID: -2785860918908981800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_143
+      rect:
+        serializedVersion: 2
+        x: 8167
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2630a2b66869340800000000000000
+      internalID: 4870227841872257742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_144
+      rect:
+        serializedVersion: 2
+        x: 8179
+        y: 0
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362fe8d43b62c75b0800000000000000
+      internalID: -5369374104190258589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_145
+      rect:
+        serializedVersion: 2
+        x: 8237
+        y: 0
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd04db8c721fa090800000000000000
+      internalID: -8021172085192389132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_146
+      rect:
+        serializedVersion: 2
+        x: 8260
+        y: 20
+        width: 35
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1891374337f2abd10800000000000000
+      internalID: 2142076744615795073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_147
+      rect:
+        serializedVersion: 2
+        x: 8289
+        y: 4
+        width: 38
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36963476de0cebc00800000000000000
+      internalID: 918383499902413155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_148
+      rect:
+        serializedVersion: 2
+        x: 8468
+        y: 4
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b73cca349f29850800000000000000
+      internalID: 6382437690994031471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_149
+      rect:
+        serializedVersion: 2
+        x: 8585
+        y: 19
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5bab761407c9e960800000000000000
+      internalID: 7631849863927016285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_150
+      rect:
+        serializedVersion: 2
+        x: 8598
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26216564481597280800000000000000
+      internalID: -9045108748039351710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_151
+      rect:
+        serializedVersion: 2
+        x: 8629
+        y: 0
+        width: 72
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499ef68f6bcf52040800000000000000
+      internalID: 4622378455348013460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_152
+      rect:
+        serializedVersion: 2
+        x: 8753
+        y: 13
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6922fb3b827b3d0800000000000000
+      internalID: -3191037058497735001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_153
+      rect:
+        serializedVersion: 2
+        x: 8846
+        y: 30
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c49fdca9322cc80800000000000000
+      internalID: -8304035615130170218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_154
+      rect:
+        serializedVersion: 2
+        x: 8876
+        y: 0
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5e1b1508af12f00800000000000000
+      internalID: 1090428013833741729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_155
+      rect:
+        serializedVersion: 2
+        x: 8896
+        y: 0
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9471defa4f90970800000000000000
+      internalID: 8721771189813856765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_156
+      rect:
+        serializedVersion: 2
+        x: 8899
+        y: 10
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6166c185650bb1050800000000000000
+      internalID: 5772401232297354774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_157
+      rect:
+        serializedVersion: 2
+        x: 8948
+        y: 4
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a6b09eb351e5b20800000000000000
+      internalID: 3124958538498796185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_158
+      rect:
+        serializedVersion: 2
+        x: 8966
+        y: 13
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c586bf96bda214300800000000000000
+      internalID: 234515777464264796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_159
+      rect:
+        serializedVersion: 2
+        x: 9062
+        y: 24
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3ca3d4310d08d70800000000000000
+      internalID: 9043456833078608811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_160
+      rect:
+        serializedVersion: 2
+        x: 9343
+        y: 0
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ca3f3fe9cac3fa0800000000000000
+      internalID: -5819586819771880441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_161
+      rect:
+        serializedVersion: 2
+        x: 9697
+        y: 4
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0327e648ec87cd30800000000000000
+      internalID: 4451681685928878863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_162
+      rect:
+        serializedVersion: 2
+        x: 9807
+        y: 0
+        width: 61
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a83abdc0c8d3e670800000000000000
+      internalID: 8566929238785669289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_163
+      rect:
+        serializedVersion: 2
+        x: 14633
+        y: 16
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06906f2dde60dfac0800000000000000
+      internalID: -3819889290423957152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_164
+      rect:
+        serializedVersion: 2
+        x: 14667
+        y: 20
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f16c0d9de3f91b10800000000000000
+      internalID: 1952860115309453814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_165
+      rect:
+        serializedVersion: 2
+        x: 14670
+        y: 10
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a281c43fbad7d53a0800000000000000
+      internalID: -6675040895218477014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_166
+      rect:
+        serializedVersion: 2
+        x: 14685
+        y: 13
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d794678fade1b50800000000000000
+      internalID: 6565926067424034118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_167
+      rect:
+        serializedVersion: 2
+        x: 14696
+        y: 29
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34f93967b2aa5e70800000000000000
+      internalID: 9104768505310999612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_168
+      rect:
+        serializedVersion: 2
+        x: 14789
+        y: 17
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30a014fa12cd6090800000000000000
+      internalID: -8039556338766798790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_169
+      rect:
+        serializedVersion: 2
+        x: 14823
+        y: 13
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8bc7914510ffd00800000000000000
+      internalID: 1008526302270765301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_170
+      rect:
+        serializedVersion: 2
+        x: 14828
+        y: 6
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d814e73abbaadca20800000000000000
+      internalID: 3084309042697224589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_171
+      rect:
+        serializedVersion: 2
+        x: 14836
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a9ccbeb26a9cbb0800000000000000
+      internalID: -4915214810728326639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Electricuitioner 157x107 with shadow_172
+      rect:
+        serializedVersion: 2
+        x: 14838
+        y: 12
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1ab6f7377bfbfd00800000000000000
+      internalID: 1007675431106034207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

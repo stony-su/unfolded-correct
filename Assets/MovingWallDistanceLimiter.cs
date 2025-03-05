@@ -23,13 +23,11 @@ public class MovingWallDistanceLimiter : MonoBehaviour
 
         bool isCurrentlyMoving = movingSquare.isMoving;
 
-        // Capture start position when movement begins
         if (isCurrentlyMoving && !wasMoving)
         {
             startPosition = rb.position;
         }
 
-        // Check distance while moving
         if (isCurrentlyMoving)
         {
             float distanceMoved = Vector2.Distance(rb.position, startPosition);
@@ -37,6 +35,7 @@ public class MovingWallDistanceLimiter : MonoBehaviour
             if (distanceMoved >= maxDistance)
             {
                 movingSquare.ResetMovement();
+                movingSquare.canDetectPlayer = false; // Add this line
             }
         }
 

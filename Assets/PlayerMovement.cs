@@ -52,14 +52,14 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Walljump Settings")]
     private bool isWallSliding;
-    [SerializeField] private float wallSlidingSpeed = 8f;
+    [SerializeField] private float wallSlidingSpeed = 12f;
     private bool isWallJumping;
     private float wallJumpingDirection;
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.6f;
-    public float wallJumpForce = 10f;
-    private float wallJumpPushForce = 60f;
+    public float wallJumpForce = 30f;
+    private float wallJumpPushForce = 50f;
     [SerializeField] private Transform wallCheckright;
     [SerializeField] private Transform wallCheckleft;
     [SerializeField] private LayerMask wallLayer;
@@ -184,6 +184,10 @@ public class PlayerMovement : MonoBehaviour
                 rb.linearVelocity = new Vector2(-1 * wallJumpPushForce, wallJumpForce);
             }
             
+            // Clamp the velocity to prevent excessive speed
+            rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocity.x, -wallJumpPushForce, wallJumpPushForce), 
+                                    Mathf.Clamp(rb.linearVelocity.y, -wallJumpForce, wallJumpForce));
+            
             wallJumpingCounter = 0f;
             Invoke(nameof(StopWallJump), wallJumpingDuration);
         }
@@ -252,7 +256,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (moveInput.y > 0 || moveInput.y < 0)
         {
-            speedFactor = 0.25f;
+            speedFactor = 0.35f;
             currentDashSpeed = dashSpeed * speedFactor;
             timeBetweenEffects = 1.2f / currentDashSpeed;
         }
@@ -395,7 +399,16 @@ public class PlayerMovement : MonoBehaviour
         {
             isInWater = true;
             rb.gravityScale = 0;
+            StartCoroutine(SinkBeforeFloat());
         }
+    }
+
+    private IEnumerator SinkBeforeFloat()
+    {
+        // Apply a small downward force to simulate sinking
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, swimDownSpeed);
+        yield return new WaitForSeconds(1f); // Adjust the duration as needed 
+        Debug.Log("Sinking complete");
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -404,6 +417,8 @@ public class PlayerMovement : MonoBehaviour
         {
             isInWater = false;
             rb.gravityScale = originalGravity;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+
         }
     }
     #endregion
