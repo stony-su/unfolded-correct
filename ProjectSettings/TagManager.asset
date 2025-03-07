@@ -11,6 +11,7 @@ TagManager:
   - Walls
   - Platform
   - Enemy
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 

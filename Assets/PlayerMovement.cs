@@ -4,6 +4,7 @@ using System.Collections;
 
 public class PlayerMovement : MonoBehaviour
 {
+    
     [Header("Movement Settings")]
     public float moveSpeed = 4f;
     public float acceleration = 0.3f;
@@ -68,10 +69,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float dashStaminaCost = 30f;
     private SquirrelGlideController glideController;
 
+    private Animator animator;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         glideController = GetComponent<SquirrelGlideController>();
+        animator = GetComponent<Animator>();
         rb.interpolation = RigidbodyInterpolation2D.Interpolate;
         originalGravity = rb.gravityScale;
 
@@ -84,11 +88,20 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-
+        Debug.Log(isGrounded);
         if (isGrounded)
         {
             lastGroundedTime = Time.time;
             jumpPerformed = false;
+            animator.SetBool("isFalling", false);
+            if (!animator.GetBool("isLanding"))
+            {
+                animator.SetBool("isLanding", true);
+            }
+        }
+        else
+        {
+            animator.SetBool("isLanding", false);
         }
 
         if (!isGrounded && Time.time - jumpPressedTime > earlyJumpBuffer)
@@ -100,6 +113,19 @@ public class PlayerMovement : MonoBehaviour
         {
             Jump();
             jumpRequested = false;
+        }
+
+        if (rb.linearVelocity.y < 0 && !isGrounded)
+        {
+            animator.SetBool("isFalling", true);
+        }
+        else if (rb.linearVelocity.y > 0 && !isGrounded)
+        {
+            animator.SetBool("isJumping", true);
+        }
+        else
+        {
+            animator.SetBool("isJumping", false);
         }
 
         if (Input.GetKeyDown(KeyCode.X) && CanDash())
@@ -120,18 +146,14 @@ public class PlayerMovement : MonoBehaviour
                 dashTrail.Play();
             }
 
-            LeanTween.scale(characterSprite.gameObject, new Vector2(1.4f, 0.4f), 0.1f)
-                .setEase(LeanTweenType.easeOutQuad)
-                .setOnComplete(() => {
-                    LeanTween.scale(characterSprite.gameObject, Vector2.one, 0.1f)
-                        .setEase(LeanTweenType.easeInQuad);
-                });
-
             dashStartPos = transform.position;
         }
 
         WallSlide();
         WallJump();
+
+        // Update running animation
+        animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
     }
 
     #region Wall Jump
@@ -157,7 +179,7 @@ public class PlayerMovement : MonoBehaviour
     private void WallJump()
     {
         bool isTouchingRightWall = Physics2D.OverlapCircle(wallCheckright.position, 0.2f, wallLayer);
-        bool isTouchingLeftWall = Physics2D.OverlapCircle(wallCheckleft.position, 0.2f, wallLayer);
+        bool isTouchingLeftWall = Physics2D.OverlapCircle(wallCheckleft.position, 0.2f, wallLayer); 
 
         if (isWallSliding)
         {
@@ -182,11 +204,8 @@ public class PlayerMovement : MonoBehaviour
             else if (isTouchingLeftWall)
             {
                 rb.linearVelocity = new Vector2(-1 * wallJumpPushForce, wallJumpForce);
+                //rb.linearVelocity = new Vector2(characterDirection*wallJumpPushForce, wallJumpForce);
             }
-            
-            // Clamp the velocity to prevent excessive speed
-            rb.linearVelocity = new Vector2(Mathf.Clamp(rb.linearVelocity.x, -wallJumpPushForce, wallJumpPushForce), 
-                                    Mathf.Clamp(rb.linearVelocity.y, -wallJumpForce, wallJumpForce));
             
             wallJumpingCounter = 0f;
             Invoke(nameof(StopWallJump), wallJumpingDuration);
@@ -239,6 +258,17 @@ public class PlayerMovement : MonoBehaviour
         float targetSpeed = moveInput.x * currentMoveSpeed;
         float accelerationRate = Mathf.Abs(targetSpeed) > 0.01f ? currentAcceleration : deceleration;
         rb.linearVelocity = new Vector2(Mathf.Lerp(rb.linearVelocity.x, targetSpeed, accelerationRate), rb.linearVelocity.y);
+
+        if (moveInput.x > 0)
+        {
+            characterDirection = 1f;
+            characterSprite.localScale = new Vector3(1f, 1f, 1f);
+        }
+        else if (moveInput.x < 0)
+        {
+            characterDirection = -1f;
+            characterSprite.localScale = new Vector3(-1f, 1f, 1f);
+        }
     }
 
     #region Dash
@@ -393,22 +423,14 @@ public class PlayerMovement : MonoBehaviour
     #endregion
 
     #region Water Triggers
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Water"))
         {
             isInWater = true;
             rb.gravityScale = 0;
-            StartCoroutine(SinkBeforeFloat());
         }
-    }
-
-    private IEnumerator SinkBeforeFloat()
-    {
-        // Apply a small downward force to simulate sinking
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, swimDownSpeed);
-        yield return new WaitForSeconds(1f); // Adjust the duration as needed 
-        Debug.Log("Sinking complete");
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -418,7 +440,6 @@ public class PlayerMovement : MonoBehaviour
             isInWater = false;
             rb.gravityScale = originalGravity;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
-
         }
     }
     #endregion

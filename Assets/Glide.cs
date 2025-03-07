@@ -69,7 +69,6 @@ public class SquirrelGlideController : MonoBehaviour
         {
             isGliding = true;
             spriteRenderer.color = transformedColor;
-            transform.localScale = transformedScale;
             rb.gravityScale = gravityMultiplier;
         }
     }
@@ -95,7 +94,6 @@ public class SquirrelGlideController : MonoBehaviour
         isGliding = false;
         isTransformed = false;
         spriteRenderer.color = normalColor;
-        transform.localScale = normalScale;
         rb.gravityScale = 1;
     }
 
