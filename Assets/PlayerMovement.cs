@@ -88,7 +88,6 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        Debug.Log(isGrounded);
         if (isGrounded)
         {
             lastGroundedTime = Time.time;
@@ -199,12 +198,24 @@ public class PlayerMovement : MonoBehaviour
             
             if (isTouchingRightWall)
             {
-                rb.linearVelocity = new Vector2(wallJumpPushForce, wallJumpForce);
+                rb.linearVelocity = new Vector2(characterDirection*wallJumpPushForce, wallJumpForce);
             }
             else if (isTouchingLeftWall)
             {
-                rb.linearVelocity = new Vector2(-1 * wallJumpPushForce, wallJumpForce);
-                //rb.linearVelocity = new Vector2(characterDirection*wallJumpPushForce, wallJumpForce);
+
+                //rb.linearVelocity = new Vector2(-1 * wallJumpPushForce, wallJumpForce);
+                rb.linearVelocity = new Vector2(-1*characterDirection*wallJumpPushForce, wallJumpForce);
+
+                if (characterDirection == -1f)
+                {
+                    characterDirection = 1f;
+                    characterSprite.localScale = new Vector3(1f, 1f, 1f);
+                }
+                else if (characterDirection == 1f)
+                {
+                    characterDirection = -1f;
+                    characterSprite.localScale = new Vector3(-1f, 1f, 1f);
+                }
             }
             
             wallJumpingCounter = 0f;

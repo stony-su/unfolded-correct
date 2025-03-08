@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
 {
-    public AudioSource walkSound; // Drag and drop your audio file here
+    public AudioSource[] walkSounds; // Drag and drop your audio files here
+    private int currentSoundIndex = 0;
 
     private Rigidbody2D rb;
     private bool isMoving;
@@ -22,13 +23,27 @@ public class PlayerSound : MonoBehaviour
         isMoving = (moveX != 0);
 
         // Play or stop the sound accordingly
-        if (isMoving && !walkSound.isPlaying)
+        if (isMoving && !walkSounds[currentSoundIndex].isPlaying)
         {
-            walkSound.Play();
+            PlayNextSound();
         }
         else if (!isMoving)
         {
-            walkSound.Stop();
+            StopAllSounds();
+        }
+    }
+
+    void PlayNextSound()
+    {
+        walkSounds[currentSoundIndex].Play();
+        currentSoundIndex = (currentSoundIndex + 1) % walkSounds.Length;
+    }
+
+    void StopAllSounds()
+    {
+        foreach (var sound in walkSounds)
+        {
+            sound.Stop();
         }
     }
 }
