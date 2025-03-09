@@ -8,20 +8,20 @@ public class RespawnManager : MonoBehaviour
 
     public Vector3 respawnPoint;
     public float fallThreshold = 0f;
-    public AudioClip deathSFX; // Add this line
+    public AudioClip deathSFX;
 
     private List<RespawnableItem> respawnableItems = new List<RespawnableItem>();
     private Animator animator;
     private bool isRespawning = false;
-    private PlayerMovement playerMovement; // Reference to the player's movement script
-    private AudioSource audioSource; // Add this line
+    private PlayerMovement playerMovement; 
+    private AudioSource audioSource; 
 
     void Awake()
     {
         Instance = this;
         animator = GetComponent<Animator>();
-        playerMovement = GetComponent<PlayerMovement>(); // Initialize the reference
-        audioSource = GetComponent<AudioSource>(); // Initialize the AudioSource
+        playerMovement = GetComponent<PlayerMovement>(); 
+        audioSource = GetComponent<AudioSource>(); 
     }
 
     void Start()
@@ -59,23 +59,21 @@ public class RespawnManager : MonoBehaviour
     private IEnumerator HandleRespawn()
     {
         isRespawning = true;
-        playerMovement.enabled = false; // Disable player movement
-        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero; // Set velocity to zero
+        playerMovement.enabled = false; 
+        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero; 
         DisableAllAnimations();
         TriggerDeathAnimation();
-        PlayDeathSFX(); // Play the death sound effect
+        PlayDeathSFX(); 
         yield return new WaitForSeconds(1.8f);
         Respawn();
-        playerMovement.enabled = true; // Re-enable player movement
+        playerMovement.enabled = true;
         isRespawning = false;
     }
 
     public void Respawn()
     {
-        // Reset player position
-        transform.position = respawnPoint;
-        
-        // Reset all registered items
+        transform.position = new Vector3(respawnPoint.x, respawnPoint.y-5f, transform.position.z);        
+
         foreach (var item in respawnableItems)
         {
             if (item != null)

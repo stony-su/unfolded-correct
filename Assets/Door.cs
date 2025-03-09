@@ -11,7 +11,7 @@ public class Door : MonoBehaviour
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E)) // Assuming 'E' is the key to interact
+        if (playerInRange && Input.GetKeyDown(KeyCode.V)) // Assuming 'E' is the key to interact
         {
             if (playAnimation && animator != null)
             {

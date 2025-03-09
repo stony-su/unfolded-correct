@@ -21,6 +21,7 @@ MonoBehaviour:
   m_OverrideGlobalSceneList: 0
   m_Scenes: []
   m_ScriptingDefines:
+  - Tutorial
   - Underwater1
   - Landlv
   m_PlayerSettingsYaml:
