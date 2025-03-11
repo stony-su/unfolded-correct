@@ -23,7 +23,7 @@ public class FloatingScissorsEnemy : MonoBehaviour
 
     private Transform player;
     private NavMeshAgent agent;
-    private bool isAttacking = false;
+    public bool isAttacking = false;
     private Vector2 attackDirection;
 
     public int health = 100;

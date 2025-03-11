@@ -6,7 +6,7 @@ public class RespawnableItem : MonoBehaviour
     private Vector3 originalPosition;
     private bool originalActiveState;
     private Rigidbody2D rb;
-    private DirectionalMovingSquare movingSquare; // Declare the variable
+    private DirectionalMovingSquare movingSquare;
     private PlatformController platformController;
 
     void Start()
@@ -16,8 +16,13 @@ public class RespawnableItem : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         movingSquare = GetComponent<DirectionalMovingSquare>();
-        platformController = GetComponent<PlatformController>(); // Get component
+        platformController = GetComponent<PlatformController>();
 
+        RegisterWithManager();
+    }
+
+    public void RegisterWithManager()
+    {
         RespawnManager.Instance.RegisterItem(this);
     }
 
@@ -32,11 +37,10 @@ public class RespawnableItem : MonoBehaviour
          if (movingSquare != null)
         {
             movingSquare.ResetMovement();
-            movingSquare.canDetectPlayer = true; // Add this line
+            movingSquare.canDetectPlayer = true; 
         }
 
-
-        if (platformController != null) // Reset platform
+        if (platformController != null) 
             platformController.ResetPlatform();
 
         Collider2D collider = GetComponent<Collider2D>();
@@ -46,7 +50,6 @@ public class RespawnableItem : MonoBehaviour
 
     void OnDestroy()
     {
-        // Unregister when destroyed to avoid null references
         if (RespawnManager.Instance != null)
         {
             RespawnManager.Instance.UnregisterItem(this);

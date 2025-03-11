@@ -26,24 +26,20 @@ public class PlayerBuoyancy : MonoBehaviour
     {
         if (isInWater)
         {
-            // Calculate submersion percentage
             float playerBottom = playerCollider.bounds.min.y;
             float submergedDepth = waterSurfaceY - playerBottom;
             float playerHeight = playerCollider.bounds.size.y;
             float submergedPercentage = Mathf.Clamp(submergedDepth / playerHeight, 0f, 1f);
 
-            // Apply buoyant force (proportional to submersion)
             float gravity = Mathf.Abs(Physics2D.gravity.y);
             float buoyantForce = (submergedPercentage / targetSubmerged) * rb.mass * gravity;
             rb.AddForce(Vector2.up * buoyantForce);
 
-            // Adjust drag for water resistance
             rb.linearDamping = waterDrag;
             rb.angularDamping = waterAngularDrag;
         }
         else
         {
-            // Restore original drag when out of water
             rb.linearDamping = originalDrag;
             rb.angularDamping = originalAngularDrag;
         }
@@ -55,7 +51,7 @@ public class PlayerBuoyancy : MonoBehaviour
         if (other.CompareTag("Water"))
         {
             isInWater = true;
-            waterSurfaceY = other.bounds.max.y; // Water surface is top of the collider
+            waterSurfaceY = other.bounds.max.y; 
         }
     }
 

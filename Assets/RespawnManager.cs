@@ -10,18 +10,17 @@ public class RespawnManager : MonoBehaviour
     public float fallThreshold = 0f;
     public AudioClip deathSFX;
 
+    public GameObject player1;
+    public GameObject player2;
+
     private List<RespawnableItem> respawnableItems = new List<RespawnableItem>();
-    private Animator animator;
     private bool isRespawning = false;
-    private PlayerMovement playerMovement; 
-    private AudioSource audioSource; 
+    private AudioSource audioSource;
 
     void Awake()
     {
         Instance = this;
-        animator = GetComponent<Animator>();
-        playerMovement = GetComponent<PlayerMovement>(); 
-        audioSource = GetComponent<AudioSource>(); 
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Start()
@@ -30,17 +29,9 @@ public class RespawnManager : MonoBehaviour
         Respawn();
     }
 
-    void Update()
+    public void PlayerDied()
     {
-        if (!isRespawning && transform.position.y < fallThreshold)
-        {
-            StartCoroutine(HandleRespawn());
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (!isRespawning && other.CompareTag("RedBlock"))
+        if (!isRespawning)
         {
             StartCoroutine(HandleRespawn());
         }
@@ -59,61 +50,86 @@ public class RespawnManager : MonoBehaviour
     private IEnumerator HandleRespawn()
     {
         isRespawning = true;
-        playerMovement.enabled = false; 
-        GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero; 
-        DisableAllAnimations();
-        TriggerDeathAnimation();
-        PlayDeathSFX(); 
+
+        // Disable movement for both players
+        SetPlayerMovementEnabled(false);
+        
+        // Reset velocities
+        ResetPlayerVelocities();
+
+        // Handle animations
+        TriggerDeathAnimations();
+
+        PlayDeathSFX();
         yield return new WaitForSeconds(1.8f);
+
         Respawn();
-        playerMovement.enabled = true;
+        
+        // Re-enable movement
+        SetPlayerMovementEnabled(true);
+
         isRespawning = false;
     }
 
     public void Respawn()
     {
-        transform.position = new Vector3(respawnPoint.x, respawnPoint.y-5f, transform.position.z);        
+        if (player1 != null)
+            player1.transform.position = new Vector3(respawnPoint.x, respawnPoint.y, player1.transform.position.z);
+        if (player2 != null)
+            player2.transform.position = new Vector3(respawnPoint.x, respawnPoint.y, player2.transform.position.z);
 
         foreach (var item in respawnableItems)
-        {
             if (item != null)
-            {
                 item.ResetItem();
-            }
+    }
+
+    private void SetPlayerMovementEnabled(bool enabled)
+    {
+        foreach (var player in new[] { player1, player2 })
+        {
+            var movement = player?.GetComponent<PlayerMovement>();
+            if (movement != null) movement.enabled = enabled;
         }
     }
 
-    private void TriggerDeathAnimation()
+    private void ResetPlayerVelocities()
     {
-        if (animator != null)
+        foreach (var player in new[] { player1, player2 })
         {
-            animator.SetTrigger("Death");
+            var rb = player?.GetComponent<Rigidbody2D>();
+            if (rb != null) rb.linearVelocity = Vector2.zero;
         }
     }
 
-    private void DisableAllAnimations()
+    private void TriggerDeathAnimations()
     {
-        if (animator != null)
+        foreach (var player in new[] { player1, player2 })
         {
-            foreach (AnimatorControllerParameter parameter in animator.parameters)
+            var animator = player?.GetComponent<Animator>();
+            if (animator != null)
             {
-                if (parameter.type == AnimatorControllerParameterType.Bool)
-                {
-                    animator.SetBool(parameter.name, false);
-                }
-                else if (parameter.type == AnimatorControllerParameterType.Trigger)
-                {
-                    animator.ResetTrigger(parameter.name);
-                }
+                DisableAllAnimations(animator);
+                animator.SetTrigger("Death");
             }
         }
-
-        animator.SetTrigger("Death");
     }
 
-    private void PlayDeathSFX() 
+    private void DisableAllAnimations(Animator animator)
     {
-         audioSource.PlayOneShot(deathSFX);
-        
+        if (animator == null) return;
+
+        foreach (AnimatorControllerParameter parameter in animator.parameters)
+        {
+            if (parameter.type == AnimatorControllerParameterType.Bool)
+                animator.SetBool(parameter.name, false);
+            else if (parameter.type == AnimatorControllerParameterType.Trigger)
+                animator.ResetTrigger(parameter.name);
+        }
+    }
+
+    private void PlayDeathSFX()
+    {
+        if (audioSource != null && deathSFX != null)
+            audioSource.PlayOneShot(deathSFX);
     }
 }

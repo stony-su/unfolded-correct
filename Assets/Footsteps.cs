@@ -2,11 +2,18 @@ using UnityEngine;
 
 public class PlayerSound : MonoBehaviour
 {
-    public AudioSource[] walkSounds; // Drag and drop your audio files here
-    private int currentSoundIndex = 0;
+    public AudioSource[] walkSounds; 
+    public AudioSource[] waterSounds; 
+    private int currentWalkSoundIndex = 0;
+    private int currentWaterSoundIndex = 0;
+
+    public LayerMask platformLayer;
+    public LayerMask waterLayer;
 
     private Rigidbody2D rb;
     private bool isMoving;
+    private bool isOnPlatform;
+    private bool isInWater;
 
     void Start()
     {
@@ -15,33 +22,55 @@ public class PlayerSound : MonoBehaviour
 
     void Update()
     {
-        // Check if arrow keys are pressed
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        // Determine if the player is moving
-        isMoving = (moveX != 0);
+        isMoving = (moveX != 0 || moveY != 0);
 
-        // Play or stop the sound accordingly
-        if (isMoving && !walkSounds[currentSoundIndex].isPlaying)
+        isOnPlatform = IsTouchingLayer(platformLayer);
+        isInWater = IsTouchingLayer(waterLayer);
+
+        if (isMoving)
         {
-            PlayNextSound();
+            if (isOnPlatform && !walkSounds[currentWalkSoundIndex].isPlaying)
+            {
+                PlayNextWalkSound();
+            }
+            else if (isInWater && !waterSounds[currentWaterSoundIndex].isPlaying)
+            {
+                PlayNextWaterSound();
+            }
         }
-        else if (!isMoving)
+        else
         {
             StopAllSounds();
         }
     }
 
-    void PlayNextSound()
+    bool IsTouchingLayer(LayerMask layer)
     {
-        walkSounds[currentSoundIndex].Play();
-        currentSoundIndex = (currentSoundIndex + 1) % walkSounds.Length;
+        return rb.IsTouchingLayers(layer);
+    }
+
+    void PlayNextWalkSound()
+    {
+        walkSounds[currentWalkSoundIndex].Play();
+        currentWalkSoundIndex = (currentWalkSoundIndex + 1) % walkSounds.Length;
+    }
+
+    void PlayNextWaterSound()
+    {
+        waterSounds[currentWaterSoundIndex].Play();
+        currentWaterSoundIndex = (currentWaterSoundIndex + 1) % waterSounds.Length;
     }
 
     void StopAllSounds()
     {
         foreach (var sound in walkSounds)
+        {
+            sound.Stop();
+        }
+        foreach (var sound in waterSounds)
         {
             sound.Stop();
         }

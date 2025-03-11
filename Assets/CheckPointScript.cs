@@ -5,12 +5,17 @@ public class Checkpoint : MonoBehaviour
     public bool isActivated = false;
     private SpriteRenderer spriteRenderer;
 
+    void Awake()
+    {
+        spriteRenderer = GetComponent<SpriteRenderer>();
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        RespawnManager respawnManager = other.GetComponent<RespawnManager>();
-        if (respawnManager != null && !isActivated)
+        if (!isActivated && other.CompareTag("Player"))
         {
-            respawnManager.respawnPoint = transform.position;
+
+            RespawnManager.Instance.respawnPoint = transform.position;
             isActivated = true;
         }
     }
