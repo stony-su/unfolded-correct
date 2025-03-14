@@ -10,6 +10,7 @@ public class BossHealth : MonoBehaviour
     private Animator animator;
     public Transform jumpTargetIndicator;
     private bool hasTriggeredHalfHealthAnimation = false; 
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -47,6 +48,12 @@ public class BossHealth : MonoBehaviour
         animator.SetTrigger("Die");
         StartCoroutine(DieCoroutine());
         jumpTargetIndicator.gameObject.SetActive(false);
+
+        GameObject door = GameObject.FindGameObjectWithTag("Door");
+        if (door != null)
+        {
+            door.SetActive(true);
+        }
     }
 
     private IEnumerator DieCoroutine()
