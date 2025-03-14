@@ -42,7 +42,6 @@ public class DirectionalMover : MonoBehaviour
 
         if (Mathf.Abs(displacement) >= maxTravelDistance)
         {
-            // Clamp position to the max travel distance
             Vector2 clampedPosition = initialPosition + movementDirection * Mathf.Sign(displacement) * maxTravelDistance;
             rb.position = clampedPosition;
             currentDirection *= -1;

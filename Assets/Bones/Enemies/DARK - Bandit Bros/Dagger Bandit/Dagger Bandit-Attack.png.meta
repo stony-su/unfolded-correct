@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -134,20 +134,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 4
-        width: 18
-        height: 19
+        x: 0
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 84dbfff05b5f55ae0800000000000000
-      internalID: -1561071537807704760
+      spriteID: d18ef40f71f276d4388e8b138610beb3
+      internalID: -35357063
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_1
       rect:
         serializedVersion: 2
-        x: 156
-        y: 4
-        width: 49
-        height: 16
+        x: 128
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2052c41ebac4b3590800000000000000
-      internalID: -7693471237329378046
+      spriteID: e6d6eacd99f146443bf960bb343529c0
+      internalID: 780665715
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_2
       rect:
         serializedVersion: 2
-        x: 286
-        y: 4
-        width: 46
-        height: 17
+        x: 256
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a2549c41e9e0a3700800000000000000
-      internalID: 520744779031069994
+      spriteID: 33c12a633eaf8cb4ab40e4eab00c43e1
+      internalID: -345833651
       vertices: []
       indices: 
       edges: []
@@ -200,20 +200,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_3
       rect:
         serializedVersion: 2
-        x: 415
-        y: 4
-        width: 45
-        height: 18
+        x: 384
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 160fb957caf25ac50800000000000000
-      internalID: 6675794440400662625
+      spriteID: b12e2e86fb80e57489338fd06648abf3
+      internalID: -588419458
       vertices: []
       indices: 
       edges: []
@@ -222,20 +222,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_4
       rect:
         serializedVersion: 2
-        x: 542
-        y: 1
-        width: 54
-        height: 19
+        x: 512
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: b00c8851ceaab0ab0800000000000000
-      internalID: -5040747426960850933
+      spriteID: cbe3d36d23f630a4b81cc90f90ccbd33
+      internalID: 175659712
       vertices: []
       indices: 
       edges: []
@@ -244,20 +244,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_5
       rect:
         serializedVersion: 2
-        x: 671
+        x: 640
         y: 0
-        width: 49
-        height: 21
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05475a748878dead0800000000000000
-      internalID: -2671329984573508528
+      spriteID: 40d5bcbd829feda41a64f81344160677
+      internalID: 1051283885
       vertices: []
       indices: 
       edges: []
@@ -266,20 +266,20 @@ TextureImporter:
       name: Dagger Bandit-Attack_6
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
         y: 0
-        width: 42
-        height: 22
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2a4bf5d4a3fad00a0800000000000000
-      internalID: -6913677188002761566
+      spriteID: ace316024457a034aa9ee46e25371236
+      internalID: -1177794362
       vertices: []
       indices: 
       edges: []
@@ -288,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: de610d5038196e34695a84b48ef226e4
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dagger Bandit-Attack_0: -35357063
+      Dagger Bandit-Attack_1: 780665715
+      Dagger Bandit-Attack_2: -345833651
+      Dagger Bandit-Attack_3: -588419458
+      Dagger Bandit-Attack_4: 175659712
+      Dagger Bandit-Attack_5: 1051283885
+      Dagger Bandit-Attack_6: -1177794362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

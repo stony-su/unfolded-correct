@@ -115,7 +115,13 @@ namespace Bundos.MovingPlatforms
         private void OnTriggerEnter2D(Collider2D other)
         {
             if (other.CompareTag("Player"))
-                isActivated = true;
+                StartCoroutine(ActivatePlatformWithDelay(0.5f));
+        }
+
+        private IEnumerator ActivatePlatformWithDelay(float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            isActivated = true;
         }
 
         public void ResetPlatform()

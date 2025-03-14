@@ -33,7 +33,6 @@ public class CrumblingPlatform : MonoBehaviour
         isActive = false;
         float elapsed = 0f;
 
-        // Shake effect
         while (elapsed < shakeDuration)
         {
             Vector3 shakeOffset = new Vector3(
@@ -47,15 +46,12 @@ public class CrumblingPlatform : MonoBehaviour
             yield return null;
         }
 
-        // Reset position and disable platform
         transform.position = originalPosition;
         spriteRenderer.enabled = false;
         platformCollider.enabled = false;
 
-        // Wait for respawn
         yield return new WaitForSeconds(respawnTime);
 
-        // Enable platform
         spriteRenderer.enabled = true;
         platformCollider.enabled = true;
         isActive = true;

@@ -50,6 +50,12 @@ public class PlayerSwitcher : MonoBehaviour
             previousPosition.y += 7f; 
         }
 
+        PlayerMovement currentPlayerMovement = currentPlayer.GetComponent<PlayerMovement>();
+        if (currentPlayerMovement != null && currentPlayerMovement.isDashing)
+        {
+            currentPlayerMovement.StopDashEffect();
+        }
+
         currentPlayer.SetActive(false);
         inactivePlayer.SetActive(true);
 
@@ -76,7 +82,7 @@ public class PlayerSwitcher : MonoBehaviour
         }
     }
 
-     /*
+    /*
     void UpdateCinemachineTarget(Transform newTarget)
     {
         CinemachineVirtualCamera[] virtualCameras = FindObjectsOfType<CinemachineVirtualCamera>(true);

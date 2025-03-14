@@ -6,7 +6,7 @@ public class DisappearingPlatform : MonoBehaviour
     public float detectionDepth = 1f;
     public float shakeDuration = 1f;
     public float shakeMagnitude = 0.1f;
-    public float respawnTime = 2f; // Adjustable respawn time
+    public float respawnTime = 2f; 
     public LayerMask playerLayer;
 
     private Vector3 originalPosition;
@@ -25,7 +25,7 @@ public class DisappearingPlatform : MonoBehaviour
 
     void Update()
     {
-        if (isShaking) return; // Skip detection while shaking or respawning
+        if (isShaking) return; 
 
         Vector2 boxCenter = (Vector2)transform.position + Vector2.down * (detectionDepth / 2 + 0.1f);
         Vector2 boxSize = new Vector2(platformWidth, detectionDepth);
@@ -43,7 +43,6 @@ public class DisappearingPlatform : MonoBehaviour
         isShaking = true;
         float elapsedTime = 0f;
 
-        // Shaking effect
         while (elapsedTime < shakeDuration)
         {
             transform.position = originalPosition + (Vector3)Random.insideUnitCircle * shakeMagnitude;
@@ -51,12 +50,10 @@ public class DisappearingPlatform : MonoBehaviour
             yield return null;
         }
 
-        // Reset position and disable platform visuals/collisions
         transform.position = originalPosition;
         platformCollider.enabled = false;
         spriteRenderer.enabled = false;
 
-        // Start respawn process
         StartCoroutine(RespawnAfterDelay());
     }
 
@@ -64,7 +61,6 @@ public class DisappearingPlatform : MonoBehaviour
     {
         yield return new WaitForSeconds(respawnTime);
 
-        // Re-enable platform
         platformCollider.enabled = true;
         spriteRenderer.enabled = true;
         isShaking = false;

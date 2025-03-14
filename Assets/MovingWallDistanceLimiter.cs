@@ -35,7 +35,7 @@ public class MovingWallDistanceLimiter : MonoBehaviour
             if (distanceMoved >= maxDistance)
             {
                 movingSquare.ResetMovement();
-                movingSquare.canDetectPlayer = false; // Add this line
+                movingSquare.canDetectPlayer = false; 
             }
         }
 

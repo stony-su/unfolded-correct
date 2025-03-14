@@ -20,8 +20,7 @@ public class SquishWall : MonoBehaviour
     }
 
     void CheckForSquish(Collider2D playerCollider, GameObject player)
-    {
-        // Check if player is touching any ground objects
+    {   
         bool isTouchingGround = false;
         List<Collider2D> contacts = new List<Collider2D>();
         ContactFilter2D filter = new ContactFilter2D();
@@ -41,10 +40,10 @@ public class SquishWall : MonoBehaviour
 
         if (isTouchingGround)
         {
-            RespawnManager respawnManager = player.GetComponent<RespawnManager>();
+            RespawnManager respawnManager = RespawnManager.Instance;
             if (respawnManager != null)
             {
-                respawnManager.Respawn();
+                respawnManager.PlayerDied();
             }
         }
     }

@@ -30,7 +30,7 @@ public class DirectionalMovingSquare : MonoBehaviour
     {
         polygonCollider = GetComponent<PolygonCollider2D>();
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0; // Disable gravity
+        rb.gravityScale = 0;
     }
 
     private void FixedUpdate()
@@ -59,7 +59,6 @@ public class DirectionalMovingSquare : MonoBehaviour
         float width = size.x;
         float height = size.y;
 
-        // Check Up
         Vector2 upBoxSize = new Vector2(width * upDetectionWidth, upDetectionLength);
         Vector2 upBoxCenter = (Vector2)transform.position + new Vector2(0, height/2 + upDetectionLength/2);
         if (CheckDetectionBox(upBoxCenter, upBoxSize))
@@ -69,7 +68,6 @@ public class DirectionalMovingSquare : MonoBehaviour
             return;
         }
 
-        // Check Down
         Vector2 downBoxSize = new Vector2(width * downDetectionWidth, downDetectionLength);
         Vector2 downBoxCenter = (Vector2)transform.position - new Vector2(0, height/2 + downDetectionLength/2);
         if (CheckDetectionBox(downBoxCenter, downBoxSize))
@@ -79,7 +77,6 @@ public class DirectionalMovingSquare : MonoBehaviour
             return;
         }
 
-        // Check Left
         Vector2 leftBoxSize = new Vector2(leftDetectionLength, height * leftDetectionWidth);
         Vector2 leftBoxCenter = (Vector2)transform.position - new Vector2(width/2 + leftDetectionLength/2, 0);
         if (CheckDetectionBox(leftBoxCenter, leftBoxSize))
@@ -89,7 +86,6 @@ public class DirectionalMovingSquare : MonoBehaviour
             return;
         }
 
-        // Check Right
         Vector2 rightBoxSize = new Vector2(rightDetectionLength, height * rightDetectionWidth);
         Vector2 rightBoxCenter = (Vector2)transform.position + new Vector2(width/2 + rightDetectionLength/2, 0);
         if (CheckDetectionBox(rightBoxCenter, rightBoxSize))
@@ -115,19 +111,15 @@ public class DirectionalMovingSquare : MonoBehaviour
 
         Gizmos.color = Color.green;
 
-        // Draw Up Detection
         Gizmos.DrawWireCube(transform.position + new Vector3(0, height/2 + upDetectionLength/2, 0),
             new Vector3(width * upDetectionWidth, upDetectionLength, 1));
 
-        // Draw Down Detection
         Gizmos.DrawWireCube(transform.position - new Vector3(0, height/2 + downDetectionLength/2, 0),
             new Vector3(width * downDetectionWidth, downDetectionLength, 1));
 
-        // Draw Left Detection
         Gizmos.DrawWireCube(transform.position - new Vector3(width/2 + leftDetectionLength/2, 0, 0),
             new Vector3(leftDetectionLength, height * leftDetectionWidth, 1));
 
-        // Draw Right Detection
         Gizmos.DrawWireCube(transform.position + new Vector3(width/2 + rightDetectionLength/2, 0, 0),
             new Vector3(rightDetectionLength, height * rightDetectionWidth, 1));
     }

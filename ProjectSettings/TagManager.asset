@@ -12,6 +12,8 @@ TagManager:
   - Platform
   - Enemy
   - MovingPlatform
+  - PlayerAttack
+  - BossHealthBar
   layers:
   - Default
   - TransparentFX

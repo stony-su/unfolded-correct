@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -129,7 +129,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -194,10 +194,10 @@ TextureImporter:
       name: Dagger Bandit-Death_0
       rect:
         serializedVersion: 2
-        x: 152
-        y: 4
-        width: 27
-        height: 24
+        x: 0
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Dagger Bandit-Death_1
       rect:
         serializedVersion: 2
-        x: 269
-        y: 3
-        width: 37
-        height: 24
+        x: 128
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Dagger Bandit-Death_2
       rect:
         serializedVersion: 2
-        x: 303
-        y: 19
-        width: 6
-        height: 7
+        x: 256
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Dagger Bandit-Death_3
       rect:
         serializedVersion: 2
-        x: 389
-        y: 4
-        width: 48
-        height: 23
+        x: 384
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Dagger Bandit-Death_4
       rect:
         serializedVersion: 2
-        x: 515
-        y: 4
-        width: 51
-        height: 24
+        x: 512
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Dagger Bandit-Death_5
       rect:
         serializedVersion: 2
-        x: 642
-        y: 4
-        width: 53
-        height: 25
+        x: 640
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Dagger Bandit-Death_6
       rect:
         serializedVersion: 2
-        x: 769
-        y: 4
-        width: 55
-        height: 25
+        x: 768
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Dagger Bandit-Death_7
       rect:
         serializedVersion: 2
-        x: 789
-        y: 18
-        width: 7
-        height: 7
+        x: 896
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Dagger Bandit-Death_8
       rect:
         serializedVersion: 2
-        x: 918
-        y: 7
-        width: 34
-        height: 20
+        x: 1024
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Dagger Bandit-Death_9
       rect:
         serializedVersion: 2
-        x: 1046
-        y: 13
-        width: 23
-        height: 15
+        x: 1152
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Dagger Bandit-Death_10
       rect:
         serializedVersion: 2
-        x: 1158
-        y: 19
-        width: 7
-        height: 7
+        x: 1280
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Dagger Bandit-Death_11
       rect:
         serializedVersion: 2
-        x: 1176
-        y: 24
-        width: 7
-        height: 7
+        x: 1408
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Dagger Bandit-Death_12
       rect:
         serializedVersion: 2
-        x: 1283
-        y: 4
-        width: 28
-        height: 28
+        x: 1536
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Dagger Bandit-Death_13
       rect:
         serializedVersion: 2
-        x: 1285
-        y: 21
-        width: 6
-        height: 6
+        x: 1664
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Dagger Bandit-Death_14
       rect:
         serializedVersion: 2
-        x: 1411
-        y: 4
-        width: 28
-        height: 30
+        x: 1792
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Dagger Bandit-Death_15
       rect:
         serializedVersion: 2
-        x: 1539
-        y: 4
-        width: 30
-        height: 31
+        x: 1920
+        y: 0
+        width: 128
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,253 +542,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_16
-      rect:
-        serializedVersion: 2
-        x: 1667
-        y: 4
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0beacf68356560c60800000000000000
-      internalID: 7784003922703462064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_17
-      rect:
-        serializedVersion: 2
-        x: 1795
-        y: 4
-        width: 31
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 226165ddb562fa1b0800000000000000
-      internalID: -5643249632074656222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_18
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 4
-        width: 17
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5781038e533f37f70800000000000000
-      internalID: 9183951477992855669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_19
-      rect:
-        serializedVersion: 2
-        x: 302
-        y: 10
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 20a5f078fe3bc44a0800000000000000
-      internalID: -6607708711914874366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_20
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 15
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e77b9faec2ee38d30800000000000000
-      internalID: 4432648334950905726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_21
-      rect:
-        serializedVersion: 2
-        x: 904
-        y: 14
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cc84c07b3c67903c0800000000000000
-      internalID: -4392849378561472308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_22
-      rect:
-        serializedVersion: 2
-        x: 1031
-        y: 16
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ac59a92edb53cab0800000000000000
-      internalID: -4989042952456545120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_23
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 4
-        width: 31
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fe2d4ac94ed9cb30800000000000000
-      internalID: 4308218927064624888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_24
-      rect:
-        serializedVersion: 2
-        x: 1023
-        y: 4
-        width: 32
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 924e9609bf73844f0800000000000000
-      internalID: -844363376532790231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_25
-      rect:
-        serializedVersion: 2
-        x: 1155
-        y: 4
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 753f126b13037bd70800000000000000
-      internalID: 9058762165546251095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Dagger Bandit-Death_26
-      rect:
-        serializedVersion: 2
-        x: 1923
-        y: 4
-        width: 28
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 88b892b50cb339330800000000000000
-      internalID: 3716379814860000136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e2193aad9a47fa14eb0d87c185fb27cf
     internalID: 0
     vertices: []
     indices: 
@@ -797,7 +555,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dagger Bandit-Death_0: 2689224272958269898
+      Dagger Bandit-Death_1: -9037391145398228768
+      Dagger Bandit-Death_10: -2744869707696340755
+      Dagger Bandit-Death_11: 4034080446946886178
+      Dagger Bandit-Death_12: -811388225728626953
+      Dagger Bandit-Death_13: -7839160146365398228
+      Dagger Bandit-Death_14: 3348818383064412371
+      Dagger Bandit-Death_15: -1974411684250670470
+      Dagger Bandit-Death_2: 6981049078689297794
+      Dagger Bandit-Death_3: -9129588649730805258
+      Dagger Bandit-Death_4: 448490911957691649
+      Dagger Bandit-Death_5: 2874779924388400493
+      Dagger Bandit-Death_6: 2500862252125078821
+      Dagger Bandit-Death_7: 8373349432411127679
+      Dagger Bandit-Death_8: 3248569034649428105
+      Dagger Bandit-Death_9: 3909130154695016208
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

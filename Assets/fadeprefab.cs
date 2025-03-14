@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FadeOut : MonoBehaviour
 {
-    public float fadeDuration = 0.5f; // Time it takes to fade out
+    public float fadeDuration = 0.5f;
     private SpriteRenderer spriteRenderer;
     private float timer;
 
@@ -17,11 +17,10 @@ public class FadeOut : MonoBehaviour
         timer -= Time.deltaTime;
         if (timer <= 0)
         {
-            Destroy(gameObject); // Destroy the effect when it fades out
+            Destroy(gameObject); 
         }
         else
         {
-            // Fade out the sprite
             Color color = spriteRenderer.color;
             color.a = timer / fadeDuration;
             spriteRenderer.color = color;

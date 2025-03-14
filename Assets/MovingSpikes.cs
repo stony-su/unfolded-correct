@@ -5,9 +5,9 @@ public class MovingObject : MonoBehaviour
     public enum MovementDirection { Up, Down, Left, Right }
     public MovementDirection direction = MovementDirection.Left;
 
-    public float moveLength = 5f; // Distance to move
-    public float moveTime = 2f;   // Time to complete the movement
-    public float waitTime = 1f;   // Time to wait before reversing direction
+    public float moveLength = 5f; 
+    public float moveTime = 2f;  
+    public float waitTime = 1f;  
 
     private Vector3 startPosition;
     private Vector3 targetPosition;
@@ -77,14 +77,12 @@ public class MovingObject : MonoBehaviour
             isMoving = true;
             elapsedTime = 0f;
 
-            // Swap start and target positions to reverse direction
             Vector3 temp = startPosition;
             startPosition = targetPosition;
             targetPosition = temp;
         }
     }
 
-    // Optional: Draw gizmos to visualize the movement path in the editor
     private void OnDrawGizmosSelected()
     {
         if (Application.isPlaying)

@@ -4,54 +4,46 @@ using System.Collections;
 
 public class FloatingScissorsEnemy : MonoBehaviour
 {
-    [Header("Movement Settings")]
+    [Header("Detection Settings")]
     public float detectionRadius = 5f;
     public float attackRadius = 2f;
-    public float moveSpeed = 5f;
-    public float rotationSpeed = 10f;
 
     [Header("Attack Settings")]
+    public float launchDistance = 5f;
     public float telegraphTime = 0.5f;
-    public float attackCooldown = 1f;
-    public float launchDistance = 3f;
-    public float pullBackDistance = 0.3f;
+    public float launchSpeed = 10f;
+    public float pullBackSpeed = 3f;
 
     [Header("References")]
     public LineRenderer attackLine;
-    public Animator animator;
-    public string attackAnimationName = "Attack";
+
+    [Header("Cooldown Settings")]
+    public float attackCooldown = 0f; 
 
     private Transform player;
     private NavMeshAgent agent;
-    public bool isAttacking = false;
+    private Animator animator;
+    private Rigidbody2D rb;
+    private bool isAttacking = false;
+    private bool isOnCooldown = false;
     private Vector2 attackDirection;
-
-    public int health = 100;
-
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-
-        if (health <= 0)
-        {
-            Die();
-        }
-    }
-
-    void Die()
-    {
-        // Add death animation or effects here
-        Destroy(gameObject);
-    }
 
     void Start()
     {
-        agent = GetComponent<NavMeshAgent>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        agent.speed = moveSpeed;
+        agent = GetComponent<NavMeshAgent>();
+        animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
+
+        ConfigureNavMeshAgent();
+        attackLine.enabled = false;
+    }
+
+    void ConfigureNavMeshAgent()
+    {
         agent.updateRotation = false;
         agent.updateUpAxis = false;
-        attackLine.enabled = false;
+        agent.stoppingDistance = attackRadius * 0.8f;
     }
 
     void Update()
@@ -60,90 +52,107 @@ public class FloatingScissorsEnemy : MonoBehaviour
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-        if (distanceToPlayer <= attackRadius)
+        if (distanceToPlayer <= attackRadius && !isOnCooldown)
         {
             StartCoroutine(AttackSequence());
         }
         else if (distanceToPlayer <= detectionRadius)
         {
-            agent.SetDestination(player.position);
-            UpdateRotation(agent.velocity.normalized);
+            ChasePlayer();
         }
         else
         {
-            agent.ResetPath();
+            StopChasing();
         }
+    }
+
+    void ChasePlayer()
+    {
+        agent.SetDestination(player.position);
+        animator.SetBool("IsFlying", true);
+        RotateTowards(player.position - transform.position);
+    }
+
+    void StopChasing()
+    {
+        agent.SetDestination(transform.position);
+        animator.SetBool("IsFlying", false);
     }
 
     IEnumerator AttackSequence()
     {
         isAttacking = true;
-        agent.ResetPath();
+        agent.enabled = false;
+        animator.SetBool("IsAttacking", true);
+        animator.SetBool("IsFlying", false);
 
-        // Determine attack direction
         attackDirection = (player.position - transform.position).normalized;
-        UpdateRotation(attackDirection);
 
-        // Pull back
-        Vector2 pullBackPosition = (Vector2)transform.position - attackDirection * pullBackDistance;
-        yield return MoveToPosition(pullBackPosition, 0.1f);
+        yield return StartCoroutine(PullBackMovement());
 
-        // Show telegraph line
-        attackLine.enabled = true;
-        attackLine.startWidth = 0.05f;  // Make the line thin
-        attackLine.endWidth = 0.05f;    
+        yield return StartCoroutine(ShowAttackTelegraph());
 
-        attackLine.startColor = new Color(1f, 0f, 0f);
-        attackLine.endColor = new Color(1f, 0f, 0f);
+        yield return StartCoroutine(PerformAttack());
 
-        // Position the line in front of the enemy
-        Vector2 midPoint = (Vector2)transform.position + attackDirection * (launchDistance / 2f);
-        Vector2 startPoint = midPoint - attackDirection * (launchDistance / 2f);
-        Vector2 endPoint = midPoint + attackDirection * (launchDistance / 2f);
-
-        attackLine.SetPosition(0, startPoint);
-        attackLine.SetPosition(1, endPoint);
-
-        yield return new WaitForSeconds(telegraphTime);
-        attackLine.enabled = false;
-
-        // Play attack animation
-        if (animator != null)
-        {
-            animator.Play(attackAnimationName);
-        }
-
-        // Launch attack
-        Vector2 launchTarget = (Vector2)transform.position + attackDirection * launchDistance;
-        yield return MoveToPosition(launchTarget, 0.1f);
-
-        // Cooldown
-        yield return new WaitForSeconds(attackCooldown);
+        agent.enabled = true;
         isAttacking = false;
+        animator.SetBool("IsAttacking", false);
+
+        isOnCooldown = true;
+        yield return new WaitForSeconds(attackCooldown);
+        isOnCooldown = false;
+
+        if (Vector2.Distance(transform.position, player.position) <= detectionRadius)
+        {
+            animator.SetBool("IsFlying", true);
+        }
     }
 
-    IEnumerator MoveToPosition(Vector2 targetPosition, float duration)
+    IEnumerator PullBackMovement()
     {
-        Vector2 startPosition = transform.position;
-        float elapsed = 0f;
+        float pullBackDuration = 0.3f;
+        float timer = 0f;
+        Vector2 pullBackDirection = -attackDirection;
 
-        while (elapsed < duration)
+        while (timer < pullBackDuration)
         {
-            transform.position = Vector2.Lerp(startPosition, targetPosition, elapsed / duration);
-            elapsed += Time.deltaTime;
+            rb.linearVelocity = pullBackDirection * pullBackSpeed;
+            RotateTowards(pullBackDirection);
+            timer += Time.deltaTime;
             yield return null;
         }
-
-        transform.position = targetPosition;
     }
 
-    void UpdateRotation(Vector2 direction)
+    IEnumerator ShowAttackTelegraph()
     {
-        if (direction == Vector2.zero) return;
-        
+        attackLine.startWidth = 0.05f; 
+        attackLine.endWidth = 0.05f;
+        attackLine.material.color = Color.red; 
+
+        attackLine.enabled = true;
+        attackLine.SetPosition(0, transform.position);
+        attackLine.SetPosition(1, (Vector2)transform.position + attackDirection * launchDistance);
+
+        yield return new WaitForSeconds(telegraphTime);
+
+        attackLine.enabled = false;
+    }
+
+    IEnumerator PerformAttack()
+    {
+        rb.linearVelocity = attackDirection * launchSpeed;
+        RotateTowards(attackDirection);
+
+        float attackDuration = launchDistance / launchSpeed;
+        yield return new WaitForSeconds(attackDuration);
+
+        rb.linearVelocity = Vector2.zero;
+    }
+
+    void RotateTowards(Vector2 direction)
+    {
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        Quaternion targetRotation = Quaternion.AngleAxis(angle, Vector3.forward);
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
 
     void OnDrawGizmosSelected()

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -17,22 +18,42 @@ public class PlayerAttack : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            Attack();
+            StartCoroutine(PerformAttack());
         }
     }
 
-    void Attack()
+    IEnumerator PerformAttack()
     {
         animator.SetTrigger("Attack");
+        yield return new WaitForSeconds(0.25f);
+        DetectAttack();
+    }
 
+    void DetectAttack()
+    {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
-    
+
         foreach (Collider2D enemy in hitEnemies)
         {
-            stun enemyComponent = enemy.GetComponent<stun>();
-            if (enemyComponent != null)
+            PlatformerEnemy platformerEnemy = enemy.GetComponent<PlatformerEnemy>();
+
+            if (platformerEnemy != null)
             {
-                enemyComponent.TakeDamage(attackDamage);
+                platformerEnemy.Die();
+            }
+
+           DeathHandler deathHandler = enemy.GetComponent<DeathHandler>();
+           
+            if (deathHandler != null)
+            {
+                deathHandler.Die();
+            }
+
+            BossHealth bossHealth = enemy.GetComponent<BossHealth>();
+
+            if (bossHealth != null)
+            {
+                bossHealth.TakeDamage(attackDamage);
             }
         }
     }

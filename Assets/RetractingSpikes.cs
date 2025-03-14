@@ -28,9 +28,12 @@ public class RetractingSpikes : MonoBehaviour
         while (true)
         {
             animator.SetTrigger("Extend");
+            yield return new WaitForSeconds(0.15f);
+            EnableCollider();
             yield return new WaitForSeconds(extendedWait);
 
             animator.SetTrigger("Retract");
+            DisableCollider();
             yield return new WaitForSeconds(retractedWait);
         }
     }
@@ -45,6 +48,7 @@ public class RetractingSpikes : MonoBehaviour
 
     public void EnableCollider()
     {
+        
         spikeCollider.enabled = true;
     }
 

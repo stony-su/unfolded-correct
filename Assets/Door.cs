@@ -4,14 +4,14 @@ using System.Collections;
 
 public class Door : MonoBehaviour
 {
-    public Animator animator; // Reference to the Animator component
-    public bool playAnimation = true; // Whether to play the animation or not
+    public Animator animator; 
+    public bool playAnimation = true; 
 
-    private bool playerInRange = false; // To check if the player is in range
+    private bool playerInRange = false; 
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.V)) // Assuming 'E' is the key to interact
+        if (playerInRange && Input.GetKeyDown(KeyCode.V)) 
         {
             if (playAnimation && animator != null)
             {
@@ -42,15 +42,15 @@ public class Door : MonoBehaviour
 
     private IEnumerator OpenDoorWithAnimation()
     {
-        animator.SetTrigger("Open"); // Trigger the door open animation
+        animator.SetTrigger("Open"); 
         AnimatorStateInfo stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        yield return new WaitForSeconds(stateInfo.length); // Wait for the animation to finish
-        LoadNextScene(); // Load the next scene
+        yield return new WaitForSeconds(stateInfo.length); 
+        LoadNextScene(); 
     }
 
     private void OpenDoorWithoutAnimation()
     {
-        LoadNextScene(); // Load the next scene immediately
+        LoadNextScene(); 
     }
 
     private void LoadNextScene()

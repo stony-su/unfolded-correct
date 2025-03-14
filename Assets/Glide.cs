@@ -17,10 +17,10 @@ public class SquirrelGlideController : MonoBehaviour
 
     public Image staminaBarForeground;
 
-    public Color transformedColor = new Color(1f, 1f, 0f); // Yellowish for transformed
-    public Color normalColor = Color.white; // White for normal form
-    public Vector3 transformedScale = new Vector3(1f, 0.5f, 1f); // Flat for transformed version
-    public Vector3 normalScale = new Vector3(1f, 1f, 1f); // Normal scale
+    public Color transformedColor = new Color(1f, 1f, 0f); 
+    public Color normalColor = Color.white; 
+    public Vector3 transformedScale = new Vector3(1f, 0.5f, 1f); 
+    public Vector3 normalScale = new Vector3(1f, 1f, 1f); 
 
     public float staminaRegenRate = 15f;
 
@@ -51,13 +51,11 @@ public class SquirrelGlideController : MonoBehaviour
     {
         if (isTransformed)
         {
-            // Revert to normal form
             isTransformed = false;
             StopGliding();
         }
-        else if (currentStamina > minStamina) // Only transform if there is stamina
+        else if (currentStamina > minStamina) 
         {
-            // Transform to squirrel
             isTransformed = true;
             StartGliding();
         }
@@ -79,7 +77,6 @@ public class SquirrelGlideController : MonoBehaviour
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Max(rb.linearVelocity.y, -glideSpeed));
 
-            // Linear, smooth stamina drain
             currentStamina -= glideStaminaCostPerSecond * Time.deltaTime;
 
             if (currentStamina <= minStamina)

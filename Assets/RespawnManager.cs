@@ -8,7 +8,7 @@ public class RespawnManager : MonoBehaviour
 
     public Vector3 respawnPoint;
     public float fallThreshold = 0f;
-    public AudioClip deathSFX;
+    public AudioSource deathSFX;
 
     public GameObject player1;
     public GameObject player2;
@@ -33,6 +33,7 @@ public class RespawnManager : MonoBehaviour
     {
         if (!isRespawning)
         {
+            StopBossJumpAttack();
             StartCoroutine(HandleRespawn());
         }
     }
@@ -51,13 +52,8 @@ public class RespawnManager : MonoBehaviour
     {
         isRespawning = true;
 
-        // Disable movement for both players
         SetPlayerMovementEnabled(false);
-        
-        // Reset velocities
         ResetPlayerVelocities();
-
-        // Handle animations
         TriggerDeathAnimations();
 
         PlayDeathSFX();
@@ -65,7 +61,6 @@ public class RespawnManager : MonoBehaviour
 
         Respawn();
         
-        // Re-enable movement
         SetPlayerMovementEnabled(true);
 
         isRespawning = false;
@@ -76,11 +71,13 @@ public class RespawnManager : MonoBehaviour
         if (player1 != null)
             player1.transform.position = new Vector3(respawnPoint.x, respawnPoint.y, player1.transform.position.z);
         if (player2 != null)
-            player2.transform.position = new Vector3(respawnPoint.x, respawnPoint.y, player2.transform.position.z);
+            player2.transform.position = new Vector3(respawnPoint.x, respawnPoint.y - 7f, player2.transform.position.z);
 
         foreach (var item in respawnableItems)
             if (item != null)
                 item.ResetItem();
+
+        ResetBossHealth(); 
     }
 
     private void SetPlayerMovementEnabled(bool enabled)
@@ -129,7 +126,25 @@ public class RespawnManager : MonoBehaviour
 
     private void PlayDeathSFX()
     {
-        if (audioSource != null && deathSFX != null)
-            audioSource.PlayOneShot(deathSFX);
+        if (deathSFX != null)
+            deathSFX.Play(); 
+    }
+
+    private void ResetBossHealth()
+    {
+        var boss = FindObjectOfType<BossHealth>();
+        if (boss != null)
+        {
+            boss.ResetHealth();
+        }
+    }
+
+    private void StopBossJumpAttack()
+    {
+        var boss = FindObjectOfType<Boss>();
+        if (boss != null)
+        {
+            boss.CancelJumpAttack();
+        }
     }
 }

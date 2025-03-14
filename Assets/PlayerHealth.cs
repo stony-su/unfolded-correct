@@ -12,6 +12,10 @@ public class PlayerHealth : MonoBehaviour
     public float respawnDelay = 0.2f;
     public float invulnerabilityDuration = 0.5f; 
 
+    public CameraShake cameraShake;
+    public float shakeDuration = 0.1f;
+    public float shakeMagnitude = 0.1f;
+
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
@@ -23,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         originalColor = spriteRenderer.color;
+        cameraShake = Camera.main.GetComponent<CameraShake>();
     }
 
     void Update()
@@ -49,15 +54,20 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    public void TakeDamage(int damage, Vector2 enemyPosition)
+    public void TakeDamage(float damage, Vector2 enemyPosition)
     {
-        currentHealth -= damage;
+        currentHealth -= (int)damage;
         currentHealth = Mathf.Max(currentHealth, 0);
 
         Vector2 knockbackDirection = ((Vector2)transform.position - enemyPosition).normalized;
         rb.AddForce(knockbackDirection * knockbackForce, ForceMode2D.Impulse);
 
         StartCoroutine(FlashRed());
+
+        if (cameraShake != null)
+        {
+            StartCoroutine(cameraShake.Shake(shakeDuration, shakeMagnitude));
+        }
 
         UpdateHealthBar();
 
@@ -87,7 +97,7 @@ public class PlayerHealth : MonoBehaviour
     IEnumerator RespawnAfterDelay()
     {
         yield return new WaitForSeconds(respawnDelay);
-        RespawnManager.Instance.Respawn();
+        RespawnManager.Instance.PlayerDied();
         currentHealth = maxHealth;
         UpdateHealthBar();
     }

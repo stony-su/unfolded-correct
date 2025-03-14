@@ -25,7 +25,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Dash Settings")]
     private Rigidbody2D rb;
     private bool canDash = true;
-    private bool isDashing = false;
+    public bool isDashing = false;
     [SerializeField] private float dashSpeed = 30f;
     [SerializeField] private float dashDuration = 0.15f;
     [SerializeField] private bool airDashAllowed = true;
@@ -70,6 +70,8 @@ public class PlayerMovement : MonoBehaviour
     private SquirrelGlideController glideController;
 
     private Animator animator;
+    private Rigidbody2D currentPlatform;
+
 
     private void Awake()
     {
@@ -87,19 +89,31 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        Collider2D groundCollider = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+        isGrounded = groundCollider != null;
+
         if (isGrounded)
         {
             lastGroundedTime = Time.time;
             jumpPerformed = false;
             animator.SetBool("isFalling", false);
+
             if (!animator.GetBool("isLanding"))
             {
                 animator.SetBool("isLanding", true);
             }
+            if (groundCollider.CompareTag("MovingPlatform"))
+            {
+                currentPlatform = groundCollider.GetComponentInParent<Rigidbody2D>();
+            }
+            else
+            {
+                currentPlatform = null;
+            }
         }
         else
         {
+            currentPlatform = null;
             animator.SetBool("isLanding", false);
         }
 
@@ -126,7 +140,6 @@ public class PlayerMovement : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
         }
-
         if (Input.GetKeyDown(KeyCode.X) && CanDash())
         {
             glideController.UseStamina(dashStaminaCost);
@@ -151,7 +164,6 @@ public class PlayerMovement : MonoBehaviour
         WallSlide();
         WallJump();
 
-        // Update running animation
         animator.SetFloat("Speed", Mathf.Abs(rb.linearVelocity.x));
     }
 
@@ -203,7 +215,6 @@ public class PlayerMovement : MonoBehaviour
             else if (isTouchingLeftWall)
             {
 
-                //rb.linearVelocity = new Vector2(-1 * wallJumpPushForce, wallJumpForce);
                 rb.linearVelocity = new Vector2(-1*characterDirection*wallJumpPushForce, wallJumpForce);
 
                 if (characterDirection == -1f)
@@ -234,18 +245,19 @@ public class PlayerMovement : MonoBehaviour
         float currentAcceleration = acceleration;
         float currentMoveSpeed = moveSpeed;
         wallJumpPushForce = 60f;
+
         if (isWallJumping)
         {
             currentAcceleration = 0;
             currentMoveSpeed = currentMoveSpeed * wallJumpRunForceMultiplier;
             currentMoveSpeed = currentMoveSpeed > 0 ? 0.1f : 0f;
+
             if (moveInput.x != 0)
             {
                 wallJumpPushForce = wallJumpPushForce - 30f;
             }
         }
 
-        // Water movement
         if (isInWater)
         {
             currentMoveSpeed *= waterMoveSpeedMultiplier;
@@ -270,6 +282,11 @@ public class PlayerMovement : MonoBehaviour
         float accelerationRate = Mathf.Abs(targetSpeed) > 0.01f ? currentAcceleration : deceleration;
         rb.linearVelocity = new Vector2(Mathf.Lerp(rb.linearVelocity.x, targetSpeed, accelerationRate), rb.linearVelocity.y);
 
+        if (currentPlatform != null)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x + currentPlatform.linearVelocity.x * 0.3f, rb.linearVelocity.y);
+        }
+
         if (moveInput.x > 0)
         {
             characterDirection = 1f;
@@ -290,7 +307,6 @@ public class PlayerMovement : MonoBehaviour
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0;
 
-        // Calculate the dash speed based on input
         float speedFactor;
         float currentDashSpeed;
         float timeBetweenEffects;
@@ -318,10 +334,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (dashTrail != null) dashTrail.Play();
 
-        // Calculate time between each dash effect based on speed and desired distance (1.6 units)
         int effectsSpawned = 0;
 
-        // Spawn three dash effects at calculated intervals
         while (effectsSpawned < 3)
         {
             yield return new WaitForSeconds(timeBetweenEffects);
@@ -329,7 +343,6 @@ public class PlayerMovement : MonoBehaviour
             effectsSpawned++;
         }
 
-        // Wait for the remaining dash duration after spawning effects
         yield return new WaitForSeconds(dashDuration - (timeBetweenEffects * 3));
 
         rb.gravityScale = originalGravity;
@@ -394,6 +407,16 @@ public class PlayerMovement : MonoBehaviour
     public void ActivateDashPowerup()
     {
         canDash = true;
+    }
+
+    public void StopDashEffect()
+    {
+        if (dashTrail != null && dashTrail.isPlaying)
+        {
+            dashTrail.Stop();
+        }
+        isDashing = false;
+        rb.gravityScale = originalGravity;
     }
     #endregion
 
