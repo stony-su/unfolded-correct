@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Trap Crafting Table_0: 5301647302038639643
+      Trap Crafting Table_1: 8173655179225780893
+      Trap Crafting Table_2: 5190601343152912028
+      Trap Crafting Table_3: -917234614774652647
+      Trap Crafting Table_4: -5614460437799241659
+      Trap Crafting Table_5: 7006432818985091559
+      Trap Crafting Table_6: -4535584321138768526
+      Trap Crafting Table_7: 5419181213083607916
+      Trap Crafting Table_8: -1831202944560273135
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
