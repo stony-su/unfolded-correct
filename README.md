@@ -1,4 +1,5 @@
-# UnfoldMe
-Our 100 hour project for Juice, hack club's chinese game jam
+# Onyx
+Juice - 2 month game jam to go to china 
+Platformer castle themed game
 
-Play: https://stony-su.itch.io/unfoldme
+Play: https://stony-su.itch.io/onyx
