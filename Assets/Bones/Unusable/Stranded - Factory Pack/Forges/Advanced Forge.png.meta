@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Advanced Forge_0: -5503456653728542792
+      Advanced Forge_1: 8459215886692043936
+      Advanced Forge_2: -8547121719802904601
+      Advanced Forge_3: -4152442730205365823
+      Advanced Forge_4: 7047957820018554547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

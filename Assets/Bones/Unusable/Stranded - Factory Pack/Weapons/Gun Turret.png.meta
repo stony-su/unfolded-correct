@@ -672,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gun Turret_0: 3070355138506311061
+      Gun Turret_1: -5204949434960102693
+      Gun Turret_10: 6369819268496722873
+      Gun Turret_11: -1885998380547296810
+      Gun Turret_12: -116501126848590209
+      Gun Turret_13: 5155132076184301993
+      Gun Turret_14: 4334309583501013077
+      Gun Turret_15: 2689224708882062345
+      Gun Turret_16: -1681231118669687850
+      Gun Turret_17: -8107183897775645279
+      Gun Turret_18: 5203180165759357276
+      Gun Turret_19: -325800446443958657
+      Gun Turret_2: -565019134785005814
+      Gun Turret_20: -7951055373238626621
+      Gun Turret_21: 9091679218672763097
+      Gun Turret_3: 5693610580238089389
+      Gun Turret_4: 6622027518185983079
+      Gun Turret_5: -4396998272658337662
+      Gun Turret_6: -4260665481583483067
+      Gun Turret_7: -4558986088523528939
+      Gun Turret_8: 131826284569208921
+      Gun Turret_9: 7117992868041104010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

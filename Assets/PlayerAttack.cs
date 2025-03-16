@@ -42,7 +42,7 @@ public class PlayerAttack : MonoBehaviour
                 platformerEnemy.Die();
             }
 
-           DeathHandler deathHandler = enemy.GetComponent<DeathHandler>();
+            DeathHandler deathHandler = enemy.GetComponent<DeathHandler>();
            
             if (deathHandler != null)
             {
@@ -54,6 +54,13 @@ public class PlayerAttack : MonoBehaviour
             if (bossHealth != null)
             {
                 bossHealth.TakeDamage(attackDamage);
+            }
+
+            ArcherEnemy archerEnemy = enemy.GetComponent<ArcherEnemy>();
+
+            if (archerEnemy != null)
+            {
+                archerEnemy.TakeDamage(attackDamage);
             }
         }
     }

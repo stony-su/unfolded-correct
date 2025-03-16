@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -129,7 +129,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,10 +150,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -194,10 +194,10 @@ TextureImporter:
       name: Archer Bandit-Death_0
       rect:
         serializedVersion: 2
-        x: 118
+        x: 0
         y: 0
-        width: 33
-        height: 23
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: Archer Bandit-Death_1
       rect:
         serializedVersion: 2
-        x: 194
+        x: 85
         y: 0
-        width: 41
-        height: 22
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Archer Bandit-Death_2
       rect:
         serializedVersion: 2
-        x: 232
-        y: 14
-        width: 6
-        height: 7
+        x: 170
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Archer Bandit-Death_3
       rect:
         serializedVersion: 2
-        x: 274
+        x: 255
         y: 0
-        width: 49
-        height: 22
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Archer Bandit-Death_4
       rect:
         serializedVersion: 2
-        x: 358
+        x: 340
         y: 0
-        width: 51
-        height: 23
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Archer Bandit-Death_5
       rect:
         serializedVersion: 2
-        x: 442
+        x: 425
         y: 0
-        width: 53
-        height: 24
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Archer Bandit-Death_6
       rect:
         serializedVersion: 2
-        x: 525
+        x: 510
         y: 0
-        width: 56
-        height: 24
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Archer Bandit-Death_7
       rect:
         serializedVersion: 2
-        x: 546
-        y: 13
-        width: 7
-        height: 7
+        x: 595
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Archer Bandit-Death_8
       rect:
         serializedVersion: 2
-        x: 632
-        y: 2
-        width: 34
-        height: 20
+        x: 680
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Archer Bandit-Death_9
       rect:
         serializedVersion: 2
-        x: 717
-        y: 8
-        width: 23
-        height: 15
+        x: 765
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Archer Bandit-Death_10
       rect:
         serializedVersion: 2
-        x: 786
-        y: 14
-        width: 7
-        height: 7
+        x: 850
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Archer Bandit-Death_11
       rect:
         serializedVersion: 2
-        x: 804
-        y: 19
-        width: 7
-        height: 7
+        x: 935
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Archer Bandit-Death_12
       rect:
         serializedVersion: 2
-        x: 864
+        x: 1020
         y: 0
-        width: 32
-        height: 27
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Archer Bandit-Death_13
       rect:
         serializedVersion: 2
-        x: 870
-        y: 16
-        width: 6
-        height: 6
+        x: 1105
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Archer Bandit-Death_14
       rect:
         serializedVersion: 2
-        x: 949
+        x: 1190
         y: 0
-        width: 32
-        height: 29
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Archer Bandit-Death_15
       rect:
         serializedVersion: 2
-        x: 1034
+        x: 1275
         y: 0
-        width: 34
-        height: 30
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -542,253 +542,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_16
-      rect:
-        serializedVersion: 2
-        x: 1119
-        y: 0
-        width: 35
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa86be4b414302210800000000000000
-      internalID: 1306101155476760746
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_17
-      rect:
-        serializedVersion: 2
-        x: 1204
-        y: 0
-        width: 35
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6d42738e2138c170800000000000000
-      internalID: 8198857197471550829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_18
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 0
-        width: 24
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6ff9f9c64bfd20a0800000000000000
-      internalID: -6904586372234215574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_19
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 5
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f766ffe73c556ac30800000000000000
-      internalID: 4370274786547295871
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_20
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 10
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6656432758995f490800000000000000
-      internalID: -7713089988376369818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_21
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 9
-        width: 8
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4b29cddb832225880800000000000000
-      internalID: -8623792709362216268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_22
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 11
-        width: 7
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 981322ee5be513a10800000000000000
-      internalID: 1887393854322258313
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_23
-      rect:
-        serializedVersion: 2
-        x: 609
-        y: 0
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed12618d021bc9e20800000000000000
-      internalID: 3358754176733946334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_24
-      rect:
-        serializedVersion: 2
-        x: 694
-        y: 0
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9fa3324e74e94db0800000000000000
-      internalID: -4807059896313598052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_25
-      rect:
-        serializedVersion: 2
-        x: 779
-        y: 0
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: db5b2c901699182d0800000000000000
-      internalID: -3278170411694377539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Death_26
-      rect:
-        serializedVersion: 2
-        x: 1289
-        y: 0
-        width: 32
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a67cff1f37add510800000000000000
-      internalID: 1575599334210959016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 98bf5cb2082d2c24d973cf7d16736b33
     internalID: 0
     vertices: []
     indices: 
@@ -797,7 +555,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Archer Bandit-Death_0: 4098654738113446686
+      Archer Bandit-Death_1: -227186576424448494
+      Archer Bandit-Death_10: 3345023688389246500
+      Archer Bandit-Death_11: -6777824992453638327
+      Archer Bandit-Death_12: 8014412307392818105
+      Archer Bandit-Death_13: -2222759615948444820
+      Archer Bandit-Death_14: 7958940389241125918
+      Archer Bandit-Death_15: 8819373180553726835
+      Archer Bandit-Death_2: 5251750273887168394
+      Archer Bandit-Death_3: 3113258535689508036
+      Archer Bandit-Death_4: 7588539749278106853
+      Archer Bandit-Death_5: 6614230972822545962
+      Archer Bandit-Death_6: -8441783655977788861
+      Archer Bandit-Death_7: -8059433558879819842
+      Archer Bandit-Death_8: 5944247289249156237
+      Archer Bandit-Death_9: 5432290021409509413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

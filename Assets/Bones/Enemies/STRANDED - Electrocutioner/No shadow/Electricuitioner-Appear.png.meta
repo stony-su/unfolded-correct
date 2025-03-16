@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Electricuitioner-Appear_0: -3039779801155483861
+      Electricuitioner-Appear_1: -6268029904346456923
+      Electricuitioner-Appear_2: -7811071405624122356
+      Electricuitioner-Appear_3: 2825926559335725784
+      Electricuitioner-Appear_4: -8916969547111366951
+      Electricuitioner-Appear_5: 7232809655725692202
+      Electricuitioner-Appear_6: -3954200644665530474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

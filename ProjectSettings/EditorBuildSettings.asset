@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/WindowLV.unity
-    guid: 30a112c70ccaf1945bef43d027086822
+    path: Assets/Levels/Tutorial.unity
+    guid: 61188912d4428ae40992e747344a7120
+  - enabled: 1
+    path: Assets/Levels/Underwater_old.unity
+    guid: 85b067520de1ca545931255749eb2ca7
+  - enabled: 1
+    path: Assets/Levels/Lava.unity
+    guid: b3a6793fc1afe9149a6516c37bb0bd15
   - enabled: 1
     path: Assets/Levels/Landlv.unity
     guid: 86e64062e91c469438cf9fd80806a1d0
   - enabled: 1
-    path: Assets/Levels/Underwater_old.unity
-    guid: 85b067520de1ca545931255749eb2ca7
+    path: Assets/Levels/WindowLV.unity
+    guid: 30a112c70ccaf1945bef43d027086822
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

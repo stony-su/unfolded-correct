@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bio Lab_0: 911528033633673299
+      Bio Lab_1: 6100709791897204022
+      Bio Lab_2: -7265794876713814262
+      Bio Lab_3: 4837011887372579362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

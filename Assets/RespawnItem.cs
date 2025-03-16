@@ -4,6 +4,7 @@ using Bundos.MovingPlatforms;
 public class RespawnableItem : MonoBehaviour
 {
     private Vector3 originalPosition;
+    private Quaternion originalRotation;
     private bool originalActiveState;
     private Rigidbody2D rb;
     private DirectionalMovingSquare movingSquare;
@@ -12,6 +13,7 @@ public class RespawnableItem : MonoBehaviour
     void Start()
     {
         originalPosition = transform.position;
+        originalRotation = transform.rotation;
         originalActiveState = gameObject.activeSelf;
 
         rb = GetComponent<Rigidbody2D>();
@@ -29,6 +31,7 @@ public class RespawnableItem : MonoBehaviour
     public void ResetItem()
     {
         transform.position = originalPosition;
+        transform.rotation = originalRotation;
         gameObject.SetActive(originalActiveState);
 
         if (rb != null)

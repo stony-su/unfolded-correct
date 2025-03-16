@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      01 Traveler Merchant-Idle green_0: 5137875247230011832
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

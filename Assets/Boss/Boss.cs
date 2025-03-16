@@ -150,13 +150,9 @@ public class Boss : MonoBehaviour
 
     public void CancelJumpAttack()
     {
-        StopAllCoroutines(); 
-        isJumping = false;
+
         rb.bodyType = RigidbodyType2D.Kinematic;
         rb.linearVelocity = Vector2.zero;
-        animator.SetBool("isFalling", false);
-        animator.ResetTrigger("Jump");
-        animator.ResetTrigger("Land");
         jumpTargetIndicator.gameObject.SetActive(false);
         Vector3 playerPositionBeforeJump = new Vector3(-13.88f, -24.7f, 0f); 
     }

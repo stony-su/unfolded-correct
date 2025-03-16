@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Advanced Quarry_0: 3563428303725651010
+      Advanced Quarry_1: -4831717938390788440
+      Advanced Quarry_2: -577832586602554350
+      Advanced Quarry_3: -7329894772999087768
+      Advanced Quarry_4: -8302793073354897533
+      Advanced Quarry_5: -2583529049428026774
+      Advanced Quarry_6: -1304850776664076685
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

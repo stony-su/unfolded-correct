@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Basic Crafting Table_0: -8313663967088382666
+      Basic Crafting Table_1: -2418052471046205796
+      Basic Crafting Table_2: 2004860605980762254
+      Basic Crafting Table_3: 5059427181203590390
+      Basic Crafting Table_4: -3651711666090592759
+      Basic Crafting Table_5: -7169095955087831712
+      Basic Crafting Table_6: 1839710178439871299
+      Basic Crafting Table_7: 5568419346209005591
+      Basic Crafting Table_8: 2340674787340525092
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
