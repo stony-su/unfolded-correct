@@ -7,11 +7,14 @@ public class PlayerAttack : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDamage = 40;
+    public AudioClip attackSFX; // Add this line
     private Animator animator;
+    private AudioSource audioSource; // Add this line
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>(); // Add this line
     }
 
     void Update()
@@ -25,6 +28,7 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator PerformAttack()
     {
         animator.SetTrigger("Attack");
+        audioSource.PlayOneShot(attackSFX); // Add this line
         yield return new WaitForSeconds(0.25f);
         DetectAttack();
     }
@@ -42,7 +46,7 @@ public class PlayerAttack : MonoBehaviour
                 platformerEnemy.Die();
             }
 
-           DeathHandler deathHandler = enemy.GetComponent<DeathHandler>();
+            DeathHandler deathHandler = enemy.GetComponent<DeathHandler>();
            
             if (deathHandler != null)
             {
