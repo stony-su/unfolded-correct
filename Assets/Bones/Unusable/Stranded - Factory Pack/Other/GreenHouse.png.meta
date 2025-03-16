@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GreenHouse_0: -1670947456341303446
+      GreenHouse_1: -6007596636702431646
+      GreenHouse_2: 8002757237177808717
+      GreenHouse_3: 3625235110161859207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -59,6 +59,13 @@ public class PlayerAttack : MonoBehaviour
             {
                 bossHealth.TakeDamage(attackDamage);
             }
+
+            ArcherEnemy archerEnemy = enemy.GetComponent<ArcherEnemy>();
+
+            if (archerEnemy != null)
+            {
+                archerEnemy.TakeDamage(attackDamage);
+            }
         }
     }
 

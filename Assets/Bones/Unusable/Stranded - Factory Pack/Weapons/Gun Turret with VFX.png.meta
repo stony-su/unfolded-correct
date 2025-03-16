@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gun Turret with VFX_0: -8130707684653065872
+      Gun Turret with VFX_1: 9161939289223198011
+      Gun Turret with VFX_10: -8373634983670937903
+      Gun Turret with VFX_11: -4544443062955208833
+      Gun Turret with VFX_12: 5638486930681789825
+      Gun Turret with VFX_13: -8912565275917872562
+      Gun Turret with VFX_14: -1682261250082298840
+      Gun Turret with VFX_15: 2780893673653521478
+      Gun Turret with VFX_16: 2599207624511940562
+      Gun Turret with VFX_17: -3030473319056003746
+      Gun Turret with VFX_18: 4259369115544873002
+      Gun Turret with VFX_19: 8890454951331759318
+      Gun Turret with VFX_2: 8243300806250691400
+      Gun Turret with VFX_20: 8072280143893066292
+      Gun Turret with VFX_21: -4500463835085081420
+      Gun Turret with VFX_22: 681440881062993898
+      Gun Turret with VFX_23: -6201613744017725498
+      Gun Turret with VFX_24: -62134933730996920
+      Gun Turret with VFX_3: -5821154829285844161
+      Gun Turret with VFX_4: 5750414272024154897
+      Gun Turret with VFX_5: 3526952497106820488
+      Gun Turret with VFX_6: -985068425199901463
+      Gun Turret with VFX_7: -3775356942358783406
+      Gun Turret with VFX_8: 668582206632033842
+      Gun Turret with VFX_9: -1935867702054083575
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

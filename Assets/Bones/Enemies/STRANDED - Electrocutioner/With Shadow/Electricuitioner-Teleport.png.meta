@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Electricuitioner-Teleport_0: 5815303537843073757
+      Electricuitioner-Teleport_1: 5789281194154960549
+      Electricuitioner-Teleport_2: 1062122068523602513
+      Electricuitioner-Teleport_3: -798102548886445328
+      Electricuitioner-Teleport_4: -1048305577204905274
+      Electricuitioner-Teleport_5: 3551387085670208801
+      Electricuitioner-Teleport_6: 2537074685640673012
+      Electricuitioner-Teleport_7: -6442495655304279355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

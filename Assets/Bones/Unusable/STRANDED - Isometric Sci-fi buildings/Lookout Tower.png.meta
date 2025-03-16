@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lookout Tower_0: -8616323458411645653
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

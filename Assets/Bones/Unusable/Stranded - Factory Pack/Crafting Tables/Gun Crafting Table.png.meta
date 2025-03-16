@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gun Crafting Table_0: -2633339121961007182
+      Gun Crafting Table_1: -2857487319132772527
+      Gun Crafting Table_2: 4520278690364016127
+      Gun Crafting Table_3: 5354389674254412065
+      Gun Crafting Table_4: 2530073245805817266
+      Gun Crafting Table_5: 4518182159954295670
+      Gun Crafting Table_6: -2336982382865667715
+      Gun Crafting Table_7: 6483662333190209677
+      Gun Crafting Table_8: -6007813304436413306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

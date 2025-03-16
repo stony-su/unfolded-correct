@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Defense Crafting Table_0: 260933944615926809
+      Defense Crafting Table_1: -4397640716176070305
+      Defense Crafting Table_2: -7409770501951860279
+      Defense Crafting Table_3: 8218171308342413977
+      Defense Crafting Table_4: -2835780718919818448
+      Defense Crafting Table_5: 1156147327746379377
+      Defense Crafting Table_6: -6685738088550098696
+      Defense Crafting Table_7: -3002416351567200334
+      Defense Crafting Table_8: 7770870927990668719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

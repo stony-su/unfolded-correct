@@ -115,7 +115,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -129,7 +129,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -150,10 +150,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -194,9 +194,9 @@ TextureImporter:
       name: Archer Bandit-Attack 1_0
       rect:
         serializedVersion: 2
-        x: 1040
+        x: 0
         y: 0
-        width: 26
+        width: 85
         height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -216,9 +216,9 @@ TextureImporter:
       name: Archer Bandit-Attack 1_1
       rect:
         serializedVersion: 2
-        x: 1124
+        x: 85
         y: 0
-        width: 31
+        width: 85
         height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_2
       rect:
         serializedVersion: 2
-        x: 1212
-        y: 45
-        width: 7
-        height: 6
+        x: 170
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +260,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_3
       rect:
         serializedVersion: 2
-        x: 1221
-        y: 57
-        width: 15
-        height: 39
+        x: 255
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +282,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_4
       rect:
         serializedVersion: 2
-        x: 1296
-        y: 47
-        width: 7
-        height: 7
+        x: 340
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_5
       rect:
         serializedVersion: 2
-        x: 1306
-        y: 63
-        width: 16
-        height: 36
+        x: 425
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +326,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_6
       rect:
         serializedVersion: 2
-        x: 1382
-        y: 50
-        width: 25
-        height: 50
+        x: 510
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +348,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_7
       rect:
         serializedVersion: 2
-        x: 1466
+        x: 595
         y: 0
-        width: 115
-        height: 102
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +370,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_8
       rect:
         serializedVersion: 2
-        x: 20
+        x: 680
         y: 0
-        width: 24
-        height: 19
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +392,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_9
       rect:
         serializedVersion: 2
-        x: 105
+        x: 765
         y: 0
-        width: 24
-        height: 19
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +414,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_10
       rect:
         serializedVersion: 2
-        x: 192
+        x: 850
         y: 0
-        width: 24
-        height: 18
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_11
       rect:
         serializedVersion: 2
-        x: 277
+        x: 935
         y: 0
-        width: 24
-        height: 24
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +458,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_12
       rect:
         serializedVersion: 2
-        x: 362
+        x: 1020
         y: 0
-        width: 24
-        height: 25
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +480,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_13
       rect:
         serializedVersion: 2
-        x: 380
+        x: 1105
         y: 0
-        width: 7
-        height: 7
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_14
       rect:
         serializedVersion: 2
-        x: 447
+        x: 1190
         y: 0
-        width: 27
-        height: 25
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +524,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_15
       rect:
         serializedVersion: 2
-        x: 531
+        x: 1275
         y: 0
-        width: 25
-        height: 26
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +546,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_16
       rect:
         serializedVersion: 2
-        x: 552
-        y: 3
-        width: 8
-        height: 7
+        x: 1360
+        y: 0
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +568,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_17
       rect:
         serializedVersion: 2
-        x: 616
+        x: 1445
         y: 0
-        width: 29
-        height: 28
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +590,10 @@ TextureImporter:
       name: Archer Bandit-Attack 1_18
       rect:
         serializedVersion: 2
-        x: 698
+        x: 1530
         y: 0
-        width: 31
-        height: 26
+        width: 85
+        height: 112
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,187 +608,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_19
-      rect:
-        serializedVersion: 2
-        x: 783
-        y: 0
-        width: 32
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd34961b80ce2db70800000000000000
-      internalID: 8922453333854733276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_20
-      rect:
-        serializedVersion: 2
-        x: 867
-        y: 0
-        width: 33
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2900ff5ccd37b4d30800000000000000
-      internalID: 4416751251618726034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_21
-      rect:
-        serializedVersion: 2
-        x: 952
-        y: 0
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 375d79cc4be8db3e0800000000000000
-      internalID: -2036314549323836045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_22
-      rect:
-        serializedVersion: 2
-        x: 1122
-        y: 6
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ade30835a485abe20800000000000000
-      internalID: 3367100747664604890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_23
-      rect:
-        serializedVersion: 2
-        x: 1207
-        y: 0
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c49430e6195bdfd0800000000000000
-      internalID: -2316159628566293305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_24
-      rect:
-        serializedVersion: 2
-        x: 1291
-        y: 0
-        width: 34
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba25ff61009ec0d00800000000000000
-      internalID: 940382608808694443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_25
-      rect:
-        serializedVersion: 2
-        x: 1375
-        y: 0
-        width: 36
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ebad947a3f75caa0800000000000000
-      internalID: -6141362627808482330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Archer Bandit-Attack 1_26
-      rect:
-        serializedVersion: 2
-        x: 1460
-        y: 0
-        width: 29
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2f65916731bb00990800000000000000
-      internalID: -7421726493646432526
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 6d9ee00c7a3cd5e4992b5a31d1af6778
     internalID: 0
     vertices: []
     indices: 
@@ -797,7 +621,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Archer Bandit-Attack 1_0: 2847779664646156565
+      Archer Bandit-Attack 1_1: 3085891592849071746
+      Archer Bandit-Attack 1_10: -8744261687920555202
+      Archer Bandit-Attack 1_11: 7548251574064059041
+      Archer Bandit-Attack 1_12: -3639513535012021116
+      Archer Bandit-Attack 1_13: 90506189053490027
+      Archer Bandit-Attack 1_14: 2601889726974280862
+      Archer Bandit-Attack 1_15: -8455291752969931032
+      Archer Bandit-Attack 1_16: 9054769702686604499
+      Archer Bandit-Attack 1_17: 6218418595363897678
+      Archer Bandit-Attack 1_18: -7906143072797418018
+      Archer Bandit-Attack 1_2: 6364602913679888926
+      Archer Bandit-Attack 1_3: 1569211249488161159
+      Archer Bandit-Attack 1_4: 2342526930464899575
+      Archer Bandit-Attack 1_5: 4451150986508899888
+      Archer Bandit-Attack 1_6: -3525074514651037460
+      Archer Bandit-Attack 1_7: -5661342323606793305
+      Archer Bandit-Attack 1_8: 6355721771205536035
+      Archer Bandit-Attack 1_9: 264112004334495785
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

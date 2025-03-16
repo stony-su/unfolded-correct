@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Solar Panel_0: -2994622485830726169
+      Solar Panel_1: -3046322722337327697
+      Solar Panel_2: 3286194259456989384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

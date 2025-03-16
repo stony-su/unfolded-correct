@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Automation Crafting Table_0: -7584214790149393969
+      Automation Crafting Table_1: -484960139913913314
+      Automation Crafting Table_2: 7872195922561839868
+      Automation Crafting Table_3: -4148891664173446829
+      Automation Crafting Table_4: -4599405775508040246
+      Automation Crafting Table_5: 7781241063521363121
+      Automation Crafting Table_6: -1627951454464394947
+      Automation Crafting Table_7: -4733888838610576370
+      Automation Crafting Table_8: 7505555418272647281
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FUle Refinery_0: -2178507701758766128
+      FUle Refinery_1: 1891921947949335948
+      FUle Refinery_2: 1606926885373486524
+      FUle Refinery_3: 5169072253918230251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Electricuitioner-Idle_0: -8160572781164048822
+      Electricuitioner-Idle_1: 4381153683990909383
+      Electricuitioner-Idle_10: -5845489539694325367
+      Electricuitioner-Idle_11: 8484756737069875648
+      Electricuitioner-Idle_12: -8679087428322593985
+      Electricuitioner-Idle_2: 7050498453234351819
+      Electricuitioner-Idle_3: 547841613399695857
+      Electricuitioner-Idle_4: 1450676577292482702
+      Electricuitioner-Idle_5: -4069436982263512896
+      Electricuitioner-Idle_6: -112440705033907626
+      Electricuitioner-Idle_7: 8723273654365620891
+      Electricuitioner-Idle_8: -7214763087039391144
+      Electricuitioner-Idle_9: -1090178899446285175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

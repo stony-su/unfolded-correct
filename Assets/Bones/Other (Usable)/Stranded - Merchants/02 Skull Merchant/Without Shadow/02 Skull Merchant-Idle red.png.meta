@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      02 Skull Merchant-Idle red_0: -1459696391342954636
+      02 Skull Merchant-Idle red_1: -3461482817702886921
+      02 Skull Merchant-Idle red_2: 3846652795429923178
+      02 Skull Merchant-Idle red_3: 6263709677121026788
+      02 Skull Merchant-Idle red_4: 3157911176974000029
+      02 Skull Merchant-Idle red_5: 2299623028808502661
+      02 Skull Merchant-Idle red_6: -1356980003628637811
+      02 Skull Merchant-Idle red_7: 5275623359143915679
+      02 Skull Merchant-Idle red_8: 3345224828264252644
+      02 Skull Merchant-Idle red_9: 1041025136588456113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

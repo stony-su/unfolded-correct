@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alchemy Crafting Table_0: 9002303069081479161
+      Alchemy Crafting Table_1: 8519708504780049159
+      Alchemy Crafting Table_2: 8333987148445512650
+      Alchemy Crafting Table_3: -899893442974954291
+      Alchemy Crafting Table_4: -5134648871535630952
+      Alchemy Crafting Table_5: 6493850118567392348
+      Alchemy Crafting Table_6: 8574716834096021499
+      Alchemy Crafting Table_7: -4835697867625471662
+      Alchemy Crafting Table_8: -8335096338121446042
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
